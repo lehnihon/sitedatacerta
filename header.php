@@ -20,16 +20,39 @@
 </head>
 
 <body <?php body_class(); ?>>
-<div id="page" class="hfeed site">
-	<header id="header">
-		<div class="container">
-			<div class="row">
-				<h1 class="site-title"><a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a></h1>
-			
-				<nav id="site-navigation" class="main-navigation" role="navigation">
-					<?php wp_nav_menu( array( 'theme_location' => 'primary', 'menu_id' => 'primary-menu' ) ); ?>
-				</nav><!-- #site-navigation -->
-			</div><!-- .row -->
-		</div><!-- .container -->
-	</header><!-- #masthead -->
-
+<div id="page">
+	<section id="header">
+		<header>
+			<div class="container">
+				<div class="row">
+					<div class="col-md-3">
+						<div class="box-1">
+							<span class="cor-amarelo">Fale com a gente </span>	
+							<span class="tel">11 2061-3138</span>
+						</div>
+					</div>
+					<div class="col-md-3">
+						<div class="box-1">
+							<span class="cor-amarelo redes-top-title">Redes sociais </span>	
+							<ul class="redes_sociais_header">
+								<li class="youtube"><a target="_blank" href="#"></a></li>
+								<li class="instagram"><a target="_blank" href="#"></a></li>
+								<li class="twitter"><a target="_blank" href="#"></a></li>
+								<li class="facebook"><a target="_blank" href="#"></a></li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+		</header>
+		<nav>
+			<div class="container">
+				<div class="logo-top">
+					<a href="<?php echo home_url( '/' ); ?>"><img src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/logo-top.png"; ?>" /></a>
+				</div>
+				<div class="header-menu">
+					
+				</div>
+			</div>
+		</nav>
+	</section>

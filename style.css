@@ -1,5 +1,5 @@
 /*
-Theme Name: wooecomerce-bootstrap
+Theme Name: Site Data Certa
 Theme URI: http://underscores.me/
 Author: Underscores.me
 Author URI: http://underscores.me/
@@ -19,3 +19,70 @@ Underscores is distributed under the terms of the GNU GPL v2 or later.
 Normalizing styles have been helped along thanks to the fine work of
 Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
 */
+#page {
+  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+  color: #606060;
+  text-align: center; }
+  #page section#header header {
+    background-color: #003869;
+    color: white; }
+    #page section#header header ul.redes_sociais_header {
+      height: 22px;
+      text-align: left;
+      list-style: none;
+      margin-bottom: 0; }
+    #page section#header header ul.redes_sociais_header li:hover {
+      opacity: 0.6;
+      filter: alpha(opacity=60);
+      /* For IE8 and earlier */ }
+    #page section#header header ul.redes_sociais_header a {
+      display: inline-block;
+      width: 22px;
+      height: 20px; }
+    #page section#header header ul.redes_sociais_header .youtube {
+      background-image: url("images/redes-top.png");
+      background-position: left,center;
+      background-repeat: no-repeat;
+      width: 22px;
+      height: 20px;
+      display: inline-block; }
+    #page section#header header ul.redes_sociais_header .instagram {
+      background-image: url("images/redes-top.png");
+      background-position: -32px,center;
+      background-repeat: no-repeat;
+      width: 22px;
+      height: 20px;
+      display: inline-block; }
+    #page section#header header ul.redes_sociais_header .twitter {
+      background-image: url("images/redes-top.png");
+      background-position: -66px,center;
+      background-repeat: no-repeat;
+      width: 22px;
+      height: 20px;
+      display: inline-block; }
+    #page section#header header ul.redes_sociais_header .facebook {
+      background-image: url("images/redes-top.png");
+      background-position: -98px,center;
+      background-repeat: no-repeat;
+      width: 22px;
+      height: 20px;
+      display: inline-block; }
+    #page section#header header .redes-top-title {
+      float: left; }
+  #page #footer {
+    color: #FFFFFF;
+    text-align: left; }
+
+.cor-amarelo {
+  color: #ffc709; }
+
+.e-cinza:hover {
+  -webkit-filter: grayscale(100%);
+  filter: grayscale(100%); }
+
+.e-claro:hover {
+  opacity: 0.6;
+  filter: alpha(opacity=60);
+  /* For IE8 and earlier */ }
+
+/*# sourceMappingURL=style.css.map */
