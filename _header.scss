@@ -3,6 +3,28 @@ section#header{
 		background-color:#003869;
 		color:white;
 
+        span{
+            padding-top:2px;
+            display:block;
+            float:left;
+        }
+
+        ul{
+            padding-top:2px;
+            padding-left:5px;
+            float:left;
+        }
+
+        div.box{
+            padding-top:5px;
+            padding-bottom:5px;
+        }
+
+        span.texto-branco{
+            margin-left:5px;
+            font-size:15px;
+        }
+
         ul.redes_sociais_header{
             height: 22px;
             text-align: left;
@@ -23,6 +45,7 @@ section#header{
 
         ul.redes_sociais_header .youtube{
             background-image: url("images/redes-top.png");
+
             background-position: left,center;
             background-repeat:no-repeat;
             width:22px;
@@ -32,7 +55,7 @@ section#header{
 
         ul.redes_sociais_header .instagram{
             background-image: url("images/redes-top.png");
-            background-position: -32px,center;
+            background-position: -34px,center;
             background-repeat:no-repeat;
             width:22px;
             height:20px;
@@ -56,10 +79,21 @@ section#header{
             height:20px;
             display:inline-block;       
         }
-
-        .redes-top-title{
-       		float:left; 
+        .btn-login{
+            background-color:#ffc709;
+            padding:5px 10px;
+            color:#003869;
+            border:0;
+            font-weight: bold;
+            border-radius: 5px; 
+            margin-left: 10px;
+            font-size:12px;
         }
+
+        .btn-login:hover{
+            background-color:#ffdd6b;
+        }
+
 	}
 	nav{
 

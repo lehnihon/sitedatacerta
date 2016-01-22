@@ -25,22 +25,23 @@
 		<header>
 			<div class="container">
 				<div class="row">
-					<div class="col-md-3">
-						<div class="box-1">
-							<span class="cor-amarelo">Fale com a gente </span>	
-							<span class="tel">11 2061-3138</span>
-						</div>
+					<div class="col-md-3 box">
+						<span class="cor-amarelo">Fale com a gente </span>	
+						<span class="texto-branco">11 <strong>2061-3138</strong></span>
 					</div>
-					<div class="col-md-3">
-						<div class="box-1">
-							<span class="cor-amarelo redes-top-title">Redes sociais </span>	
-							<ul class="redes_sociais_header">
-								<li class="youtube"><a target="_blank" href="#"></a></li>
-								<li class="instagram"><a target="_blank" href="#"></a></li>
-								<li class="twitter"><a target="_blank" href="#"></a></li>
-								<li class="facebook"><a target="_blank" href="#"></a></li>
-							</ul>
-						</div>
+					<div class="col-md-3 box">
+						<span class="cor-amarelo">Redes sociais </span>	
+						<ul class="redes_sociais_header">
+							<li class="youtube"><a target="_blank" href="#"></a></li>
+							<li class="instagram"><a target="_blank" href="#"></a></li>
+							<li class="twitter"><a target="_blank" href="#"></a></li>
+							<li class="facebook"><a target="_blank" href="#"></a></li>
+						</ul>
+					</div>
+					<div class="col-md-4 col-md-offset-2 box">
+						<span class="cor-amarelo">Não possui login? </span>	
+						<span class="texto-branco">Cadastra-se <strong>Aqui</strong></span>
+						<button class="btn-login pull-left">LOGIN</button>
 					</div>
 				</div>
 			</div>
