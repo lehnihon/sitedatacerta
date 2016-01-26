@@ -1,4 +1,46 @@
 #content{
+	section#home-sobre{
+		padding: 60px 0;
+		background-image: url("images/fundo-cinza.jpg");
+	    background-repeat: no-repeat;
+	    background-position: left bottom; 
+
+		h1.titulo-linha{
+			border-bottom: 2px solid #eff2f1;
+			width: 370px;
+			margin:0 auto;
+			margin-bottom: 25px;
+			padding-bottom:25px;
+		}
+
+		h2.sobre-num{
+			font-size: 40px;
+		}
+
+		div.sobre-desc{
+			width: 60%;
+			margin:0 auto;
+		}
+
+		p.sobre-p{
+			width: 70%;
+			margin:5px auto;
+		}
+
+		a.btn-sobre{
+			background-color:#00509b;
+			color:white;
+			border-radius:10px;
+			display: block;
+			width: 300px;
+			padding:20px 0;
+			margin:0 auto;
+		}
+
+		a.btn-sobre:hover{
+			background-color: #60b2ff;
+		}
+	}
 }
 
 @media (max-width: 991px) {  

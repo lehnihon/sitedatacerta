@@ -21,8 +21,18 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
 */
 #page {
   font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
-  color: #606060;
+  color: #858585;
   text-align: center; }
+  #page a:hover {
+    text-decoration: none; }
+  #page h1 {
+    color: #00509c;
+    font-size: 26px;
+    font-weight: bold; }
+  #page h2 {
+    color: #00509c;
+    font-size: 20px;
+    font-weight: bold; }
   #page section#header header {
     background-color: #003869;
     color: white; }
@@ -92,6 +102,45 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
       font-size: 12px; }
     #page section#header header .btn-login:hover {
       background-color: #ffdd6b; }
+  #page section#header nav {
+    padding: 20px 0; }
+    #page section#header nav div.menu-header {
+      margin-top: 25px; }
+      #page section#header nav div.menu-header div.menu-op {
+        float: left;
+        width: 14.28%; }
+        #page section#header nav div.menu-header div.menu-op a {
+          color: #858585;
+          font-weight: bold; }
+  #page #content section#home-sobre {
+    padding: 60px 0;
+    background-image: url("images/fundo-cinza.jpg");
+    background-repeat: no-repeat;
+    background-position: left bottom; }
+    #page #content section#home-sobre h1.titulo-linha {
+      border-bottom: 2px solid #eff2f1;
+      width: 370px;
+      margin: 0 auto;
+      margin-bottom: 25px;
+      padding-bottom: 25px; }
+    #page #content section#home-sobre h2.sobre-num {
+      font-size: 40px; }
+    #page #content section#home-sobre div.sobre-desc {
+      width: 60%;
+      margin: 0 auto; }
+    #page #content section#home-sobre p.sobre-p {
+      width: 70%;
+      margin: 5px auto; }
+    #page #content section#home-sobre a.btn-sobre {
+      background-color: #00509b;
+      color: white;
+      border-radius: 10px;
+      display: block;
+      width: 300px;
+      padding: 20px 0;
+      margin: 0 auto; }
+    #page #content section#home-sobre a.btn-sobre:hover {
+      background-color: #60b2ff; }
   #page #footer {
     color: #FFFFFF;
     text-align: left; }

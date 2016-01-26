@@ -25,11 +25,11 @@
 		<header>
 			<div class="container">
 				<div class="row">
-					<div class="col-md-3 box">
+					<div class="col-md-3 box clearfix">
 						<span class="cor-amarelo">Fale com a gente </span>	
 						<span class="texto-branco">11 <strong>2061-3138</strong></span>
 					</div>
-					<div class="col-md-3 box">
+					<div class="col-md-3 box clearfix">
 						<span class="cor-amarelo">Redes sociais </span>	
 						<ul class="redes_sociais_header">
 							<li class="youtube"><a target="_blank" href="#"></a></li>
@@ -38,9 +38,9 @@
 							<li class="facebook"><a target="_blank" href="#"></a></li>
 						</ul>
 					</div>
-					<div class="col-md-4 col-md-offset-2 box">
+					<div class="col-md-4 col-md-offset-2 box clearfix">
 						<span class="cor-amarelo">Não possui login? </span>	
-						<span class="texto-branco">Cadastra-se <strong>Aqui</strong></span>
+						<span class="texto-branco">Cadastre-se <strong>Aqui</strong></span>
 						<button class="btn-login pull-left">LOGIN</button>
 					</div>
 				</div>
@@ -48,11 +48,21 @@
 		</header>
 		<nav>
 			<div class="container">
-				<div class="logo-top">
-					<a href="<?php echo home_url( '/' ); ?>"><img src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/logo-top.png"; ?>" /></a>
-				</div>
-				<div class="header-menu">
-					
+				<div class="row">
+					<div class="col-md-3 text-left">
+						<a href="<?php echo home_url( '/' ); ?>"><img src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/logo-top.png"; ?>" /></a>
+					</div>
+					<div class="col-md-8 col-md-offset-1">
+						<div class="menu-header clearfix">
+							<div class="menu-op"><a href="<?php echo home_url( '/' ); ?>">QUEM SOMOS</a></div>
+							<div class="menu-op"><a href="<?php echo home_url( '/' ); ?>">MOBIDATA</a></div>
+							<div class="menu-op"><a href="<?php echo home_url( '/' ); ?>">SERVIÇOS</a></div>
+							<div class="menu-op"><a href="<?php echo home_url( '/' ); ?>">RASTREAMENTO</a></div>
+							<div class="menu-op"><a href="<?php echo home_url( '/' ); ?>">BLOG</a></div>
+							<div class="menu-op"><a href="<?php echo home_url( '/' ); ?>">CONTATO</a></div>
+							<div class="menu-op"><img src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/lupa.jpg"; ?>" /></div>
+						</div>
+					</div>					
 				</div>
 			</div>
 		</nav>

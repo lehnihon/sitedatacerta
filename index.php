@@ -14,46 +14,59 @@
 get_header(); ?>
 
 <div id="content">
-	<div class="container">
-		<div class="row">
-			<main class="col-md-8">
+	<section id="banner">
+		<div class="container-fluid">
+			<div class="row">		
+				<?php putRevSlider( "banner-index" ) ?>		
+			</div>
+		</div>
+	</section>
+	<section id="home-sobre">
+		<div class="container">
+			<div class="row">
+				<h1 class="titulo-linha">Sobre a Data Certa Logística</h1>
+			</div>
+			<div class="row">
+				<div class="col-md-8 col-md-offset-2">
+					<p>
+						<strong>A Data Certa surgiu com o objetivo de oferecer soluções de logística que tornem mais simples a vida da sua empresa, seja de pequeno ou grande porte.</strong>
+					</p><br>
+					<p class="sobre-p">
+						Com nossas soluções em manuseio, transporte, courier, logística reversa, impressão com dados variáveis e gestão postal, seus prazos são levados a sério.
+					</p>
+					<p class="sobre-p">
+						Com tecnologia, excelência no atendimento e o melhor custo-benefício, a Data Certa cuida do gerenciamento completo de toda a cadeia produtiva do seu produto no início ao destino final.
+					</p>					
+				</div>
+			</div><br><br><br>
+			<div class="row">
+				<h2>Informações interessantes sobre nós</h2>
+			</div><br>		
+			<div class="row">
+				<div class="col-md-4">
+					<img src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/sobre-empilhadeira.png"; ?>" />
+					<h2 class="sobre-num">500.000</h2>
+					<div class="sobre-desc">Volumes entregues de encomendas por ano.</div>
+				</div>
+				<div class="col-md-4">
+					<img src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/sobre-caminhao.png"; ?>" />
+					<h2 class="sobre-num">4.000km</h2>
+					<div class="sobre-desc">Percorridos para realização das entregas por dia.</div>
 
-			<?php if ( have_posts() ) : ?>
-
-				<?php if ( is_home() && ! is_front_page() ) : ?>
-					<header>
-						<h1 class="page-title screen-reader-text"><?php single_post_title(); ?></h1>
-					</header>
-				<?php endif; ?>
-
-				<?php /* Start the Loop */ ?>
-				<?php while ( have_posts() ) : the_post(); ?>
-
-					<?php
-
-						/*
-						 * Include the Post-Format-specific template for the content.
-						 * If you want to override this in a child theme, then include a file
-						 * called content-___.php (where ___ is the Post Format name) and that will be used instead.
-						 */
-						get_template_part( 'template-parts/content', get_post_format() );
-					?>
-
-				<?php endwhile; ?>
-
-				<?php the_posts_navigation(); ?>
-
-			<?php else : ?>
-
-				<?php get_template_part( 'template-parts/content', 'none' ); ?>
-
-			<?php endif; ?>
-			</main><!-- #main -->
-			<aside class="col-md-4">
-				<?php get_sidebar(); ?>
-			</aside>
-		</div><!-- .row -->
-	</div><!-- .container -->
+				</div>
+				<div class="col-md-4">
+					<img src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/sobre-graficos.png"; ?>" />
+					<h2 class="sobre-num">99,7%</h2>
+					<div class="sobre-desc"><strong>SLA</strong> Prazo de entrega.</div>
+				</div>
+			</div><br><br><br>
+			<div class="row">
+				<a class="btn-sobre" href="#">
+					SAIBA MAIS
+				</a>					
+			</div>
+		</div>
+	</section>
 </div><!-- #content -->
 
 <?php get_footer(); ?>

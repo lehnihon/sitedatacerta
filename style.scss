@@ -22,8 +22,24 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
  
 #page{
 	font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
-	color:#606060;
+	color:#858585;
 	text-align:center;
+
+	a:hover{
+		text-decoration: none;
+	}
+
+	h1{
+		color:#00509c;
+		font-size: 26px;
+		font-weight: bold;
+	}
+
+	h2{
+		color:#00509c;
+		font-size: 20px;
+		font-weight: bold;		
+	}
 
 	@import 'header';
 	@import 'content';
@@ -31,6 +47,7 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
 
 
 }
+
 
 .cor-amarelo{
 	color:#ffc709;
