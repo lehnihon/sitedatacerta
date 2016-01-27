@@ -81,11 +81,15 @@
 	    background-size: 100%; 
 
 		h1.titulo-linha{
+			margin:0 auto;
+			padding-bottom:25px;
+		}
+
+		div.separador{
 			border-bottom: 2px solid #eff2f1;
-			width: 370px;
+			width:350px;
 			margin:0 auto;
 			margin-bottom: 25px;
-			padding-bottom:25px;
 		}
 
 		h2.sobre-num{
@@ -116,12 +120,80 @@
 			background-color: #60b2ff;
 		}
 	}
+
+	section#solucoes{
+		padding:60px 0;
+		background-image: url("images/fundo-solucoes.jpg");
+	    background-repeat: no-repeat;
+	    background-position: center;
+	    background-size: 100%; 
+	    color:white;
+
+		h1.titulo-linha{
+			padding-bottom:25px;
+			color:white;
+		}
+		div.separador{
+			border-bottom: 1px solid white;
+			width:350px;
+			margin:0 auto;
+			margin-bottom: 25px;
+		}
+
+		div.quadro-branco{
+			background-color:white;
+			padding:25px;
+			border-radius:10px;
+			color:#858585;
+			div.row{
+				margin-bottom:50px;
+
+				div.solucoes-desc{
+					header{
+						font-size:16px;
+						font-weight:bold;
+						margin:10px 0;
+					}
+					a{
+						display:block;
+					}
+				}			
+			}
+
+		}
+	
+	}
+
 }
 
 @media (max-width: 991px) {  
 	section#home-sobre{
 	    background-size: auto !important; 
 	} 
+	div.row{
+		margin-bottom:0 !important;
+	}
+	section#solucoes{
+		background-size: auto !important;
+
+		h1.titulo-linha{
+			color:#858585 !important;
+		}
+
+		div.separador{
+			border-bottom: 2px solid #eff2f1 !important;
+		}
+
+		p{
+			color:#858585 !important;
+		}
+
+		div.quadro-branco{
+			a{
+				margin-bottom:25px !important;
+			}
+		}
+	}
 }
 
 @media (min-width: 992px) {  

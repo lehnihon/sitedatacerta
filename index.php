@@ -47,6 +47,7 @@ get_header(); ?>
 		<div class="container">
 			<div class="row">
 				<h1 class="titulo-linha">Sobre a Data Certa Logística</h1>
+				<div class="separador"></div>
 			</div>
 			<div class="row">
 				<div class="col-md-8 col-md-offset-2">
@@ -86,6 +87,70 @@ get_header(); ?>
 				<a class="btn-sobre" href="#">
 					SAIBA MAIS
 				</a>					
+			</div>
+		</div>
+	</section>
+
+	<section id="solucoes">
+		<div class="container">
+			<div class="row">
+				<h1 class="titulo-linha">Soluções de logística perfeitas para sua empresa</h1>
+				<div class="separador"></div>
+				<p>Conheça os serviços completos de logística que a Data Certa oferece para sua empresa.</p>
+			</div><br/>
+			<div class="quadro-branco">
+				<div class="row">
+					<div class="col-md-4">
+						<img src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/solucoes-1.png"; ?>" />
+						<div class="solucoes-desc">
+							<header>Cargo</header>
+							<p>Atendimento dedicado ponto a ponto com distribuição em mais de 300 localidades nos estados de São Paulo e Rio de Janeiro.</p>
+							<a href="#">Saiba mais</a>
+						</div>
+					</div>
+					<div class="col-md-4">
+						<img src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/solucoes-2.png"; ?>" />
+						<div class="solucoes-desc">
+							<header>Courier</header>
+							<p>Atendimento dedicado ponto a ponto com distribuição em mais de 300 localidades nos estados de São Paulo e Rio de Janeiro.</p>
+							<a href="#">Saiba mais</a>
+						</div>
+					</div>
+					<div class="col-md-4">
+						<img src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/solucoes-3.png"; ?>" />
+						<div class="solucoes-desc">
+							<header>Armazenagem</header>
+							<p>Atendimento dedicado ponto a ponto com distribuição em mais de 300 localidades nos estados de São Paulo e Rio de Janeiro.</p>
+							<a href="#">Saiba mais</a>
+						</div>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-md-4">
+						<img src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/solucoes-4.png"; ?>" />
+						<div class="solucoes-desc">
+							<header>Fulfillment</header>
+							<p>Atendimento dedicado ponto a ponto com distribuição em mais de 300 localidades nos estados de São Paulo e Rio de Janeiro.</p>
+							<a href="#">Saiba mais</a>
+						</div>
+					</div>
+					<div class="col-md-4">
+						<img src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/solucoes-5.png"; ?>" />
+						<div class="solucoes-desc">
+							<header>Reversa</header>
+							<p>Atendimento dedicado ponto a ponto com distribuição em mais de 300 localidades nos estados de São Paulo e Rio de Janeiro.</p>
+							<a href="#">Saiba mais</a>
+						</div>
+					</div>
+					<div class="col-md-4">
+						<img src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/solucoes-6.png"; ?>" />
+						<div class="solucoes-desc">
+							<header>Impressão de dados variáveis</header>
+							<p>Atendimento dedicado ponto a ponto com distribuição em mais de 300 localidades nos estados de São Paulo e Rio de Janeiro.</p>
+							<a href="#">Saiba mais</a>
+						</div>
+					</div>
+				</div>
 			</div>
 		</div>
 	</section>
