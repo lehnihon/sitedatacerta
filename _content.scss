@@ -77,7 +77,8 @@
 		padding-bottom:60px;
 		background-image: url("images/fundo-cinza.jpg");
 	    background-repeat: no-repeat;
-	    background-position: left bottom; 
+	    background-position: left bottom;
+	    background-size: 100%; 
 
 		h1.titulo-linha{
 			border-bottom: 2px solid #eff2f1;
@@ -118,7 +119,9 @@
 }
 
 @media (max-width: 991px) {  
-
+	section#home-sobre{
+	    background-size: auto !important; 
+	} 
 }
 
 @media (min-width: 992px) {  

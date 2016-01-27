@@ -179,7 +179,8 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
     padding-bottom: 60px;
     background-image: url("images/fundo-cinza.jpg");
     background-repeat: no-repeat;
-    background-position: left bottom; }
+    background-position: left bottom;
+    background-size: 100%; }
     #page #content section#home-sobre h1.titulo-linha {
       border-bottom: 2px solid #eff2f1;
       width: 370px;
@@ -204,6 +205,9 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
       margin: 0 auto; }
     #page #content section#home-sobre a.btn-sobre:hover {
       background-color: #60b2ff; }
+  @media (max-width: 991px) {
+    #page section#home-sobre {
+      background-size: auto !important; } }
   #page #footer {
     color: #FFFFFF;
     text-align: left; }
