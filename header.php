@@ -50,7 +50,7 @@
 			<div class="container">
 				<div class="row">
 					<div class="col-md-3 text-left">
-						<a href="<?php echo home_url( '/' ); ?>"><img src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/logo-top.png"; ?>" /></a>
+						<a href="<?php echo home_url( '/' ); ?>"><img class="e-claro" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/logo-top.png"; ?>" /></a>
 					</div>
 					<div class="col-md-8 col-md-offset-1">
 						<div class="menu-header clearfix">
@@ -60,7 +60,6 @@
 							<div class="menu-op"><a href="<?php echo home_url( '/' ); ?>">RASTREAMENTO</a></div>
 							<div class="menu-op"><a href="<?php echo home_url( '/' ); ?>">BLOG</a></div>
 							<div class="menu-op"><a href="<?php echo home_url( '/' ); ?>">CONTATO</a></div>
-							<div class="menu-op"><img src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/lupa.jpg"; ?>" /></div>
 						</div>
 					</div>					
 				</div>

@@ -1,5 +1,6 @@
 section#header{
 	header{
+        margin-top:10px;
 		background-color:#003869;
 		color:white;
 
@@ -16,8 +17,8 @@ section#header{
         }
 
         div.box{
-            padding-top:5px;
-            padding-bottom:5px;
+            padding-top:8px;
+            padding-bottom:8px;
         }
 
         span.texto-branco{
@@ -104,10 +105,13 @@ section#header{
 
             div.menu-op{
                 float:left;
-                width: 14.28%;
+                width: 16.66%;
                 a{
                     color:#858585;
                     font-weight: bold;
+                }
+                a:hover{
+                    color:#b6b6b6;
                 }
             }
         }

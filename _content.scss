@@ -1,6 +1,80 @@
 #content{
+
+	section#banner{
+		margin-bottom:40px;
+	}
+
+	section#tracking-buscar{
+		margin-bottom:60px;
+		position:relative;
+		width: 100%;
+		background: -moz-linear-gradient(left,  #00356b 50%, #00509c 50%, #00509c 50%); /* FF3.6+ */
+		background: -webkit-gradient(linear, left top, right top, color-stop(50%,#00356b), color-stop(50%,#00509c), color-stop(50%,#00509c)); /* Chrome,Safari4+ */
+		background: -webkit-linear-gradient(left,  #00356b 50%,#f5f5f5 50%,#00509c 50%); /* Chrome10+,Safari5.1+ */
+		background: -o-linear-gradient(left,  #00356b 50%,#f5f5f5 50%,#00509c 50%); /* Opera 11.10+ */
+		background: -ms-linear-gradient(left,  #00356b 50%,#f5f5f5 50%,#00509c 50%); /* IE10+ */
+		background: linear-gradient(to right,  #00356b 50%,#f5f5f5 50%,#00509c 50%); /* W3C */
+		filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00356b', endColorstr='#00509c',GradientType=1 ); /* IE6-9 */
+
+		div.container{
+
+			div.news-left{
+				padding:25px 0;
+				background-color:#00356b;
+				font-weight: bold;
+				font-size: 16px;
+
+				div.tracking-rastreie{
+					padding:10px 0;
+				}
+			}
+			div.news-right{
+				padding:25px 0;
+				padding-left:50px;
+				background-color:#00509c;
+				.tracking-form{
+					select{
+						padding:12px 5px;
+						border-radius: 5px;
+						border:0;
+						display: block;
+						float: left;
+						margin-right: 10px;
+						width: 40%;
+					}
+
+					input[type="text"]{
+						padding:11px 5px;
+						border-radius: 5px;
+						border:0;
+						display: block;
+						float: left;
+						margin-right: 10px;
+						width: 40%;
+					}
+
+					.submit{
+						background: #00356b none repeat scroll 0 0;
+					  	border:0;
+					  	border-radius: 5px;
+					    font-size: 55px;
+					    line-height: 34px;
+					    padding: 0 12px 8px;
+					    color:white;
+					    display: block;
+					    float: left;					
+					}
+					.submit:hover{
+						background: #57aaff;
+					}					
+				}
+			}			
+		}
+
+	}
+
 	section#home-sobre{
-		padding: 60px 0;
+		padding-bottom:60px;
 		background-image: url("images/fundo-cinza.jpg");
 	    background-repeat: no-repeat;
 	    background-position: left bottom; 

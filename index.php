@@ -21,6 +21,28 @@ get_header(); ?>
 			</div>
 		</div>
 	</section>
+
+	<section id="tracking-buscar">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-4 news-left">
+					<div class="tracking-rastreie cor-amarelo">RASTREIE SEU PEDIDO AQUI</div>
+				</div>
+				<div class="col-md-8 news-right">
+					<form action="#" method="POST" class="tracking-form clearfix">
+						<select name="tipotracking">
+							<option value="remessa">Número de remessa</option>
+							<option value="cpf">CPF</option>
+							<option value="ra">RA</option>
+						</select>
+						<input type="text" name="valor" placeholder="Número">
+						<input class="submit" value="›" type="submit">
+					</form>
+				</div>				
+			</div>	
+		</div>
+	</section>
+
 	<section id="home-sobre">
 		<div class="container">
 			<div class="row">
