@@ -91,7 +91,7 @@ get_header(); ?>
 		</div>
 	</section>
 
-	<section id="solucoes">
+	<section id="home-solucoes">
 		<div class="container">
 			<div class="row">
 				<h1 class="titulo-linha">Soluções de logística perfeitas para sua empresa</h1>
@@ -153,6 +153,40 @@ get_header(); ?>
 				</div>
 			</div>
 		</div>
+	</section>
+	<section id="home-mobidata">
+		<div class="container">
+			<div class="row">
+				<h1 class="titulo-linha">Aplicativo Mobidata</h1>
+				<div class="separador"></div>
+			</div>
+			<div class="row">
+				<div class="col-md-8 col-md-offset-2">
+					<p>
+						<strong>Mobidata é um aplicativo de monitoramento de encomendas em tempo real. Com rastreamento geolocalizador, é possível saber onde está a encomenda.</strong>					
+					</p><br/><br/>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-7 text-left">
+					<h2>Mobidata</h2>
+					O aplicativo mostra os pontos exatos de latitude e longitude. Assim, não existe risco de perda ou de entregas em locais errados.As encomendas rastreadas com o nosso sistema têm a garantia de uma entrega segura e rápida					
+					<div class="separadorb"></div>
+					<ul class="mobi-vantagens">
+						<li><div class="checkmark"></div>Baixa em tempo real</li>
+						<li><div class="checkmark"></div>Digitalização em tempo real</li>
+						<li><div class="checkmark"></div>Prova incontestável da visita através de foto do domicílio</li>
+						<li><div class="checkmark"></div>Rastreamento do entregador</li>
+					</ul>
+					<h2>Baixe o aplicativo Mobidata</h2>
+					<img src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/btn-playstore.png"; ?>" />
+					<img src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/btn-saiba-mais.png"; ?>" />
+				</div>
+				<div class="col-md-5">
+					<img src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/mobi-cel.png"; ?>" />
+				</div>
+			</div>
+		</div>		
 	</section>
 </div><!-- #content -->
 

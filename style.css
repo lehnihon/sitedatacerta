@@ -207,48 +207,66 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
       margin: 0 auto; }
     #page #content section#home-sobre a.btn-sobre:hover {
       background-color: #60b2ff; }
-  #page #content section#solucoes {
+  #page #content section#home-solucoes {
     padding: 60px 0;
     background-image: url("images/fundo-solucoes.jpg");
     background-repeat: no-repeat;
     background-position: center;
     background-size: 100%;
     color: white; }
-    #page #content section#solucoes h1.titulo-linha {
+    #page #content section#home-solucoes h1.titulo-linha {
       padding-bottom: 25px;
       color: white; }
-    #page #content section#solucoes div.separador {
+    #page #content section#home-solucoes div.separador {
       border-bottom: 1px solid white;
       width: 350px;
       margin: 0 auto;
       margin-bottom: 25px; }
-    #page #content section#solucoes div.quadro-branco {
+    #page #content section#home-solucoes div.quadro-branco {
       background-color: white;
       padding: 25px;
       border-radius: 10px;
       color: #858585; }
-      #page #content section#solucoes div.quadro-branco div.row {
+      #page #content section#home-solucoes div.quadro-branco div.row {
         margin-bottom: 50px; }
-        #page #content section#solucoes div.quadro-branco div.row div.solucoes-desc header {
+        #page #content section#home-solucoes div.quadro-branco div.row div.solucoes-desc header {
           font-size: 16px;
           font-weight: bold;
           margin: 10px 0; }
-        #page #content section#solucoes div.quadro-branco div.row div.solucoes-desc a {
+        #page #content section#home-solucoes div.quadro-branco div.row div.solucoes-desc a {
           display: block; }
+  #page #content section#home-mobidata {
+    padding: 60px 0;
+    background-image: url("images/fundo-verde.jpg");
+    background-repeat: no-repeat;
+    background-position: right bottom;
+    background-size: 100%; }
+    #page #content section#home-mobidata h1.titulo-linha {
+      padding-bottom: 25px; }
+    #page #content section#home-mobidata div.separador {
+      border-bottom: 2px solid #eff2f1;
+      width: 350px;
+      margin: 0 auto;
+      margin-bottom: 25px; }
+    #page #content section#home-mobidata div.separadorb {
+      border-bottom: 2px solid #eff2f1;
+      width: 350px;
+      margin-bottom: 25px;
+      margin-top: 25px; }
   @media (max-width: 991px) {
     #page section#home-sobre {
       background-size: auto !important; }
     #page div.row {
       margin-bottom: 0 !important; }
-    #page section#solucoes {
+    #page section#home-solucoes {
       background-size: auto !important; }
-      #page section#solucoes h1.titulo-linha {
+      #page section#home-solucoes h1.titulo-linha {
         color: #858585 !important; }
-      #page section#solucoes div.separador {
+      #page section#home-solucoes div.separador {
         border-bottom: 2px solid #eff2f1 !important; }
-      #page section#solucoes p {
+      #page section#home-solucoes p {
         color: #858585 !important; }
-      #page section#solucoes div.quadro-branco a {
+      #page section#home-solucoes div.quadro-branco a {
         margin-bottom: 25px !important; } }
   #page #footer {
     color: #FFFFFF;
