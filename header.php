@@ -58,7 +58,7 @@
 								<span class="glyphicon glyphicon-align-justify" aria-hidden="true"></span>
 							</button>
 							<ul class="dropdown-menu">
-							<li><a href="<?php echo home_url( '/' ); ?>">QUEM SOMOS</a></li
+							<li><a href="<?php echo home_url( '/' )."sobre"; ?>">QUEM SOMOS</a></li
 							><li><a href="<?php echo home_url( '/' ); ?>">MOBIDATA</a></li
 							><li><a href="<?php echo home_url( '/' ); ?>">SERVIÇOS</a></li
 							><li><a href="<?php echo home_url( '/' ); ?>">RASTREAMENTO</a></li
@@ -67,7 +67,7 @@
 							</ul>								
 						</div>						
 						<div class="menu-header clearfix">
-							<div class="menu-op"><a href="<?php echo home_url( '/' ); ?>">QUEM SOMOS</a></div>
+							<div class="menu-op"><a href="<?php echo home_url( '/' )."sobre"; ?>">QUEM SOMOS</a></div>
 							<div class="menu-op"><a href="<?php echo home_url( '/' ); ?>">MOBIDATA</a></div>
 							<div class="menu-op"><a href="<?php echo home_url( '/' ); ?>">SERVIÇOS</a></div>
 							<div class="menu-op"><a href="<?php echo home_url( '/' ); ?>">RASTREAMENTO</a></div>

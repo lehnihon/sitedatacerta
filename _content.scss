@@ -1,3 +1,8 @@
+
+/* 
+HOME 
+*/
+
 section#banner{
 	margin-bottom:40px;
 }
@@ -128,6 +133,7 @@ section#home-solucoes{
     color:white;
 
 	h1.titulo-linha{
+		margin:0;
 		padding-bottom:25px;
 		color:white;
 	}
@@ -169,20 +175,23 @@ section#home-mobidata{
     background-position: right bottom;
     background-size: 100%; 
 
+	h1.titulo-linha{
+		margin:0;
+		padding-bottom:25px;
+	}
+
+	div.separador{
+		border-bottom: 2px solid #eff2f1;
+		width:350px;
+		margin:0 auto;
+		margin-bottom: 25px;
+	}
+
 	div.anima-h{
 		img{
 			display: block;
 		}
 
-		h1.titulo-linha{
-			padding-bottom:25px;
-		}
-		div.separador{
-			border-bottom: 2px solid #eff2f1;
-			width:350px;
-			margin:0 auto;
-			margin-bottom: 25px;
-		}
 		div.separadorb{
 			border-bottom: 2px solid #eff2f1;
 			width:350px;
@@ -212,11 +221,65 @@ section#home-mobidata{
 
 		}		
 	}
-
-
-
 }
 
+/* 
+SOBRE
+*/
+
+section#sobre{
+    
+	div.container{
+		padding-bottom: 50px;
+		background-image: url("images/fundo-quemsomos.jpg");
+	    background-repeat: no-repeat;
+	    background-position: right bottom;
+
+		p{
+			margin-bottom: 20px;
+		}
+
+		p.sobre-destaque{
+			color:#00509c;
+			font-weight: bold;
+			font-size:17px;
+		}
+
+		h1.titulo-linha{
+			margin:0;
+			padding-bottom:25px;
+		}
+
+		div.separador{
+			border-bottom: 2px solid #eff2f1;
+			width:350px;
+			margin:0 auto;
+			margin-bottom: 25px;
+		}	
+	}
+}
+
+section#sobre-info{
+	background-color:#eff1f1;
+	padding:50px 0;
+	margin-bottom:50px;
+
+	h2{
+		margin: 0;
+		margin-bottom: 10px;
+	}
+
+	h2.sobre-num{
+		font-size: 40px;
+		margin: 15px 0;
+	}
+
+	div.sobre-desc{
+		width: 60%;
+		margin:0 auto;
+	}
+
+}
 
 @media (max-width: 991px) {  
 	section#home-sobre{
@@ -252,6 +315,12 @@ section#home-mobidata{
 
 		div.anima-i{
 			display: none;
+		}
+	}
+
+	section#sobre{
+		div.container{
+			background-image:none;
 		}
 	}
 }
