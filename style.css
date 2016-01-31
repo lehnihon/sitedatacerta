@@ -117,14 +117,18 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
     #page section#header nav div.menu-header {
       margin-top: 25px; }
       #page section#header nav div.menu-header div.menu-op {
-        float: left;
-        width: 16.66%; }
+        float: right;
+        margin-right: 30px; }
         #page section#header nav div.menu-header div.menu-op a {
           color: #858585;
           font-weight: bold; }
         #page section#header nav div.menu-header div.menu-op a:hover {
           color: #ffc709; }
   @media (max-width: 991px) {
+    #page div.header-login-responsive {
+      display: block !important; }
+    #page div.header-login {
+      display: none !important; }
     #page div.menu-responsivo {
       width: 50px;
       text-align: left;
@@ -133,6 +137,10 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
     #page div.menu-header {
       display: none; } }
   @media (min-width: 992px) {
+    #page div.header-login-responsive {
+      display: none !important; }
+    #page div.header-login {
+      display: block !important; }
     #page div.menu-responsivo {
       display: none; }
     #page ul.menu-header {

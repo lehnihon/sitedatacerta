@@ -38,8 +38,13 @@
 							<li class="facebook"><a target="_blank" href="#"></a></li>
 						</ul>
 					</div>
-					<div class="col-md-4 col-md-offset-2 box clearfix">
-						<span class="cor-amarelo">Não possui login? </span>	
+					<div class="col-md-4 col-md-offset-2 box clearfix header-login">
+						<button class="btn-login pull-right">LOGIN</button>
+						<span class="texto-branco pull-right">Cadastre-se <strong>Aqui</strong></span>
+						<span class="cor-amarelo pull-right">Não possui login? </span>
+					</div>
+					<div class="col-md-4 col-md-offset-2 box clearfix header-login-responsive">
+						<span class="cor-amarelo">Não possui login? </span>
 						<span class="texto-branco">Cadastre-se <strong>Aqui</strong></span>
 						<button class="btn-login pull-left">LOGIN</button>
 					</div>
@@ -52,7 +57,7 @@
 					<div class="col-md-3 text-left">
 						<a href="<?php echo home_url( '/' ); ?>"><img class="e-claro" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/logo-top.png"; ?>" /></a>
 					</div>
-					<div class="col-md-8 col-md-offset-1">
+					<div class="col-md-6 col-md-offset-3">
 						<div class="menu-responsivo">
 							<button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
 								<span class="glyphicon glyphicon-align-justify" aria-hidden="true"></span>
@@ -61,18 +66,16 @@
 							<li><a href="<?php echo home_url( '/' )."sobre"; ?>">QUEM SOMOS</a></li
 							><li><a href="<?php echo home_url( '/' ); ?>">MOBIDATA</a></li
 							><li><a href="<?php echo home_url( '/' ); ?>">SERVIÇOS</a></li
-							><li><a href="<?php echo home_url( '/' ); ?>">RASTREAMENTO</a></li
 							><li><a href="<?php echo home_url( '/' ); ?>">BLOG</a></li
 							><li><a href="<?php echo home_url( '/' ); ?>">CONTATO</a></li>
 							</ul>								
 						</div>						
 						<div class="menu-header clearfix">
-							<div class="menu-op"><a href="<?php echo home_url( '/' )."sobre"; ?>">QUEM SOMOS</a></div>
-							<div class="menu-op"><a href="<?php echo home_url( '/' ); ?>">MOBIDATA</a></div>
-							<div class="menu-op"><a href="<?php echo home_url( '/' ); ?>">SERVIÇOS</a></div>
-							<div class="menu-op"><a href="<?php echo home_url( '/' ); ?>">RASTREAMENTO</a></div>
-							<div class="menu-op"><a href="<?php echo home_url( '/' ); ?>">BLOG</a></div>
 							<div class="menu-op"><a href="<?php echo home_url( '/' ); ?>">CONTATO</a></div>
+							<div class="menu-op"><a href="<?php echo home_url( '/' ); ?>">BLOG</a></div>							
+							<div class="menu-op"><a href="<?php echo home_url( '/' ); ?>">SERVIÇOS</a></div>
+							<div class="menu-op"><a href="<?php echo home_url( '/' ); ?>">MOBIDATA</a></div>
+							<div class="menu-op"><a href="<?php echo home_url( '/' )."sobre"; ?>">QUEM SOMOS</a></div>
 						</div>
 					</div>					
 				</div>

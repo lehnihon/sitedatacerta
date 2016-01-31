@@ -108,8 +108,8 @@ section#header{
             margin-top: 25px;
 
             div.menu-op{
-                float:left;
-                width: 16.66%;
+                float:right;
+                margin-right: 30px;
                 a{
                     color:#858585;
                     font-weight: bold;
@@ -124,6 +124,15 @@ section#header{
 }
 
 @media (max-width: 991px) {  
+
+    div.header-login-responsive{
+        display: block !important;
+    }
+
+    div.header-login{
+        display: none !important;
+    }    
+
     div.menu-responsivo{
         width: 50px;
         text-align: left;
@@ -136,6 +145,14 @@ section#header{
 }
 
 @media (min-width: 992px) {  
+    div.header-login-responsive{
+        display: none !important;
+    }
+
+    div.header-login{
+        display: block !important;
+    }  
+
     div.menu-responsivo{
         display: none;
     }
