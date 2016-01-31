@@ -38,6 +38,10 @@ section#header{
             filter: alpha(opacity=60); /* For IE8 and earlier */
         }
 
+        ul.redes_sociais_header li{
+            margin-right: 5px;
+        }
+
         ul.redes_sociais_header a{
             display: inline-block;
             width:22px;

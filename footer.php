@@ -24,6 +24,12 @@
 				</div>
 				<div class="col-md-3 col-md-offset-3 text-left">
 					<strong>Receba nossas novidades</strong>
+					<ul class="redes_sociais_header">
+						<li class="youtube"><a target="_blank" href="#"></a></li>
+						<li class="instagram"><a target="_blank" href="#"></a></li>
+						<li class="twitter"><a target="_blank" href="#"></a></li>
+						<li class="facebook"><a target="_blank" href="#"></a></li>
+					</ul>					
 				</div>
 			</div><br>
 			<div class="row">
