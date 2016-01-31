@@ -1,13 +1,43 @@
-#footer{
-	color:#FFFFFF;		
-	text-align:left;
+section#footer{
+	background-color:#00356b;
+	padding:50px 0;
+	color: white;
 
-	.container{
+	ul.menu-footer{
+		list-style-type: none;
+		padding: 0;
+		margin:0;
+
+		li{
+			float:left;
+			margin-right: 20px;
+			text-align: center;
+
+			a{
+				color: white;
+			}
+
+			a:hover{
+				color: #ffc709;
+			}
+		}
+	}
+	
+	div.copy-text{
+		font-size: 12px;
+	}
+
+	a{
+		color:white;
 	}
 }
 
 @media (max-width: 991px) {  
-
+	section#footer{
+		ul.menu-footer{
+			display: none;
+		}
+	}
 }
 
 @media (min-width: 992px) {  

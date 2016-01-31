@@ -115,10 +115,23 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
           color: #858585;
           font-weight: bold; }
         #page section#header nav div.menu-header div.menu-op a:hover {
-          color: #b6b6b6; }
-  #page #content section#banner {
+          color: #ffc709; }
+  @media (max-width: 991px) {
+    #page div.menu-responsivo {
+      width: 50px;
+      text-align: left;
+      display: block;
+      padding: 10px; }
+    #page div.menu-header {
+      display: none; } }
+  @media (min-width: 992px) {
+    #page div.menu-responsivo {
+      display: none; }
+    #page ul.menu-header {
+      display: block; } }
+  #page section#banner {
     margin-bottom: 40px; }
-  #page #content section#tracking-buscar {
+  #page section#tracking-buscar {
     margin-bottom: 60px;
     position: relative;
     width: 100%;
@@ -136,18 +149,18 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
     /* W3C */
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00356b', endColorstr='#00509c',GradientType=1 );
     /* IE6-9 */ }
-    #page #content section#tracking-buscar div.container div.news-left {
+    #page section#tracking-buscar div.container div.news-left {
       padding: 25px 0;
       background-color: #00356b;
       font-weight: bold;
       font-size: 16px; }
-      #page #content section#tracking-buscar div.container div.news-left div.tracking-rastreie {
+      #page section#tracking-buscar div.container div.news-left div.tracking-rastreie {
         padding: 10px 0; }
-    #page #content section#tracking-buscar div.container div.news-right {
+    #page section#tracking-buscar div.container div.news-right {
       padding: 25px 0;
       padding-left: 50px;
       background-color: #00509c; }
-      #page #content section#tracking-buscar div.container div.news-right .tracking-form select {
+      #page section#tracking-buscar div.container div.news-right .tracking-form select {
         padding: 12px 5px;
         border-radius: 5px;
         border: 0;
@@ -155,7 +168,7 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
         float: left;
         margin-right: 10px;
         width: 40%; }
-      #page #content section#tracking-buscar div.container div.news-right .tracking-form input[type="text"] {
+      #page section#tracking-buscar div.container div.news-right .tracking-form input[type="text"] {
         padding: 11px 5px;
         border-radius: 5px;
         border: 0;
@@ -163,7 +176,7 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
         float: left;
         margin-right: 10px;
         width: 40%; }
-      #page #content section#tracking-buscar div.container div.news-right .tracking-form .submit {
+      #page section#tracking-buscar div.container div.news-right .tracking-form .submit {
         background: #00356b none repeat scroll 0 0;
         border: 0;
         border-radius: 5px;
@@ -173,31 +186,31 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
         color: white;
         display: block;
         float: left; }
-      #page #content section#tracking-buscar div.container div.news-right .tracking-form .submit:hover {
+      #page section#tracking-buscar div.container div.news-right .tracking-form .submit:hover {
         background: #57aaff; }
-  #page #content section#home-sobre {
+  #page section#home-sobre {
     padding-bottom: 60px;
     background-image: url("images/fundo-cinza.jpg");
     background-repeat: no-repeat;
     background-position: left bottom;
     background-size: 100%; }
-    #page #content section#home-sobre h1.titulo-linha {
+    #page section#home-sobre h1.titulo-linha {
       margin: 0 auto;
       padding-bottom: 25px; }
-    #page #content section#home-sobre div.separador {
+    #page section#home-sobre div.separador {
       border-bottom: 2px solid #eff2f1;
       width: 350px;
       margin: 0 auto;
       margin-bottom: 25px; }
-    #page #content section#home-sobre h2.sobre-num {
+    #page section#home-sobre h2.sobre-num {
       font-size: 40px; }
-    #page #content section#home-sobre div.sobre-desc {
+    #page section#home-sobre div.sobre-desc {
       width: 60%;
       margin: 0 auto; }
-    #page #content section#home-sobre p.sobre-p {
+    #page section#home-sobre p.sobre-p {
       width: 70%;
       margin: 5px auto; }
-    #page #content section#home-sobre a.btn-sobre {
+    #page section#home-sobre a.btn-sobre {
       background-color: #00509b;
       color: white;
       border-radius: 10px;
@@ -205,54 +218,68 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
       width: 300px;
       padding: 20px 0;
       margin: 0 auto; }
-    #page #content section#home-sobre a.btn-sobre:hover {
+    #page section#home-sobre a.btn-sobre:hover {
       background-color: #60b2ff; }
-  #page #content section#home-solucoes {
+  #page section#home-solucoes {
     padding: 60px 0;
     background-image: url("images/fundo-solucoes.jpg");
     background-repeat: no-repeat;
     background-position: center;
     background-size: 100%;
     color: white; }
-    #page #content section#home-solucoes h1.titulo-linha {
+    #page section#home-solucoes h1.titulo-linha {
       padding-bottom: 25px;
       color: white; }
-    #page #content section#home-solucoes div.separador {
+    #page section#home-solucoes div.separador {
       border-bottom: 1px solid white;
       width: 350px;
       margin: 0 auto;
       margin-bottom: 25px; }
-    #page #content section#home-solucoes div.quadro-branco {
+    #page section#home-solucoes div.quadro-branco {
       background-color: white;
       padding: 25px;
       border-radius: 10px;
       color: #858585; }
-      #page #content section#home-solucoes div.quadro-branco div.row {
+      #page section#home-solucoes div.quadro-branco div.row {
         margin-bottom: 50px; }
-        #page #content section#home-solucoes div.quadro-branco div.row div.solucoes-desc header {
+        #page section#home-solucoes div.quadro-branco div.row div.solucoes-desc header {
           font-size: 16px;
           font-weight: bold;
           margin: 10px 0; }
-        #page #content section#home-solucoes div.quadro-branco div.row div.solucoes-desc a {
+        #page section#home-solucoes div.quadro-branco div.row div.solucoes-desc a {
           display: block; }
-  #page #content section#home-mobidata {
+  #page section#home-mobidata {
     padding: 60px 0;
     background-image: url("images/fundo-verde.jpg");
     background-repeat: no-repeat;
     background-position: right bottom;
     background-size: 100%; }
-    #page #content section#home-mobidata h1.titulo-linha {
+    #page section#home-mobidata div.anima-h img {
+      display: block; }
+    #page section#home-mobidata div.anima-h h1.titulo-linha {
       padding-bottom: 25px; }
-    #page #content section#home-mobidata div.separador {
+    #page section#home-mobidata div.anima-h div.separador {
       border-bottom: 2px solid #eff2f1;
       width: 350px;
       margin: 0 auto;
       margin-bottom: 25px; }
-    #page #content section#home-mobidata div.separadorb {
+    #page section#home-mobidata div.anima-h div.separadorb {
       border-bottom: 2px solid #eff2f1;
       width: 350px;
       margin-bottom: 25px;
       margin-top: 25px; }
+    #page section#home-mobidata div.anima-h ul.mobi-vantagens {
+      list-style-type: none;
+      padding-left: 10px;
+      margin-bottom: 50px; }
+      #page section#home-mobidata div.anima-h ul.mobi-vantagens li {
+        margin: 10px 0; }
+        #page section#home-mobidata div.anima-h ul.mobi-vantagens li img {
+          float: left;
+          display: block;
+          margin-right: 5px; }
+        #page section#home-mobidata div.anima-h ul.mobi-vantagens li div.check-desc {
+          line-height: 14px; }
   @media (max-width: 991px) {
     #page section#home-sobre {
       background-size: auto !important; }
@@ -267,10 +294,34 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
       #page section#home-solucoes p {
         color: #858585 !important; }
       #page section#home-solucoes div.quadro-branco a {
-        margin-bottom: 25px !important; } }
-  #page #footer {
-    color: #FFFFFF;
-    text-align: left; }
+        margin-bottom: 25px !important; }
+    #page section#home-mobidata {
+      background-size: auto !important; }
+      #page section#home-mobidata div.anima-i {
+        display: none; } }
+  #page section#footer {
+    background-color: #00356b;
+    padding: 50px 0;
+    color: white; }
+    #page section#footer ul.menu-footer {
+      list-style-type: none;
+      padding: 0;
+      margin: 0; }
+      #page section#footer ul.menu-footer li {
+        float: left;
+        margin-right: 20px;
+        text-align: center; }
+        #page section#footer ul.menu-footer li a {
+          color: white; }
+        #page section#footer ul.menu-footer li a:hover {
+          color: #ffc709; }
+    #page section#footer div.copy-text {
+      font-size: 12px; }
+    #page section#footer a {
+      color: white; }
+  @media (max-width: 991px) {
+    #page section#footer ul.menu-footer {
+      display: none; } }
 
 .cor-amarelo {
   color: #ffc709; }

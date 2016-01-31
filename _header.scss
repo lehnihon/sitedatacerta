@@ -111,7 +111,7 @@ section#header{
                     font-weight: bold;
                 }
                 a:hover{
-                    color:#b6b6b6;
+                    color:#ffc709;
                 }
             }
         }
@@ -120,9 +120,22 @@ section#header{
 }
 
 @media (max-width: 991px) {  
-
+    div.menu-responsivo{
+        width: 50px;
+        text-align: left;
+        display: block;
+        padding: 10px;
+    }
+    div.menu-header{
+        display: none;
+    }
 }
 
 @media (min-width: 992px) {  
-  
+    div.menu-responsivo{
+        display: none;
+    }
+    ul.menu-header{
+        display: block;
+    }   
 }

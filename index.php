@@ -50,7 +50,7 @@ get_header(); ?>
 				<div class="separador"></div>
 			</div>
 			<div class="row">
-				<div class="col-md-8 col-md-offset-2">
+				<div class="col-md-8 col-md-offset-2 anima-a">
 					<p>
 						<strong>A Data Certa surgiu com o objetivo de oferecer soluções de logística que tornem mais simples a vida da sua empresa, seja de pequeno ou grande porte.</strong>
 					</p><br>
@@ -66,20 +66,20 @@ get_header(); ?>
 				<h2>Informações interessantes sobre nós</h2>
 			</div><br>		
 			<div class="row">
-				<div class="col-md-4">
-					<img src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/sobre-empilhadeira.png"; ?>" />
-					<h2 class="sobre-num">500.000</h2>
+				<div class="col-md-4 anima-b">
+					<img class="e-cinza" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/sobre-empilhadeira.png"; ?>" />
+					<h2 class="sobre-num counter">500.000</h2>
 					<div class="sobre-desc">Volumes entregues de encomendas por ano.</div>
 				</div>
-				<div class="col-md-4">
-					<img src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/sobre-caminhao.png"; ?>" />
-					<h2 class="sobre-num">4.000km</h2>
+				<div class="col-md-4 anima-c">
+					<img class="e-cinza" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/sobre-caminhao.png"; ?>" />
+					<h2 class="sobre-num"><span class="counter">4.000</span>km</h2>
 					<div class="sobre-desc">Percorridos para realização das entregas por dia.</div>
 
 				</div>
-				<div class="col-md-4">
-					<img src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/sobre-graficos.png"; ?>" />
-					<h2 class="sobre-num">99,7%</h2>
+				<div class="col-md-4 anima-d">
+					<img class="e-cinza" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/sobre-graficos.png"; ?>" />
+					<h2 class="sobre-num"><span class="counter">99</span>,<span class="counter">7</span>%</h2>
 					<div class="sobre-desc"><strong>SLA</strong> Prazo de entrega.</div>
 				</div>
 			</div><br><br><br>
@@ -100,24 +100,24 @@ get_header(); ?>
 			</div><br/>
 			<div class="quadro-branco">
 				<div class="row">
-					<div class="col-md-4">
-						<img src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/solucoes-1.png"; ?>" />
+					<div class="col-md-4 anima-e">
+						<img class="e-cinza" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/solucoes-1.png"; ?>" />
 						<div class="solucoes-desc">
 							<header>Cargo</header>
 							<p>Atendimento dedicado ponto a ponto com distribuição em mais de 300 localidades nos estados de São Paulo e Rio de Janeiro.</p>
 							<a href="#">Saiba mais</a>
 						</div>
 					</div>
-					<div class="col-md-4">
-						<img src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/solucoes-2.png"; ?>" />
+					<div class="col-md-4 anima-e">
+						<img class="e-cinza" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/solucoes-2.png"; ?>" />
 						<div class="solucoes-desc">
 							<header>Courier</header>
 							<p>Atendimento dedicado ponto a ponto com distribuição em mais de 300 localidades nos estados de São Paulo e Rio de Janeiro.</p>
 							<a href="#">Saiba mais</a>
 						</div>
 					</div>
-					<div class="col-md-4">
-						<img src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/solucoes-3.png"; ?>" />
+					<div class="col-md-4 anima-e">
+						<img class="e-cinza" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/solucoes-3.png"; ?>" />
 						<div class="solucoes-desc">
 							<header>Armazenagem</header>
 							<p>Atendimento dedicado ponto a ponto com distribuição em mais de 300 localidades nos estados de São Paulo e Rio de Janeiro.</p>
@@ -126,24 +126,24 @@ get_header(); ?>
 					</div>
 				</div>
 				<div class="row">
-					<div class="col-md-4">
-						<img src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/solucoes-4.png"; ?>" />
+					<div class="col-md-4 anima-f">
+						<img class="e-cinza" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/solucoes-4.png"; ?>" />
 						<div class="solucoes-desc">
 							<header>Fulfillment</header>
 							<p>Atendimento dedicado ponto a ponto com distribuição em mais de 300 localidades nos estados de São Paulo e Rio de Janeiro.</p>
 							<a href="#">Saiba mais</a>
 						</div>
 					</div>
-					<div class="col-md-4">
-						<img src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/solucoes-5.png"; ?>" />
+					<div class="col-md-4 anima-f">
+						<img class="e-cinza" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/solucoes-5.png"; ?>" />
 						<div class="solucoes-desc">
 							<header>Reversa</header>
 							<p>Atendimento dedicado ponto a ponto com distribuição em mais de 300 localidades nos estados de São Paulo e Rio de Janeiro.</p>
 							<a href="#">Saiba mais</a>
 						</div>
 					</div>
-					<div class="col-md-4">
-						<img src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/solucoes-6.png"; ?>" />
+					<div class="col-md-4 anima-f">
+						<img class="e-cinza" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/solucoes-6.png"; ?>" />
 						<div class="solucoes-desc">
 							<header>Impressão de dados variáveis</header>
 							<p>Atendimento dedicado ponto a ponto com distribuição em mais de 300 localidades nos estados de São Paulo e Rio de Janeiro.</p>
@@ -161,28 +161,30 @@ get_header(); ?>
 				<div class="separador"></div>
 			</div>
 			<div class="row">
-				<div class="col-md-8 col-md-offset-2">
+				<div class="col-md-8 col-md-offset-2 anima-g">
 					<p>
-						<strong>Mobidata é um aplicativo de monitoramento de encomendas em tempo real. Com rastreamento geolocalizador, é possível saber onde está a encomenda.</strong>					
+						<strong>Mobidata é um aplicativo de monitoramento de encomendas em tempo real. <br>
+							Com rastreamento geolocalizador, é possível saber onde está a encomenda.</strong>					
 					</p><br/><br/>
 				</div>
 			</div>
 			<div class="row">
-				<div class="col-md-7 text-left">
+				<div class="col-md-7 text-left anima-h">
 					<h2>Mobidata</h2>
-					O aplicativo mostra os pontos exatos de latitude e longitude. Assim, não existe risco de perda ou de entregas em locais errados.As encomendas rastreadas com o nosso sistema têm a garantia de uma entrega segura e rápida					
+					O aplicativo mostra os pontos exatos de latitude e longitude. Assim, não existe risco de perda ou de entregas em locais errados. <br>
+					As encomendas rastreadas com o nosso sistema têm a garantia de uma entrega segura e rápida.					
 					<div class="separadorb"></div>
 					<ul class="mobi-vantagens">
-						<li><div class="checkmark"></div>Baixa em tempo real</li>
-						<li><div class="checkmark"></div>Digitalização em tempo real</li>
-						<li><div class="checkmark"></div>Prova incontestável da visita através de foto do domicílio</li>
-						<li><div class="checkmark"></div>Rastreamento do entregador</li>
+						<li class="clearfix"><img src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/checkmark.png"; ?>" /><div class="check-desc">Baixa em tempo real</div></li>
+						<li class="clearfix"><img src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/checkmark.png"; ?>" /><div class="check-desc">Digitalização em tempo real</div></li>
+						<li class="clearfix"><img src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/checkmark.png"; ?>" /><div class="check-desc">Prova incontestável da visita através de foto do domicílio</div></li>
+						<li class="clearfix"><img src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/checkmark.png"; ?>" /><div class="check-desc">Rastreamento do entregador</div></li>
 					</ul>
-					<h2>Baixe o aplicativo Mobidata</h2>
-					<img src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/btn-playstore.png"; ?>" />
+					<h2>Baixe o aplicativo Mobidata</h2><br>
+					<img src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/btn-playstore.png"; ?>" /><br>
 					<img src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/btn-saiba-mais.png"; ?>" />
 				</div>
-				<div class="col-md-5">
+				<div class="col-md-5 anima-i">
 					<img src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/mobi-cel.png"; ?>" />
 				</div>
 			</div>
