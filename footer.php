@@ -35,11 +35,10 @@
 			<div class="row">
 				<div class="col-md-7">
 					<ul class="menu-footer clearfix">
-						<li><a href="<?php echo esc_url( home_url( '/' ) ); ?>">QUEM SOMOS</a></li>
-						<li><a href="<?php echo esc_url( home_url( '/' ) ); ?>">MOBIDATA</a></li>
-						<li><a href="<?php echo esc_url( home_url( '/' ) ); ?>">SERVIÇOS</a></li>
-						<li><a href="<?php echo esc_url( home_url( '/' ) ); ?>">RASTREAMENTO</a></li>
-						<li><a href="<?php echo esc_url( home_url( '/' ) ); ?>">BLOG</a></li>
+						<li><a href="<?php echo esc_url( home_url( '/' )."sobre" ); ?>">QUEM SOMOS</a></li>
+						<li><a href="<?php echo esc_url( home_url( '/' )."mobidata" ); ?>">MOBIDATA</a></li>
+						<li><a href="<?php echo esc_url( home_url( '/' ) )."servicos"; ?>">SERVIÇOS</a></li>
+						<li><a target="_blank" href="<?php echo esc_url( home_url( '/' ) )."blog"; ?>">BLOG</a></li>
 						<li><a href="<?php echo esc_url( home_url( '/' ) ); ?>">CONTATO</a></li>
 					</ul>
 				</div>

@@ -39,14 +39,14 @@
 						</ul>
 					</div>
 					<div class="col-md-4 col-md-offset-2 box clearfix header-login">
-						<button class="btn-login pull-right">LOGIN</button>
+						<a href="http://54.207.92.38" class="btn-login pull-right">LOGIN</a>
 						<span class="texto-branco pull-right">Cadastre-se <strong>Aqui</strong></span>
 						<span class="cor-amarelo pull-right">Não possui login? </span>
 					</div>
 					<div class="col-md-4 col-md-offset-2 box clearfix header-login-responsive">
 						<span class="cor-amarelo">Não possui login? </span>
 						<span class="texto-branco">Cadastre-se <strong>Aqui</strong></span>
-						<button class="btn-login pull-left">LOGIN</button>
+						<a href="http://54.207.92.38" class="btn-login pull-left">LOGIN</a>
 					</div>
 				</div>
 			</div>
@@ -64,17 +64,17 @@
 							</button>
 							<ul class="dropdown-menu">
 							<li><a href="<?php echo home_url( '/' )."sobre"; ?>">QUEM SOMOS</a></li
-							><li><a href="<?php echo home_url( '/' ); ?>">MOBIDATA</a></li
-							><li><a href="<?php echo home_url( '/' ); ?>">SERVIÇOS</a></li
-							><li><a href="<?php echo home_url( '/' ); ?>">BLOG</a></li
+							><li><a href="<?php echo home_url( '/' )."mobidata"; ?>">MOBIDATA</a></li
+							><li><a href="<?php echo home_url( '/' )."servicos"; ?>">SERVIÇOS</a></li
+							><li><a target="_blank" href="<?php echo home_url( '/' )."blog"; ?>">BLOG</a></li
 							><li><a href="<?php echo home_url( '/' ); ?>">CONTATO</a></li>
 							</ul>								
 						</div>						
 						<div class="menu-header clearfix">
 							<div class="menu-op"><a href="<?php echo home_url( '/' ); ?>">CONTATO</a></div>
-							<div class="menu-op"><a href="<?php echo home_url( '/' ); ?>">BLOG</a></div>							
-							<div class="menu-op"><a href="<?php echo home_url( '/' ); ?>">SERVIÇOS</a></div>
-							<div class="menu-op"><a href="<?php echo home_url( '/' ); ?>">MOBIDATA</a></div>
+							<div class="menu-op"><a target="_blank"  href="<?php echo home_url( '/' )."blog"; ?>">BLOG</a></div>							
+							<div class="menu-op"><a href="<?php echo home_url( '/' )."servicos"; ?>">SERVIÇOS</a></div>
+							<div class="menu-op"><a href="<?php echo home_url( '/' )."mobidata"; ?>">MOBIDATA</a></div>
 							<div class="menu-op"><a href="<?php echo home_url( '/' )."sobre"; ?>">QUEM SOMOS</a></div>
 						</div>
 					</div>					

@@ -9,7 +9,6 @@
         $(".anima-g").css('visibility','hidden');
         $(".anima-h").css('visibility','hidden');
         $(".anima-i").css('visibility','hidden');
-        $(".anima-rino").css('visibility','hidden');
 	});
 
 
@@ -80,7 +79,6 @@
         }
 
         if($(window).scrollTop() + $(window).height() > $(document).height()-100) {
-        	$(".anima-rino").css('visibility','visible');
         	$(".anima-rino").addClass('animated wobble');
      	}
 	});

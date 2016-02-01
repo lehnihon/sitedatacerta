@@ -1,3 +1,4 @@
+@charset "UTF-8";
 /*
 Theme Name: Site Data Certa
 Theme URI: http://underscores.me/
@@ -19,417 +20,134 @@ Underscores is distributed under the terms of the GNU GPL v2 or later.
 Normalizing styles have been helped along thanks to the fine work of
 Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
 */
-#page {
-  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
-  color: #858585;
-  text-align: center;
-  /* 
-  HOME 
-  */
-  /* 
-  SOBRE
-  */ }
-  #page a:hover {
-    text-decoration: none;
-    color: #b6b6b6; }
-  #page h1 {
-    color: #00509c;
-    font-size: 26px;
-    font-weight: bold; }
-  #page h2 {
-    color: #00509c;
-    font-size: 20px;
-    font-weight: bold; }
-  #page section#header header {
-    margin-top: 10px;
-    background-color: #003869;
-    color: white; }
-    #page section#header header span {
-      padding-top: 2px;
-      display: block;
-      float: left; }
-    #page section#header header ul {
-      padding-top: 2px;
-      padding-left: 5px;
-      float: left; }
-    #page section#header header div.box {
-      padding-top: 8px;
-      padding-bottom: 8px; }
-    #page section#header header span.texto-branco {
-      margin-left: 5px;
-      font-size: 15px; }
-    #page section#header header ul.redes_sociais_header {
-      height: 22px;
-      text-align: left;
-      list-style: none;
-      margin-bottom: 0; }
-    #page section#header header ul.redes_sociais_header li:hover {
-      opacity: 0.6;
-      filter: alpha(opacity=60);
-      /* For IE8 and earlier */ }
-    #page section#header header ul.redes_sociais_header li {
-      margin-right: 5px; }
-    #page section#header header ul.redes_sociais_header a {
-      display: inline-block;
-      width: 22px;
-      height: 20px; }
-    #page section#header header ul.redes_sociais_header .youtube {
-      background-image: url("images/redes-top.png");
-      background-position: left,center;
-      background-repeat: no-repeat;
-      width: 22px;
-      height: 20px;
-      display: inline-block; }
-    #page section#header header ul.redes_sociais_header .instagram {
-      background-image: url("images/redes-top.png");
-      background-position: -34px,center;
-      background-repeat: no-repeat;
-      width: 22px;
-      height: 20px;
-      display: inline-block; }
-    #page section#header header ul.redes_sociais_header .twitter {
-      background-image: url("images/redes-top.png");
-      background-position: -66px,center;
-      background-repeat: no-repeat;
-      width: 22px;
-      height: 20px;
-      display: inline-block; }
-    #page section#header header ul.redes_sociais_header .facebook {
-      background-image: url("images/redes-top.png");
-      background-position: -98px,center;
-      background-repeat: no-repeat;
-      width: 22px;
-      height: 20px;
-      display: inline-block; }
-    #page section#header header .btn-login {
-      background-color: #ffc709;
-      padding: 5px 10px;
-      color: #003869;
-      border: 0;
-      font-weight: bold;
-      border-radius: 5px;
-      margin-left: 10px;
-      font-size: 12px; }
-    #page section#header header .btn-login:hover {
-      background-color: #ffdd6b; }
-  #page section#header nav {
-    padding: 20px 0; }
-    #page section#header nav div.menu-header {
-      margin-top: 25px; }
-      #page section#header nav div.menu-header div.menu-op {
-        float: right;
-        margin-right: 30px; }
-        #page section#header nav div.menu-header div.menu-op a {
-          color: #858585;
-          font-weight: bold; }
-        #page section#header nav div.menu-header div.menu-op a:hover {
-          color: #ffc709; }
-  @media (max-width: 991px) {
-    #page div.header-login-responsive {
-      display: block !important; }
-    #page div.header-login {
-      display: none !important; }
-    #page div.menu-responsivo {
-      width: 50px;
-      text-align: left;
-      display: block;
-      padding: 10px; }
-    #page div.menu-header {
-      display: none; } }
-  @media (min-width: 992px) {
-    #page div.header-login-responsive {
-      display: none !important; }
-    #page div.header-login {
-      display: block !important; }
-    #page div.menu-responsivo {
-      display: none; }
-    #page ul.menu-header {
-      display: block; } }
-  #page section#banner {
-    margin-bottom: 40px; }
-  #page section#tracking-buscar {
-    margin-bottom: 60px;
-    position: relative;
-    width: 100%;
-    background: -moz-linear-gradient(left, #00356b 50%, #00509c 50%, #00509c 50%);
-    /* FF3.6+ */
-    background: -webkit-gradient(linear, left top, right top, color-stop(50%, #00356b), color-stop(50%, #00509c), color-stop(50%, #00509c));
-    /* Chrome,Safari4+ */
-    background: -webkit-linear-gradient(left, #00356b 50%, #f5f5f5 50%, #00509c 50%);
-    /* Chrome10+,Safari5.1+ */
-    background: -o-linear-gradient(left, #00356b 50%, #f5f5f5 50%, #00509c 50%);
-    /* Opera 11.10+ */
-    background: -ms-linear-gradient(left, #00356b 50%, #f5f5f5 50%, #00509c 50%);
-    /* IE10+ */
-    background: linear-gradient(to right, #00356b 50%, #f5f5f5 50%, #00509c 50%);
-    /* W3C */
-    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00356b', endColorstr='#00509c',GradientType=1 );
-    /* IE6-9 */ }
-    #page section#tracking-buscar div.container div.news-left {
-      padding: 25px 0;
-      background-color: #00356b;
-      font-weight: bold;
-      font-size: 16px; }
-      #page section#tracking-buscar div.container div.news-left div.tracking-rastreie {
-        padding: 10px 0; }
-    #page section#tracking-buscar div.container div.news-right {
-      padding: 25px 0;
-      padding-left: 50px;
-      background-color: #00509c; }
-      #page section#tracking-buscar div.container div.news-right .tracking-form select {
-        padding: 12px 5px;
-        border-radius: 5px;
-        border: 0;
-        display: block;
-        float: left;
-        margin-right: 10px;
-        width: 40%; }
-      #page section#tracking-buscar div.container div.news-right .tracking-form input[type="text"] {
-        padding: 11px 5px;
-        border-radius: 5px;
-        border: 0;
-        display: block;
-        float: left;
-        margin-right: 10px;
-        width: 40%; }
-      #page section#tracking-buscar div.container div.news-right .tracking-form .submit {
-        background: #00356b none repeat scroll 0 0;
-        border: 0;
-        border-radius: 5px;
-        font-size: 55px;
-        line-height: 34px;
-        padding: 0 12px 8px;
-        color: white;
-        display: block;
-        float: left; }
-      #page section#tracking-buscar div.container div.news-right .tracking-form .submit:hover {
-        background: #57aaff; }
-  #page section#home-sobre {
-    padding-bottom: 60px;
-    background-image: url("images/fundo-cinza.jpg");
-    background-repeat: no-repeat;
-    background-position: left bottom;
-    background-size: 100%; }
-    #page section#home-sobre h1.titulo-linha {
-      margin: 0 auto;
-      padding-bottom: 25px; }
-    #page section#home-sobre div.separador {
-      border-bottom: 2px solid #eff2f1;
-      width: 350px;
-      margin: 0 auto;
-      margin-bottom: 25px; }
-    #page section#home-sobre h2.sobre-num {
-      font-size: 40px; }
-    #page section#home-sobre div.sobre-desc {
-      width: 60%;
-      margin: 0 auto; }
-    #page section#home-sobre p.sobre-p {
-      width: 70%;
-      margin: 5px auto; }
-    #page section#home-sobre a.btn-sobre {
-      background-color: #00509b;
-      color: white;
-      border-radius: 10px;
-      display: block;
-      width: 300px;
-      padding: 20px 0;
-      margin: 0 auto; }
-    #page section#home-sobre a.btn-sobre:hover {
-      background-color: #60b2ff; }
-  #page section#home-solucoes {
-    padding: 60px 0;
-    background-image: url("images/fundo-solucoes.jpg");
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: 100%;
-    color: white; }
-    #page section#home-solucoes h1.titulo-linha {
-      margin: 0;
-      padding-bottom: 25px;
-      color: white; }
-    #page section#home-solucoes div.separador {
-      border-bottom: 1px solid white;
-      width: 350px;
-      margin: 0 auto;
-      margin-bottom: 25px; }
-    #page section#home-solucoes div.quadro-branco {
-      background-color: white;
-      padding: 25px;
-      border-radius: 10px;
-      color: #858585; }
-      #page section#home-solucoes div.quadro-branco div.row {
-        margin-bottom: 50px; }
-        #page section#home-solucoes div.quadro-branco div.row div.solucoes-desc header {
-          font-size: 16px;
-          font-weight: bold;
-          margin: 10px 0; }
-        #page section#home-solucoes div.quadro-branco div.row div.solucoes-desc a {
-          display: block; }
-  #page section#home-mobidata {
-    padding: 60px 0;
-    background-image: url("images/fundo-verde.jpg");
-    background-repeat: no-repeat;
-    background-position: right bottom;
-    background-size: 100%; }
-    #page section#home-mobidata h1.titulo-linha {
-      margin: 0;
-      padding-bottom: 25px; }
-    #page section#home-mobidata div.separador {
-      border-bottom: 2px solid #eff2f1;
-      width: 350px;
-      margin: 0 auto;
-      margin-bottom: 25px; }
-    #page section#home-mobidata div.anima-h img {
-      display: block; }
-    #page section#home-mobidata div.anima-h div.separadorb {
-      border-bottom: 2px solid #eff2f1;
-      width: 350px;
-      margin-bottom: 25px;
-      margin-top: 25px; }
-    #page section#home-mobidata div.anima-h ul.mobi-vantagens {
-      list-style-type: none;
-      padding-left: 10px;
-      margin-bottom: 50px; }
-      #page section#home-mobidata div.anima-h ul.mobi-vantagens li {
-        margin: 10px 0; }
-        #page section#home-mobidata div.anima-h ul.mobi-vantagens li img {
-          float: left;
-          display: block;
-          margin-right: 5px; }
-        #page section#home-mobidata div.anima-h ul.mobi-vantagens li div.check-desc {
-          line-height: 14px; }
-  #page section#sobre div.container {
-    padding-bottom: 50px;
-    background-image: url("images/fundo-quemsomos.jpg");
-    background-repeat: no-repeat;
-    background-position: right bottom; }
-    #page section#sobre div.container p {
-      margin-bottom: 20px; }
-    #page section#sobre div.container p.sobre-destaque {
-      color: #00509c;
-      font-weight: bold;
-      font-size: 17px; }
-    #page section#sobre div.container h1.titulo-linha {
-      margin: 0;
-      padding-bottom: 25px; }
-    #page section#sobre div.container div.separador {
-      border-bottom: 2px solid #eff2f1;
-      width: 350px;
-      margin: 0 auto;
-      margin-bottom: 25px; }
-  #page section#sobre-info {
-    background-color: #eff1f1;
-    padding: 50px 0;
-    margin-bottom: 50px; }
-    #page section#sobre-info h2 {
-      margin: 0;
-      margin-bottom: 10px; }
-    #page section#sobre-info h2.sobre-num {
-      font-size: 40px;
-      margin: 15px 0; }
-    #page section#sobre-info div.sobre-desc {
-      width: 60%;
-      margin: 0 auto; }
-  @media (max-width: 991px) {
-    #page section#home-sobre {
-      background-size: auto !important; }
-    #page div.row {
-      margin-bottom: 0 !important; }
-    #page section#home-solucoes {
-      background-size: auto !important; }
-      #page section#home-solucoes h1.titulo-linha {
-        color: #858585 !important; }
-      #page section#home-solucoes div.separador {
-        border-bottom: 2px solid #eff2f1 !important; }
-      #page section#home-solucoes p {
-        color: #858585 !important; }
-      #page section#home-solucoes div.quadro-branco a {
-        margin-bottom: 25px !important; }
-    #page section#home-mobidata {
-      background-size: auto !important; }
-      #page section#home-mobidata div.anima-i {
-        display: none; }
-    #page section#sobre div.container {
-      background-image: none; } }
-  #page section#footer {
-    background-color: #00356b;
-    padding: 50px 0;
-    color: white; }
-    #page section#footer ul.menu-footer {
-      list-style-type: none;
-      padding: 0;
-      margin: 0; }
-      #page section#footer ul.menu-footer li {
-        float: left;
-        margin-right: 20px;
-        text-align: center; }
-        #page section#footer ul.menu-footer li a {
-          color: white; }
-        #page section#footer ul.menu-footer li a:hover {
-          color: #ffc709; }
-    #page section#footer div.copy-text {
-      font-size: 12px; }
-    #page section#footer a {
-      color: white; }
-    #page section#footer ul.redes_sociais_header {
-      padding: 0;
-      height: 22px;
-      text-align: left;
-      list-style: none;
-      margin-bottom: 0;
-      margin-top: 25px; }
-    #page section#footer ul.redes_sociais_header li {
-      margin-right: 5px; }
-    #page section#footer ul.redes_sociais_header li:hover {
-      opacity: 0.6;
-      filter: alpha(opacity=60);
-      /* For IE8 and earlier */ }
-    #page section#footer ul.redes_sociais_header a {
-      display: inline-block;
-      width: 22px;
-      height: 20px; }
-    #page section#footer ul.redes_sociais_header .youtube {
-      background-image: url("images/redes-top.png");
-      background-position: left,center;
-      background-repeat: no-repeat;
-      width: 22px;
-      height: 20px;
-      display: inline-block; }
-    #page section#footer ul.redes_sociais_header .instagram {
-      background-image: url("images/redes-top.png");
-      background-position: -34px,center;
-      background-repeat: no-repeat;
-      width: 22px;
-      height: 20px;
-      display: inline-block; }
-    #page section#footer ul.redes_sociais_header .twitter {
-      background-image: url("images/redes-top.png");
-      background-position: -66px,center;
-      background-repeat: no-repeat;
-      width: 22px;
-      height: 20px;
-      display: inline-block; }
-    #page section#footer ul.redes_sociais_header .facebook {
-      background-image: url("images/redes-top.png");
-      background-position: -98px,center;
-      background-repeat: no-repeat;
-      width: 22px;
-      height: 20px;
-      display: inline-block; }
-  @media (max-width: 991px) {
-    #page section#footer ul.menu-footer {
-      display: none; } }
+#page { font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; color: #858585; text-align: center; /* 
+HOME 
+*/ /* 
+SOBRE
+*/ /* 
+MOBIDATA
+*/ /* 
+SOLU├ç├òES
+*/ /* 
+BLOG
+*/ }
+#page a:hover { text-decoration: none; color: #b6b6b6; }
+#page h1 { color: #00509c; font-size: 26px; font-weight: bold; }
+#page h2 { color: #00509c; font-size: 20px; font-weight: bold; }
+#page section#header header { margin-top: 10px; background-color: #003869; color: white; }
+#page section#header header span { padding-top: 2px; display: block; float: left; }
+#page section#header header ul { padding-top: 2px; padding-left: 5px; float: left; }
+#page section#header header div.box { padding-top: 8px; padding-bottom: 8px; }
+#page section#header header span.texto-branco { margin-left: 5px; font-size: 15px; }
+#page section#header header ul.redes_sociais_header { height: 22px; text-align: left; list-style: none; margin-bottom: 0; }
+#page section#header header ul.redes_sociais_header li:hover { opacity: 0.6; filter: alpha(opacity=60); /* For IE8 and earlier */ }
+#page section#header header ul.redes_sociais_header li { margin-right: 5px; }
+#page section#header header ul.redes_sociais_header a { display: inline-block; width: 22px; height: 20px; }
+#page section#header header ul.redes_sociais_header .youtube { background-image: url("images/redes-top.png"); background-position: left,center; background-repeat: no-repeat; width: 22px; height: 20px; display: inline-block; }
+#page section#header header ul.redes_sociais_header .instagram { background-image: url("images/redes-top.png"); background-position: -34px,center; background-repeat: no-repeat; width: 22px; height: 20px; display: inline-block; }
+#page section#header header ul.redes_sociais_header .twitter { background-image: url("images/redes-top.png"); background-position: -66px,center; background-repeat: no-repeat; width: 22px; height: 20px; display: inline-block; }
+#page section#header header ul.redes_sociais_header .facebook { background-image: url("images/redes-top.png"); background-position: -98px,center; background-repeat: no-repeat; width: 22px; height: 20px; display: inline-block; }
+#page section#header header .btn-login { background-color: #ffc709; padding: 5px 10px; color: #003869; border: 0; font-weight: bold; border-radius: 5px; margin-left: 10px; font-size: 12px; }
+#page section#header header .btn-login:hover { background-color: #ffdd6b; }
+#page section#header nav { padding: 20px 0; }
+#page section#header nav div.menu-header { margin-top: 25px; }
+#page section#header nav div.menu-header div.menu-op { float: right; margin-right: 30px; }
+#page section#header nav div.menu-header div.menu-op a { color: #858585; font-weight: bold; }
+#page section#header nav div.menu-header div.menu-op a:hover { color: #ffc709; }
+@media (max-width: 991px) { #page div.header-login-responsive { display: block !important; }
+  #page div.header-login { display: none !important; }
+  #page div.menu-responsivo { width: 50px; text-align: left; display: block; padding: 10px; }
+  #page div.menu-header { display: none; } }
+@media (min-width: 992px) { #page div.header-login-responsive { display: none !important; }
+  #page div.header-login { display: block !important; }
+  #page div.menu-responsivo { display: none; }
+  #page ul.menu-header { display: block; } }
+#page section#banner { margin-bottom: 40px; }
+#page section#tracking-buscar { margin-bottom: 60px; position: relative; width: 100%; background: -moz-linear-gradient(left, #00356b 50%, #00509c 50%, #00509c 50%); /* FF3.6+ */ background: -webkit-gradient(linear, left top, right top, color-stop(50%, #00356b), color-stop(50%, #00509c), color-stop(50%, #00509c)); /* Chrome,Safari4+ */ background: -webkit-linear-gradient(left, #00356b 50%, #f5f5f5 50%, #00509c 50%); /* Chrome10+,Safari5.1+ */ background: -o-linear-gradient(left, #00356b 50%, #f5f5f5 50%, #00509c 50%); /* Opera 11.10+ */ background: -ms-linear-gradient(left, #00356b 50%, #f5f5f5 50%, #00509c 50%); /* IE10+ */ background: linear-gradient(to right, #00356b 50%, #f5f5f5 50%, #00509c 50%); /* W3C */ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00356b', endColorstr='#00509c',GradientType=1 ); /* IE6-9 */ }
+#page section#tracking-buscar div.container div.news-left { padding: 25px 0; background-color: #00356b; font-weight: bold; font-size: 16px; }
+#page section#tracking-buscar div.container div.news-left div.tracking-rastreie { padding: 10px 0; }
+#page section#tracking-buscar div.container div.news-right { padding: 25px 0; padding-left: 50px; background-color: #00509c; }
+#page section#tracking-buscar div.container div.news-right .tracking-form select { padding: 12px 5px; border-radius: 5px; border: 0; display: block; float: left; margin-right: 10px; width: 40%; }
+#page section#tracking-buscar div.container div.news-right .tracking-form input[type="text"] { padding: 11px 5px; border-radius: 5px; border: 0; display: block; float: left; margin-right: 10px; width: 40%; }
+#page section#tracking-buscar div.container div.news-right .tracking-form .submit { background: #00356b none repeat scroll 0 0; border: 0; border-radius: 5px; font-size: 55px; line-height: 34px; padding: 0 12px 8px; color: white; display: block; float: left; }
+#page section#tracking-buscar div.container div.news-right .tracking-form .submit:hover { background: #57aaff; }
+#page section#home-sobre { padding-bottom: 60px; background-image: url("images/fundo-cinza.jpg"); background-repeat: no-repeat; background-position: left bottom; background-size: 100%; }
+#page section#home-sobre h1.titulo-linha { margin: 0 auto; padding-bottom: 25px; }
+#page section#home-sobre div.separador { border-bottom: 2px solid #eff2f1; width: 350px; margin: 0 auto; margin-bottom: 25px; }
+#page section#home-sobre h2.sobre-num { font-size: 40px; }
+#page section#home-sobre div.sobre-desc { width: 60%; margin: 0 auto; }
+#page section#home-sobre p.sobre-p { width: 70%; margin: 5px auto; }
+#page section#home-sobre a.btn-sobre { background-color: #00509b; color: white; border-radius: 10px; display: block; width: 300px; padding: 20px 0; margin: 0 auto; }
+#page section#home-sobre a.btn-sobre:hover { background-color: #60b2ff; }
+#page section#home-solucoes { padding: 60px 0; background-image: url("images/fundo-solucoes.jpg"); background-repeat: no-repeat; background-position: center; background-size: 100%; color: white; }
+#page section#home-solucoes h1.titulo-linha { margin: 0; padding-bottom: 25px; color: white; }
+#page section#home-solucoes div.separador { border-bottom: 1px solid white; width: 350px; margin: 0 auto; margin-bottom: 25px; }
+#page section#home-solucoes div.quadro-branco { background-color: white; padding: 25px; border-radius: 10px; color: #858585; }
+#page section#home-solucoes div.quadro-branco div.row { margin-bottom: 50px; }
+#page section#home-solucoes div.quadro-branco div.row div.solucoes-desc header { font-size: 16px; font-weight: bold; margin: 10px 0; }
+#page section#home-solucoes div.quadro-branco div.row div.solucoes-desc a { display: block; }
+#page section#home-mobidata { padding: 60px 0; background-image: url("images/fundo-verde.jpg"); background-repeat: no-repeat; background-position: right bottom; background-size: 100%; }
+#page section#home-mobidata h1.titulo-linha { margin: 0; padding-bottom: 25px; }
+#page section#home-mobidata div.separador { border-bottom: 2px solid #eff2f1; width: 350px; margin: 0 auto; margin-bottom: 25px; }
+#page section#home-mobidata div.anima-h img { display: block; }
+#page section#home-mobidata div.anima-h div.separadorb { border-bottom: 2px solid #eff2f1; width: 350px; margin-bottom: 25px; margin-top: 25px; }
+#page section#home-mobidata div.anima-h ul.mobi-vantagens { list-style-type: none; padding-left: 10px; margin-bottom: 50px; }
+#page section#home-mobidata div.anima-h ul.mobi-vantagens li { margin: 10px 0; }
+#page section#home-mobidata div.anima-h ul.mobi-vantagens li img { float: left; display: block; margin-right: 5px; }
+#page section#home-mobidata div.anima-h ul.mobi-vantagens li div.check-desc { line-height: 14px; }
+#page section#sobre div.container { padding-bottom: 50px; background-image: url("images/fundo-quemsomos.jpg"); background-repeat: no-repeat; background-position: right bottom; }
+#page section#sobre div.container p { margin-bottom: 20px; }
+#page section#sobre div.container p.sobre-destaque { color: #00509c; font-weight: bold; font-size: 18px; }
+#page section#sobre div.container h1.titulo-linha { margin: 0; padding-bottom: 25px; }
+#page section#sobre div.container div.separador { border-bottom: 2px solid #eff2f1; width: 350px; margin: 0 auto; margin-bottom: 25px; }
+#page section#sobre-info { background-color: #eff1f1; padding: 50px 0; margin-bottom: 50px; }
+#page section#sobre-info h2 { margin: 0; margin-bottom: 10px; }
+#page section#sobre-info h2.sobre-num { font-size: 40px; margin: 15px 0; }
+#page section#sobre-info div.sobre-desc { width: 60%; margin: 0 auto; }
+#page section#mobidata { padding-bottom: 60px; background-image: url("images/fundo-verde.jpg"); background-repeat: no-repeat; background-position: right bottom; background-size: 100%; }
+#page section#mobidata h1.titulo-linha { margin: 0; padding-bottom: 25px; }
+#page section#mobidata div.separador { border-bottom: 2px solid #eff2f1; width: 350px; margin: 0 auto; margin-bottom: 25px; }
+#page section#mobidata p.mobi-destaque, #page section#mobidata h2.mobi-destaque { color: #00509c; font-size: 18px; font-weight: bold; }
+#page section#mobidata ul.mobi-vantagens { list-style-type: none; padding-left: 10px; margin-bottom: 40px; margin-top: 30px; }
+#page section#mobidata ul.mobi-vantagens li { margin: 10px 0; }
+#page section#mobidata ul.mobi-vantagens li img { float: left; display: block; margin-right: 5px; }
+#page section#mobidata ul.mobi-vantagens li div.check-desc { line-height: 14px; }
+#page section#title-solucoes h1.titulo-linha { margin: 0; padding-bottom: 25px; }
+#page section#title-solucoes div.separador { border-bottom: 2px solid #eff2f1; width: 350px; margin: 0 auto; margin-bottom: 25px; }
+#page section#solucoes { padding: 60px 0; background-image: url("images/fundo-solucoes.jpg"); background-repeat: no-repeat; background-position: center; background-size: 100%; color: white; margin-bottom: 60px; margin-top: 25px; }
+#page section#solucoes div.quadro-branco { background-color: white; padding: 25px; border-radius: 10px; color: #858585; }
+#page section#solucoes div.quadro-branco div.row { margin-bottom: 50px; }
+#page section#solucoes div.quadro-branco div.row div.solucoes-desc header { font-size: 16px; font-weight: bold; margin: 10px 0; }
+#page section#solucoes div.quadro-branco div.row div.solucoes-desc a { display: block; }
+@media (max-width: 991px) { #page section#home-sobre { background-size: auto !important; }
+  #page div.row { margin-bottom: 0 !important; }
+  #page section#home-solucoes { background-size: auto !important; }
+  #page section#home-solucoes h1.titulo-linha { color: #858585 !important; }
+  #page section#home-solucoes div.separador { border-bottom: 2px solid #eff2f1 !important; }
+  #page section#home-solucoes p { color: #858585 !important; }
+  #page section#home-solucoes div.quadro-branco a { margin-bottom: 25px !important; }
+  #page section#home-mobidata { background-size: auto !important; }
+  #page section#home-mobidata div.anima-i { display: none; }
+  #page section#sobre div.container { background-image: none; } }
+#page section#footer { background-color: #00356b; padding: 50px 0; color: white; }
+#page section#footer ul.menu-footer { list-style-type: none; padding: 0; margin: 0; }
+#page section#footer ul.menu-footer li { float: left; margin-right: 20px; text-align: center; }
+#page section#footer ul.menu-footer li a { color: white; }
+#page section#footer ul.menu-footer li a:hover { color: #ffc709; }
+#page section#footer div.copy-text { font-size: 12px; }
+#page section#footer a { color: white; }
+#page section#footer ul.redes_sociais_header { padding: 0; height: 22px; text-align: left; list-style: none; margin-bottom: 0; margin-top: 25px; }
+#page section#footer ul.redes_sociais_header li { margin-right: 5px; }
+#page section#footer ul.redes_sociais_header li:hover { opacity: 0.6; filter: alpha(opacity=60); /* For IE8 and earlier */ }
+#page section#footer ul.redes_sociais_header a { display: inline-block; width: 22px; height: 20px; }
+#page section#footer ul.redes_sociais_header .youtube { background-image: url("images/redes-top.png"); background-position: left,center; background-repeat: no-repeat; width: 22px; height: 20px; display: inline-block; }
+#page section#footer ul.redes_sociais_header .instagram { background-image: url("images/redes-top.png"); background-position: -34px,center; background-repeat: no-repeat; width: 22px; height: 20px; display: inline-block; }
+#page section#footer ul.redes_sociais_header .twitter { background-image: url("images/redes-top.png"); background-position: -66px,center; background-repeat: no-repeat; width: 22px; height: 20px; display: inline-block; }
+#page section#footer ul.redes_sociais_header .facebook { background-image: url("images/redes-top.png"); background-position: -98px,center; background-repeat: no-repeat; width: 22px; height: 20px; display: inline-block; }
+@media (max-width: 991px) { #page section#footer ul.menu-footer { display: none; } }
 
-.cor-amarelo {
-  color: #ffc709; }
+.cor-amarelo { color: #ffc709; }
 
-.e-cinza:hover {
-  -webkit-filter: grayscale(100%);
-  filter: grayscale(100%); }
+.e-cinza:hover { -webkit-filter: grayscale(100%); filter: grayscale(100%); }
 
-.e-claro:hover {
-  opacity: 0.6;
-  filter: alpha(opacity=60);
-  /* For IE8 and earlier */ }
-
-/*# sourceMappingURL=style.css.map */
+.e-claro:hover { opacity: 0.6; filter: alpha(opacity=60); /* For IE8 and earlier */ }

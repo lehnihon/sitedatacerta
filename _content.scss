@@ -1,4 +1,3 @@
-
 /* 
 HOME 
 */
@@ -242,7 +241,7 @@ section#sobre{
 		p.sobre-destaque{
 			color:#00509c;
 			font-weight: bold;
-			font-size:17px;
+			font-size:18px;
 		}
 
 		h1.titulo-linha{
@@ -279,6 +278,120 @@ section#sobre-info{
 		margin:0 auto;
 	}
 
+}
+
+/* 
+MOBIDATA
+*/
+
+section#mobidata{
+	padding-bottom:60px;
+	background-image: url("images/fundo-verde.jpg");
+    background-repeat: no-repeat;
+    background-position: right bottom;
+    background-size: 100%; 
+
+	h1.titulo-linha{
+		margin:0;
+		padding-bottom:25px;
+	}
+
+	div.separador{
+		border-bottom: 2px solid #eff2f1;
+		width:350px;
+		margin:0 auto;
+		margin-bottom: 25px;
+	}
+	
+	p.mobi-destaque, h2.mobi-destaque{
+		color: #00509c;
+		font-size: 18px;
+		font-weight: bold;
+	}
+
+	ul.mobi-vantagens{
+		list-style-type: none;
+		padding-left:10px;
+		margin-bottom: 40px;
+		margin-top: 30px;
+		
+		li{
+			margin:10px 0;
+
+			img{
+				float: left;
+				display: block;
+				margin-right: 5px;
+			}
+
+			div.check-desc{
+				
+				line-height: 14px;
+			}			
+		}
+	}		
+}
+
+/* 
+SOLUÇÕES
+*/
+
+section#title-solucoes{
+
+	h1.titulo-linha{
+		margin:0;
+		padding-bottom:25px;
+	}
+
+	div.separador{
+		border-bottom: 2px solid #eff2f1;
+		width:350px;
+		margin:0 auto;
+		margin-bottom: 25px;
+	}	
+}
+
+section#solucoes{
+	padding:60px 0;
+	background-image: url("images/fundo-solucoes.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%; 
+    color:white;
+    margin-bottom: 60px;
+    margin-top: 25px;
+
+	div.quadro-branco{
+		background-color:white;
+		padding:25px;
+		border-radius:10px;
+		color:#858585;
+		div.row{
+			margin-bottom:50px;
+
+			div.solucoes-desc{
+				header{
+					font-size:16px;
+					font-weight:bold;
+					margin:10px 0;
+				}
+				a{
+					display:block;
+				}
+			}			
+		}
+
+	}
+
+}
+
+/* 
+BLOG
+*/
+
+
+section#blog{
+	
 }
 
 @media (max-width: 991px) {  

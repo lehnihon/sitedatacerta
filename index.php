@@ -104,7 +104,7 @@ get_header(); ?>
 					<div class="solucoes-desc">
 						<header>Cargo</header>
 						<p>Atendimento dedicado ponto a ponto com distribuição em mais de 300 localidades nos estados de São Paulo e Rio de Janeiro.</p>
-						<a href="#">Saiba mais</a>
+						<a href="<?php echo home_url( '/' )."servicos"; ?>">Saiba mais</a>
 					</div>
 				</div>
 				<div class="col-md-4 anima-e">
@@ -112,7 +112,7 @@ get_header(); ?>
 					<div class="solucoes-desc">
 						<header>Courier</header>
 						<p>Atendimento dedicado ponto a ponto com distribuição em mais de 300 localidades nos estados de São Paulo e Rio de Janeiro.</p>
-						<a href="#">Saiba mais</a>
+						<a href="<?php echo home_url( '/' )."servicos"; ?>">Saiba mais</a>
 					</div>
 				</div>
 				<div class="col-md-4 anima-e">
@@ -120,7 +120,7 @@ get_header(); ?>
 					<div class="solucoes-desc">
 						<header>Armazenagem</header>
 						<p>Atendimento dedicado ponto a ponto com distribuição em mais de 300 localidades nos estados de São Paulo e Rio de Janeiro.</p>
-						<a href="#">Saiba mais</a>
+						<a href="<?php echo home_url( '/' )."servicos"; ?>">Saiba mais</a>
 					</div>
 				</div>
 			</div>
@@ -130,7 +130,7 @@ get_header(); ?>
 					<div class="solucoes-desc">
 						<header>Fulfillment</header>
 						<p>Atendimento dedicado ponto a ponto com distribuição em mais de 300 localidades nos estados de São Paulo e Rio de Janeiro.</p>
-						<a href="#">Saiba mais</a>
+						<a href="<?php echo home_url( '/' )."servicos"; ?>">Saiba mais</a>
 					</div>
 				</div>
 				<div class="col-md-4 anima-f">
@@ -138,7 +138,7 @@ get_header(); ?>
 					<div class="solucoes-desc">
 						<header>Reversa</header>
 						<p>Atendimento dedicado ponto a ponto com distribuição em mais de 300 localidades nos estados de São Paulo e Rio de Janeiro.</p>
-						<a href="#">Saiba mais</a>
+						<a href="<?php echo home_url( '/' )."servicos"; ?>">Saiba mais</a>
 					</div>
 				</div>
 				<div class="col-md-4 anima-f">
@@ -146,7 +146,7 @@ get_header(); ?>
 					<div class="solucoes-desc">
 						<header>Impressão de dados variáveis</header>
 						<p>Atendimento dedicado ponto a ponto com distribuição em mais de 300 localidades nos estados de São Paulo e Rio de Janeiro.</p>
-						<a href="#">Saiba mais</a>
+						<a href="<?php echo home_url( '/' )."servicos"; ?>">Saiba mais</a>
 					</div>
 				</div>
 			</div>
@@ -180,8 +180,8 @@ get_header(); ?>
 					<li class="clearfix"><img src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/checkmark.png"; ?>" /><div class="check-desc">Rastreamento do entregador</div></li>
 				</ul>
 				<h2>Baixe o aplicativo Mobidata</h2><br>
-				<img src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/btn-playstore.png"; ?>" /><br>
-				<img src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/btn-saiba-mais.png"; ?>" />
+				<img class="e-cinza" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/btn-playstore.png"; ?>" /><br>
+				<a href="<?php echo home_url( '/' )."mobidata"; ?>"><img class="e-cinza" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/btn-saiba-mais.png"; ?>" /></a>
 			</div>
 			<div class="col-md-5 anima-i">
 				<img src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/mobi-cel.png"; ?>" />
