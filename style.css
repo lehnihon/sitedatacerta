@@ -50,18 +50,27 @@ BLOG
 #page section#header header .btn-login { background-color: #ffc709; padding: 5px 10px; color: #003869; border: 0; font-weight: bold; border-radius: 5px; margin-left: 10px; font-size: 12px; }
 #page section#header header .btn-login:hover { background-color: #ffdd6b; }
 #page section#header nav { padding: 20px 0; }
+#page section#header nav form.search-form input.pesquisar-input { background-color: #e4e4e4; border: 0; float: left; padding: 10.5px 5px; }
+#page section#header nav form.search-form input.pesquisar-submit { float: left; }
 #page section#header nav div.menu-header { margin-top: 25px; }
 #page section#header nav div.menu-header div.menu-op { float: right; margin-right: 30px; }
 #page section#header nav div.menu-header div.menu-op a { color: #858585; font-weight: bold; }
 #page section#header nav div.menu-header div.menu-op a:hover { color: #ffc709; }
+#page section#header nav div.menu-header-blog { margin-top: 15px; }
+#page section#header nav div.menu-header-blog div.menu-op { margin-top: 12px; float: right; margin-right: 30px; }
+#page section#header nav div.menu-header-blog div.menu-op a { color: #858585; font-weight: bold; }
+#page section#header nav div.menu-header-blog div.menu-op a:hover { color: #ffc709; }
+#page section#header nav div.menu-header-blog div.wrap-search { margin-top: 0; margin-right: 0; }
 @media (max-width: 991px) { #page div.header-login-responsive { display: block !important; }
   #page div.header-login { display: none !important; }
   #page div.menu-responsivo { width: 50px; text-align: left; display: block; padding: 10px; }
-  #page div.menu-header { display: none; } }
+  #page div.menu-header { display: none; }
+  #page div.menu-header-blog { display: none; } }
 @media (min-width: 992px) { #page div.header-login-responsive { display: none !important; }
   #page div.header-login { display: block !important; }
   #page div.menu-responsivo { display: none; }
-  #page ul.menu-header { display: block; } }
+  #page ul.menu-header { display: block; }
+  #page div.menu-header-blog { display: block; } }
 #page section#banner { margin-bottom: 40px; }
 #page section#tracking-buscar { margin-bottom: 60px; position: relative; width: 100%; background: -moz-linear-gradient(left, #00356b 50%, #00509c 50%, #00509c 50%); /* FF3.6+ */ background: -webkit-gradient(linear, left top, right top, color-stop(50%, #00356b), color-stop(50%, #00509c), color-stop(50%, #00509c)); /* Chrome,Safari4+ */ background: -webkit-linear-gradient(left, #00356b 50%, #f5f5f5 50%, #00509c 50%); /* Chrome10+,Safari5.1+ */ background: -o-linear-gradient(left, #00356b 50%, #f5f5f5 50%, #00509c 50%); /* Opera 11.10+ */ background: -ms-linear-gradient(left, #00356b 50%, #f5f5f5 50%, #00509c 50%); /* IE10+ */ background: linear-gradient(to right, #00356b 50%, #f5f5f5 50%, #00509c 50%); /* W3C */ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00356b', endColorstr='#00509c',GradientType=1 ); /* IE6-9 */ }
 #page section#tracking-buscar div.container div.news-left { padding: 25px 0; background-color: #00356b; font-weight: bold; font-size: 16px; }
@@ -119,6 +128,8 @@ BLOG
 #page section#solucoes div.quadro-branco div.row { margin-bottom: 50px; }
 #page section#solucoes div.quadro-branco div.row div.solucoes-desc header { font-size: 16px; font-weight: bold; margin: 10px 0; }
 #page section#solucoes div.quadro-branco div.row div.solucoes-desc a { display: block; }
+#page section#blog a { color: #00509c; }
+#page section#blog a:hover { color: #6696c3; }
 @media (max-width: 991px) { #page section#home-sobre { background-size: auto !important; }
   #page div.row { margin-bottom: 0 !important; }
   #page section#home-solucoes { background-size: auto !important; }
@@ -151,3 +162,6 @@ BLOG
 .e-cinza:hover { -webkit-filter: grayscale(100%); filter: grayscale(100%); }
 
 .e-claro:hover { opacity: 0.6; filter: alpha(opacity=60); /* For IE8 and earlier */ }
+
+.paginacao .page-numbers { padding: 5px; background-color: #ececec; }
+.paginacao .current { background-color: #ffc700; }

@@ -17,6 +17,13 @@
 <link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>">
 
 <?php wp_head(); ?>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/pt_BR/sdk.js#xfbml=1&version=v2.3";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
 </head>
 
 <body <?php body_class(); ?>>
@@ -59,7 +66,7 @@
               </ul>
               <div class="wrap-search"><?php get_search_form(); ?></div>               
             </div>            
-            <div class="menu-header clearfix">
+            <div class="menu-header-blog clearfix">
               <div class="menu-op wrap-search"><?php get_search_form(); ?></div>             
               <div class="menu-op"><a href="<?php echo home_url( '/' )."servicos"; ?>">CONTATO</a></div>
               <div class="menu-op"><a href="<?php echo home_url( '/' )."mobidata"; ?>">LOGÍSTICA</a></div>

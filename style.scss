@@ -64,4 +64,14 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
     filter: alpha(opacity=60); /* For IE8 and earlier */
 }
 
+.paginacao{
+	.page-numbers{
+		padding:5px;
+		background-color:#ececec;
+	}
+	.current{
+		background-color:#ffc700;
+	}
+}
+
 

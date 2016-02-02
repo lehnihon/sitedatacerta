@@ -104,6 +104,18 @@ section#header{
 	nav{
         padding:20px 0;
 
+        form.search-form{
+            input.pesquisar-input{
+                background-color:#e4e4e4;
+                border:0;
+                float:left;
+                padding:10.5px 5px;
+            }
+            input.pesquisar-submit{
+                float:left;
+            }
+        }
+        
         div.menu-header{
             margin-top: 25px;
 
@@ -117,6 +129,28 @@ section#header{
                 a:hover{
                     color:#ffc709;
                 }
+            }
+        }
+
+        div.menu-header-blog{
+            margin-top: 15px;
+
+            div.menu-op{
+                margin-top: 12px;
+                float:right;
+                margin-right: 30px;
+                a{
+                    color:#858585;
+                    font-weight: bold;
+                }
+                a:hover{
+                    color:#ffc709;
+                }
+            }
+
+            div.wrap-search{
+                margin-top: 0;
+                margin-right: 0;
             }
         }
 
@@ -142,6 +176,10 @@ section#header{
     div.menu-header{
         display: none;
     }
+    div.menu-header-blog{
+        display: none;
+    }
+
 }
 
 @media (min-width: 992px) {  
@@ -159,4 +197,7 @@ section#header{
     ul.menu-header{
         display: block;
     }   
+    div.menu-header-blog{
+        display: block;
+    }
 }

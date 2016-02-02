@@ -391,7 +391,13 @@ BLOG
 
 
 section#blog{
-	
+	a{
+		color:#00509c;
+	}
+
+	a:hover{
+		color:#6696c3;
+	}
 }
 
 @media (max-width: 991px) {  

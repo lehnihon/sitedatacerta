@@ -3,13 +3,14 @@ get_header('blog'); ?>
 
 <section id="blog">
 	<div class="container">
-		<div class="row posts">
-			<div class="col-md-8">
+		<div class="row">
+			<div class="col-md-8 text-left">
 				<?php putRevSlider( "banner-blog" ) ?>
 
 				<?php 
 				$paged = ( get_query_var( 'paged' ) ) ? absint( get_query_var( 'paged' ) ) : 1;
 
+				$i = 1;
 				$args = array(
 
 					'posts_per_page' => 4,
@@ -18,17 +19,25 @@ get_header('blog'); ?>
 				    'paged' => $paged);
 				$query = new WP_Query( $args ); 
 				?>	
-
+				
 				<?php if ( $query->have_posts() ) : ?>
-
-					<?php /* Start the Loop */ ?>
-					<?php while ( $query->have_posts() ) : $query->the_post(); ?>
-
-						<?php
-							get_template_part( 'template-parts/content', get_post_format() );
-						?>
-
-					<?php endwhile; ?>
+					<div class="row linha-blog">
+						<?php while ( $query->have_posts() ) : $query->the_post(); ?>
+							<div class="col-md-6">
+								<?php
+								get_template_part( 'template-parts/content', get_post_format() );
+								?>
+							</div>
+							<?php
+							if($i == 2):
+							?>
+								</div><div class="row">
+							<?php	
+							endif;
+							$i++;
+							?>
+						<?php endwhile; ?>
+					</div>
 					<div class="paginacao">
 					<?php
 					$big = 999999999; // need an unlikely integer
