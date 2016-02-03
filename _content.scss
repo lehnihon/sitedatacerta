@@ -391,6 +391,20 @@ BLOG
 
 
 section#blog{
+	article.linha-blog{
+		border-bottom:2px solid #e3e3e3;
+		padding-bottom:15px;
+	}
+
+	.confira{
+		margin-top:20px;
+		font-weight:bold;
+	}
+
+	div.paginacao{
+		margin:50px 0;
+	}
+
 	a{
 		color:#00509c;
 	}

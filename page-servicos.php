@@ -15,7 +15,7 @@ get_header(); ?>
 <section id="title-solucoes">
 	<div class="container">
 		<div class="row">
-			<h1 class="titulo-linha">Mobidata</h1>
+			<h1 class="titulo-linha">Serviços</h1>
 			<div class="separador"></div>
 			<p>Soluções de logística perfeitas que a Data Certa oferece para sua empresa.</p>
 		</div>
