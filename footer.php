@@ -45,7 +45,7 @@
 			</div><br>
 			<div class="row">
 				<div class="col-md-6 text-left copy-text">
-					&copy; Copyright <?php echo date('Y') ?> - Aroma e Sabor
+					&copy; Copyright <?php echo date('Y') ?> - Data Certa
 				</div>
 				<div class="col-md-3 col-md-offset-3 copy-text text-left">
 					<a target="_blank" href="http://agenciarino.com.br/">
