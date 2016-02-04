@@ -28,8 +28,8 @@ get_header(); ?>
 				<div class="tracking-rastreie cor-amarelo">RASTREIE SEU PEDIDO AQUI</div>
 			</div>
 			<div class="col-md-8 news-right">
-				<form action="#" method="POST" class="tracking-form clearfix">
-					<select name="tipotracking">
+				<form action="<?php echo home_url( '/' ).'rastreamento'; ?>" method="POST" class="tracking-form clearfix">
+					<select name="pesquisawebserv">
 						<option value="remessa">Número de remessa</option>
 						<option value="cpf">CPF</option>
 						<option value="ra">RA</option>
@@ -153,6 +153,7 @@ get_header(); ?>
 		</div>
 	</div>
 </section>
+
 <section id="home-mobidata">
 	<div class="container">
 		<div class="row">
