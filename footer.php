@@ -39,7 +39,7 @@
 						<li><a href="<?php echo esc_url( home_url( '/' )."mobidata" ); ?>">MOBIDATA</a></li>
 						<li><a href="<?php echo esc_url( home_url( '/' ) )."servicos"; ?>">SERVIÇOS</a></li>
 						<li><a target="_blank" href="<?php echo esc_url( home_url( '/' ) )."blog"; ?>">BLOG</a></li>
-						<li><a href="<?php echo esc_url( home_url( '/' ) ); ?>">CONTATO</a></li>
+						<li><a href="<?php echo esc_url( home_url( '/' )."contato" ); ?>">CONTATO</a></li>
 					</ul>
 				</div>
 			</div><br>

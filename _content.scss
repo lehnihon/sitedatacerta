@@ -400,6 +400,11 @@ section#blog{
 	article.linha-blog{
 		border-bottom:2px solid #e3e3e3;
 		padding-bottom:15px;
+		min-height: 443px;
+	}
+
+	article.article-single{
+		margin-bottom: 50px;
 	}
 
 	.confira{
@@ -419,6 +424,19 @@ section#blog{
 		color:#6696c3;
 	}
 }
+
+
+section#contato-pag{
+	padding-bottom:50px;
+
+	div.info-right{
+		margin-top: 25px;
+		background-color:#00356b;
+		color: white;
+		padding:25px;
+	}
+}
+
 
 @media (max-width: 991px) {  
 	section#home-sobre{

@@ -60,17 +60,17 @@
                 <span class="glyphicon glyphicon-align-justify" aria-hidden="true"></span>
               </button>
               <ul class="dropdown-menu">
-                <li><a href="<?php echo home_url( '/' )."sobre"; ?>">NOTÍCIAS</a></li
-                ><li><a href="<?php echo home_url( '/' )."mobidata"; ?>">LOGÍSTICA</a></li
-                ><li><a href="<?php echo home_url( '/' )."servicos"; ?>">CONTATO</a></li>
+                <li><a href="<?php echo home_url( '/' )."categoria/noticias"; ?>">NOTÍCIAS</a></li
+                ><li><a href="<?php echo home_url( '/' )."categoria/logistica"; ?>">LOGÍSTICA</a></li
+                ><li><a target="_blank" href="<?php echo home_url( '/' )."contato"; ?>">CONTATO</a></li>
               </ul>
               <div class="wrap-search"><?php get_search_form(); ?></div>               
             </div>            
             <div class="menu-header-blog clearfix">
               <div class="menu-op wrap-search"><?php get_search_form(); ?></div>             
-              <div class="menu-op"><a href="<?php echo home_url( '/' )."servicos"; ?>">CONTATO</a></div>
-              <div class="menu-op"><a href="<?php echo home_url( '/' )."mobidata"; ?>">LOGÍSTICA</a></div>
-              <div class="menu-op"><a href="<?php echo home_url( '/' )."sobre"; ?>">NOTÍCIAS</a></div>
+              <div class="menu-op"><a target="_blank" href="<?php echo home_url( '/' )."contato"; ?>">CONTATO</a></div>
+              <div class="menu-op"><a href="<?php echo home_url( '/' )."categoria/logistica"; ?>">LOGÍSTICA</a></div>
+              <div class="menu-op"><a href="<?php echo home_url( '/' )."categoria/noticias"; ?>">NOTÍCIAS</a></div>
             </div>
           </div>          
         </div>
