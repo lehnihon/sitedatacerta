@@ -6,7 +6,7 @@ get_header('blog'); ?>
 		<div class="row">
 			<div class="col-md-8 text-left">
 				<?php putRevSlider( "banner-blog" ) ?>
-
+				<br><br>
 				<?php 
 				$paged = ( get_query_var( 'paged' ) ) ? absint( get_query_var( 'paged' ) ) : 1;
 

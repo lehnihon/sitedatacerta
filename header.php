@@ -40,12 +40,10 @@
 					</div>
 					<div class="col-md-4 col-md-offset-2 box clearfix header-login">
 						<a href="http://54.207.92.38" class="btn-login pull-right">LOGIN</a>
-						<span class="texto-branco pull-right">Cadastre-se <strong>Aqui</strong></span>
-						<span class="cor-amarelo pull-right">Não possui login? </span>
+						<span class="cor-amarelo pull-right">Acesse com seu login </span>
 					</div>
 					<div class="col-md-4 col-md-offset-2 box clearfix header-login-responsive">
-						<span class="cor-amarelo">Não possui login? </span>
-						<span class="texto-branco">Cadastre-se <strong>Aqui</strong></span>
+						<span class="cor-amarelo">Acesse com seu login </span>
 						<a href="http://54.207.92.38" class="btn-login pull-left">LOGIN</a>
 					</div>
 				</div>
