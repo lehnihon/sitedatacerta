@@ -548,7 +548,20 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
     color: white;
     border: 0; }
   #page .btn-contato:hover {
-    background-color: #8394dd; }
+    background-color: #a6b3e7; }
+  #page .btn-receba {
+    background-color: #4e67cf;
+    color: #4e67cf;
+    padding: 5px 25px;
+    border: 0; }
+  #page .btn-receba:hover {
+    background-color: #a6b3e7; }
+  #page .input-receba-wrap {
+    margin-bottom: 5px;
+    color: #606060; }
+  #page .input-receba {
+    border: 0;
+    padding: 5px; }
 
 .videoWrapper {
   position: relative;
