@@ -103,7 +103,7 @@ get_header(); ?>
 					<img class="e-cinza" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/solucoes-1.png"; ?>" />
 					<div class="solucoes-desc">
 						<header>Cargo</header>
-						<p>Atendimento dedicado ponto a ponto com distribuição em mais de 300 localidades nos estados de São Paulo e Rio de Janeiro.</p>
+						<p>Atendimento dedicado ponto a ponto comdistribuição em mais de 300 localidades nos estados de São Paulo e Rio de Janeiro.</p>
 						<a href="<?php echo home_url( '/' )."servicos"; ?>">Saiba mais</a>
 					</div>
 				</div>
@@ -111,7 +111,7 @@ get_header(); ?>
 					<img class="e-cinza" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/solucoes-2.png"; ?>" />
 					<div class="solucoes-desc">
 						<header>Courier</header>
-						<p>Atendimento dedicado ponto a ponto com distribuição em mais de 300 localidades nos estados de São Paulo e Rio de Janeiro.</p>
+						<p>Entrega domiciliar expressa ouemergencial nos estados de São Paulo e Rio de Janeiro.</p>
 						<a href="<?php echo home_url( '/' )."servicos"; ?>">Saiba mais</a>
 					</div>
 				</div>
@@ -119,7 +119,7 @@ get_header(); ?>
 					<img class="e-cinza" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/solucoes-3.png"; ?>" />
 					<div class="solucoes-desc">
 						<header>Armazenagem</header>
-						<p>Atendimento dedicado ponto a ponto com distribuição em mais de 300 localidades nos estados de São Paulo e Rio de Janeiro.</p>
+						<p>Custódia de cargas em ambiente seguro, monitorado, coberto, dotado de CFTV, controde de acesso.</p>
 						<a href="<?php echo home_url( '/' )."servicos"; ?>">Saiba mais</a>
 					</div>
 				</div>
@@ -129,7 +129,7 @@ get_header(); ?>
 					<img class="e-cinza" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/solucoes-4.png"; ?>" />
 					<div class="solucoes-desc">
 						<header>Fulfillment</header>
-						<p>Atendimento dedicado ponto a ponto com distribuição em mais de 300 localidades nos estados de São Paulo e Rio de Janeiro.</p>
+						<p>Alta perfomance em montagem e embalagem, operações dedicadas com manuseio em ambientes monitorados.</p>
 						<a href="<?php echo home_url( '/' )."servicos"; ?>">Saiba mais</a>
 					</div>
 				</div>
@@ -137,7 +137,7 @@ get_header(); ?>
 					<img class="e-cinza" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/solucoes-5.png"; ?>" />
 					<div class="solucoes-desc">
 						<header>Reversa</header>
-						<p>Atendimento dedicado ponto a ponto com distribuição em mais de 300 localidades nos estados de São Paulo e Rio de Janeiro.</p>
+						<p>Prints color e p&b em papel ou pvc de peças com aplicação de dados do cliente como nome, endereço etc.</p>
 						<a href="<?php echo home_url( '/' )."servicos"; ?>">Saiba mais</a>
 					</div>
 				</div>
@@ -145,7 +145,7 @@ get_header(); ?>
 					<img class="e-cinza" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/solucoes-6.png"; ?>" />
 					<div class="solucoes-desc">
 						<header>Impressão de dados variáveis</header>
-						<p>Atendimento dedicado ponto a ponto com distribuição em mais de 300 localidades nos estados de São Paulo e Rio de Janeiro.</p>
+						<p>Prints color em papel ou pvc de peças com aplicação de dados do cliente como nome, endereço, código etc.</p>
 						<a href="<?php echo home_url( '/' )."servicos"; ?>">Saiba mais</a>
 					</div>
 				</div>
