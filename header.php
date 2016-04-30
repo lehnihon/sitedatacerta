@@ -42,10 +42,10 @@
 					<div class="col-md-3 box clearfix">
 						<span class="cor-amarelo">Redes sociais </span>	
 						<ul class="redes_sociais_header">
-							<li class="youtube"><a target="_blank" href="#"></a></li>
-							<li class="instagram"><a target="_blank" href="#"></a></li>
-							<li class="twitter"><a target="_blank" href="#"></a></li>
-							<li class="facebook"><a target="_blank" href="#"></a></li>
+			              <li class="youtube"><a target="_blank" href="https://www.youtube.com/channel/UCb42k7qXDCeQSI7LvPDc8ZA"></a></li>
+			              <li class="instagram"><a target="_blank" href="www.instagram.com/datacerta"></a></li>
+			              <li class="twitter"><a target="_blank" href="https://twitter.com/datacertalog"></a></li>
+			              <li class="facebook"><a target="_blank" href="www.facebook.com/datacertalogistica"></a></li>
 						</ul>
 					</div>
 					<div class="col-md-4 col-md-offset-2 box clearfix header-login">

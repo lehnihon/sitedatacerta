@@ -6,7 +6,7 @@ get_header(); ?>
 		<div class="row">
 			<div class="col-md-12">
 				<h1 class="small">Contato</h1>
-				<h5><strong>Entre em contato conosco, teremos o maior prazer em atendê-lo</strong></h5>
+				<h4><strong>Entre em contato conosco, teremos o maior prazer em atendê-lo</strong></h4>
 			</div>
 		</div><br>
 		<div class="row">
