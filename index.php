@@ -95,7 +95,7 @@ get_header(); ?>
 		<div class="row">
 			<h1 class="titulo-linha">Soluções de logística perfeitas para sua empresa</h1>
 			<div class="separador"></div>
-			<p>Conheça os serviços completos de logística que a Data Certa oferece para sua empresa.</p>
+			<p><strong>Conheça os serviços completos de logística que a Data Certa oferece para sua empresa.</strong></p>
 		</div><br/>
 		<div class="quadro-branco">
 			<div class="row">
@@ -181,7 +181,7 @@ get_header(); ?>
 					<li class="clearfix"><img src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/checkmark.png"; ?>" /><div class="check-desc">Rastreamento do entregador</div></li>
 				</ul>
 				<h2>Baixe o aplicativo Mobidata</h2><br>
-				<img class="e-cinza" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/btn-playstore.png"; ?>" /><br>
+				<a href="https://play.google.com/store/apps/details?id=br.com.fastcourier" target="_blank"><img class="e-cinza" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/btn-playstore.png"; ?>" /></a><br>
 				<a href="#" data-toggle="modal" data-target="#myModala"><img class="e-cinza" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/btn-saiba-mais.png"; ?>" /></a>
 			</div>
 			<div class="col-md-5 anima-i">
