@@ -17,6 +17,16 @@
 <link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>">
 
 <?php wp_head(); ?>
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-76592607-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
 </head>
 
 <body <?php body_class(); ?>>
@@ -32,10 +42,10 @@
 					<div class="col-md-3 box clearfix">
 						<span class="cor-amarelo">Redes sociais </span>	
 						<ul class="redes_sociais_header">
-							<li class="youtube"><a target="_blank" href="#"></a></li>
-							<li class="instagram"><a target="_blank" href="#"></a></li>
-							<li class="twitter"><a target="_blank" href="#"></a></li>
-							<li class="facebook"><a target="_blank" href="#"></a></li>
+			              <li class="youtube"><a target="_blank" href="https://www.youtube.com/channel/UCb42k7qXDCeQSI7LvPDc8ZA"></a></li>
+			              <li class="instagram"><a target="_blank" href="www.instagram.com/datacerta"></a></li>
+			              <li class="twitter"><a target="_blank" href="https://twitter.com/datacertalog"></a></li>
+			              <li class="facebook"><a target="_blank" href="www.facebook.com/datacertalogistica"></a></li>
 						</ul>
 					</div>
 					<div class="col-md-4 col-md-offset-2 box clearfix header-login">
