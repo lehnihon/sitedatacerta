@@ -23,12 +23,13 @@
 					<p>Com tecnologia, excelência no atendimento e o melhor custo-benefício, a Data Certa cuida do gerenciamento completo de toda a cadeia produtiva do seu produto do início ao destino final.</p>
 				</div>
 				<div class="col-md-3 col-md-offset-3 text-left">
-					<strong>Receba nossas novidades</strong>
+					<strong>Receba nossas novidades</strong><br><br>
+					<?php if( function_exists( 'ninja_forms_display_form' ) ){ ninja_forms_display_form( 8 ); } ?>
 					<ul class="redes_sociais_header">
 			              <li class="youtube"><a target="_blank" href="https://www.youtube.com/channel/UCb42k7qXDCeQSI7LvPDc8ZA"></a></li>
-			              <li class="instagram"><a target="_blank" href="www.instagram.com/datacerta"></a></li>
+			              <li class="instagram"><a target="_blank" href="https://www.instagram.com/datacerta"></a></li>
 			              <li class="twitter"><a target="_blank" href="https://twitter.com/datacertalog"></a></li>
-			              <li class="facebook"><a target="_blank" href="www.facebook.com/datacertalogistica"></a></li>
+			              <li class="facebook"><a target="_blank" href="https://www.facebook.com/datacertalogistica"></a></li>
 					</ul>					
 				</div>
 			</div><br>
