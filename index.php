@@ -100,7 +100,7 @@ get_header(); ?>
 		<div class="quadro-branco">
 			<div class="row">
 				<div class="col-md-4 anima-e">
-					<img class="e-cinza" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/solucoes-1.png"; ?>" />
+					<a href="<?php echo home_url( '/' )."servicos"; ?>"><img class="e-cinza" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/solucoes-1.jpg"; ?>" /></a>
 					<div class="solucoes-desc">
 						<header>Cargo</header>
 						<p>Atendimento dedicado ponto a ponto comdistribuição em mais de 300 localidades nos estados de São Paulo e Rio de Janeiro.</p>
@@ -108,7 +108,7 @@ get_header(); ?>
 					</div>
 				</div>
 				<div class="col-md-4 anima-e">
-					<img class="e-cinza" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/solucoes-2.png"; ?>" />
+					<a href="<?php echo home_url( '/' )."servicos"; ?>"><img class="e-cinza" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/solucoes-2.jpg"; ?>" /></a>
 					<div class="solucoes-desc">
 						<header>Courier</header>
 						<p>Entrega domiciliar expressa ouemergencial nos estados de São Paulo e Rio de Janeiro.</p>
@@ -116,7 +116,7 @@ get_header(); ?>
 					</div>
 				</div>
 				<div class="col-md-4 anima-e">
-					<img class="e-cinza" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/solucoes-3.png"; ?>" />
+					<a href="<?php echo home_url( '/' )."servicos"; ?>"><img class="e-cinza" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/solucoes-3.jpg"; ?>" /></a>
 					<div class="solucoes-desc">
 						<header>Armazenagem</header>
 						<p>Custódia de cargas em ambiente seguro, monitorado, coberto, dotado de CFTV, controde de acesso.</p>
@@ -126,7 +126,7 @@ get_header(); ?>
 			</div>
 			<div class="row">
 				<div class="col-md-4 anima-f">
-					<img class="e-cinza" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/solucoes-4.png"; ?>" />
+					<a href="<?php echo home_url( '/' )."servicos"; ?>"><img class="e-cinza" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/solucoes-4.jpg"; ?>" /></a>
 					<div class="solucoes-desc">
 						<header>Fulfillment</header>
 						<p>Alta perfomance em montagem e embalagem, operações dedicadas com manuseio em ambientes monitorados.</p>
@@ -134,7 +134,7 @@ get_header(); ?>
 					</div>
 				</div>
 				<div class="col-md-4 anima-f">
-					<img class="e-cinza" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/solucoes-5.png"; ?>" />
+					<a href="<?php echo home_url( '/' )."servicos"; ?>"><img class="e-cinza" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/solucoes-5.jpg"; ?>" /></a>
 					<div class="solucoes-desc">
 						<header>Reversa</header>
 						<p>Prints color e p&b em papel ou pvc de peças com aplicação de dados do cliente como nome, endereço etc.</p>
@@ -142,7 +142,7 @@ get_header(); ?>
 					</div>
 				</div>
 				<div class="col-md-4 anima-f">
-					<img class="e-cinza" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/solucoes-6.png"; ?>" />
+					<a href="<?php echo home_url( '/' )."servicos"; ?>"><img class="e-cinza" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/solucoes-6.jpg"; ?>" /></a>
 					<div class="solucoes-desc">
 						<header>Impressão de dados variáveis</header>
 						<p>Prints color em papel ou pvc de peças com aplicação de dados do cliente como nome, endereço, código etc.</p>

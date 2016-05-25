@@ -428,6 +428,11 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
           margin: 10px 0; }
         #page section#solucoes div.quadro-branco div.row div.solucoes-desc a {
           display: block; }
+  #page section#solucoes-detalhes {
+    padding: 60px 0; }
+  #page section#solucoes-contato {
+    padding: 60px 0;
+    background-color: #eff1f1; }
   #page section#blog article.linha-blog {
     border-bottom: 2px solid #e3e3e3;
     padding-bottom: 15px; }
@@ -562,6 +567,12 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
   #page .input-receba {
     border: 0;
     padding: 5px; }
+  #page a.btn-contato {
+    background-color: #00509b;
+    color: white;
+    padding: 25px 50px; }
+  #page a.btn-contato:hover {
+    background-color: #60b2ff; }
 
 .videoWrapper {
   position: relative;
