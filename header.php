@@ -75,13 +75,13 @@
 							<li><a href="<?php echo home_url( '/' )."sobre"; ?>">QUEM SOMOS</a></li
 							><li><a href="<?php echo home_url( '/' )."mobidata"; ?>">MOBIDATA</a></li
 							><li><a href="<?php echo home_url( '/' )."servicos"; ?>">SERVIÇOS</a></li
-							><li><a target="_blank" href="<?php echo home_url( '/' )."blog"; ?>">BLOG</a></li
+							><li><a target="_blank" href="<?php echo home_url( '/' )."blog-logistica"; ?>">BLOG</a></li
 							><li><a href="<?php echo home_url( '/' )."contato"; ?>">CONTATO</a></li>
 							</ul>								
 						</div>						
 						<div class="menu-header clearfix">
 							<div class="menu-op"><a href="<?php echo home_url( '/' )."contato"; ?>">CONTATO</a></div>
-							<div class="menu-op"><a target="_blank"  href="<?php echo home_url( '/' )."blog"; ?>">BLOG</a></div>							
+							<div class="menu-op"><a target="_blank"  href="<?php echo home_url( '/' )."blog-logistica"; ?>">BLOG</a></div>							
 							<div class="menu-op"><a href="<?php echo home_url( '/' )."servicos"; ?>">SERVIÇOS</a></div>
 							<div class="menu-op"><a href="<?php echo home_url( '/' )."mobidata"; ?>">MOBIDATA</a></div>
 							<div class="menu-op"><a href="<?php echo home_url( '/' )."sobre"; ?>">QUEM SOMOS</a></div>

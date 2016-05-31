@@ -25,7 +25,7 @@ get_header(); ?>
 					<br><br><strong>Telefone</strong>
 					<br>11 2061-3138
 					<br><br><strong>Email</strong>
-					<br>contato@datacerta.net.br
+					<br>joao@datacerta.net.br
 				</div>
 			</div>
 		</div>
