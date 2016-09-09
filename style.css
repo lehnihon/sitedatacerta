@@ -429,7 +429,7 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
         #page section#solucoes div.quadro-branco div.row div.solucoes-desc a {
           display: block; }
   #page section#solucoes-detalhes {
-    padding: 60px 0; }
+    padding-bottom: 60px; }
   #page section#solucoes-contato {
     padding: 60px 0;
     background-color: #eff1f1; }

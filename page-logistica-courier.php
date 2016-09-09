@@ -47,44 +47,7 @@ get_header(); ?>
 				<img class="e-cinza" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/solucoesg-2.jpg"; ?>" />
 			</div>
 		</div><br><br><br><br>
-		<div class="row">
-			<div class="col-md-2">
-				<a href="<?php echo home_url( '/' )."cargo"; ?>">
-				<img class="e-cinza img-responsive" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/solucoes-1.jpg"; ?>" />
-				</a>
-				<strong>Cargo</strong>
-			</div>
-			<div class="col-md-2">
-				<a href="<?php echo home_url( '/' )."courier"; ?>">
-				<img class="e-cinza img-responsive" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/solucoes-2.jpg"; ?>" />
-				</a>
-				<strong>Courier</strong>
-			</div>
-			<div class="col-md-2">
-				<a href="<?php echo home_url( '/' )."armazenagem"; ?>">
-				<img class="e-cinza img-responsive" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/solucoes-3.jpg"; ?>" />
-				</a>
-				<strong>Armazenagem</strong>
-			</div>
-			<div class="col-md-2">
-				<a href="<?php echo home_url( '/' )."fulfillment"; ?>">
-				<img class="e-cinza img-responsive" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/solucoes-4.jpg"; ?>" />
-				</a>
-				<strong>Fulfillment</strong>
-			</div>
-			<div class="col-md-2">
-				<a href="<?php echo home_url( '/' )."reversa"; ?>">
-				<img class="e-cinza img-responsive" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/solucoes-5.jpg"; ?>" />
-				</a>
-				<strong>Reversa</strong>
-			</div>
-			<div class="col-md-2">
-				<a href="#">
-				<img class="e-cinza img-responsive" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/solucoes-6.jpg"; ?>" />
-				</a>
-				<strong>Impressão de dados variáveis</strong>
-			</div>
-		</div>
+		<?php get_template_part( 'template-parts/servicos-solucoes' ); ?>
 	</div>
 </section>
 
