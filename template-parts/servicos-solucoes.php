@@ -30,9 +30,9 @@
 		<strong>Reversa</strong>
 	</div>
 	<div class="col-md-2">
-		<a href="#">
+		<a href="<?php echo home_url( '/' )."logistica-para-lojas-virtuais"; ?>">
 		<img class="e-cinza img-responsive" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/solucoes-6.jpg"; ?>" />
 		</a>
-		<strong>Impressão de dados variáveis</strong>
+		<strong>Logística para Lojas Virtuais</strong>
 	</div>
 </div>

@@ -144,8 +144,8 @@ get_header(); ?>
 				<div class="col-md-4 anima-f">
 					<a href="<?php echo home_url( '/' )."servicos"; ?>"><img class="e-cinza" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/solucoes-6.jpg"; ?>" /></a>
 					<div class="solucoes-desc">
-						<header>Impressão de dados variáveis</header>
-						<p>Prints color em papel ou pvc de peças com aplicação de dados do cliente como nome, endereço, código etc.</p>
+						<header>Logística para Lojas Virtuais</header>
+						<p>Solução completa de logística para loja virtual, você não perde mais tempo embalando e levando os produtos para os Correios</p>
 						<a href="<?php echo home_url( '/' )."servicos"; ?>">Saiba mais</a>
 					</div>
 				</div>
