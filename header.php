@@ -65,7 +65,7 @@
 					<div class="col-md-3 text-left">
 						<a href="<?php echo home_url( '/' ); ?>"><img class="e-claro" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/logo-top.png"; ?>" /></a>
 					</div>
-					<div class="col-md-6 col-md-offset-3">
+					<div class="col-md-7 col-md-offset-2">
 						<div class="menu-responsivo">
 							<button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
 								<span class="glyphicon glyphicon-align-justify" aria-hidden="true"></span>
@@ -75,11 +75,24 @@
 							><li><a href="<?php echo home_url( '/' )."mobidata"; ?>">MOBIDATA</a></li
 							><li><a href="<?php echo home_url( '/' )."servicos"; ?>">SERVIÇOS</a></li
 							><li><a target="_blank" href="<?php echo home_url( '/' )."blog-logistica"; ?>">BLOG</a></li
+							><li><a href="<?php echo home_url( '/' )."seja-nosso-fornecedor"; ?>">SEJA NOSSO FORNECEDOR</a></li
+							><li><a href="<?php echo home_url( '/' )."trabalhe-conosco"; ?>">TRABALHE CONOSCO</a></li
 							><li><a href="<?php echo home_url( '/' )."contato"; ?>">CONTATO</a></li>
 							</ul>								
 						</div>						
 						<div class="menu-header clearfix">
-							<div class="menu-op"><a href="<?php echo home_url( '/' )."contato"; ?>">CONTATO</a></div>
+							<div class="menu-op">
+								<button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+									FALE CONOSCO
+									<span class="caret"></span>
+								</button>
+								<ul class="dropdown-menu">
+									<li><a href="<?php echo home_url( '/' )."contato"; ?>">CONTATO</a></li>
+									<li><a href="<?php echo home_url( '/' )."seja-nosso-fornecedor"; ?>">SEJA NOSSO FORNECEDOR</a></li>
+									<li><a href="<?php echo home_url( '/' )."trabalhe-conosco"; ?>">TRABALHE CONOSCO</a></li>
+								</ul>
+							
+							</div>
 							<div class="menu-op"><a target="_blank"  href="<?php echo home_url( '/' )."blog-logistica"; ?>">BLOG</a></div>							
 							<div class="menu-op"><a href="<?php echo home_url( '/' )."servicos"; ?>">SERVIÇOS</a></div>
 							<div class="menu-op"><a href="<?php echo home_url( '/' )."mobidata"; ?>">MOBIDATA</a></div>

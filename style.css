@@ -138,12 +138,19 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
       margin-top: 25px; }
       #page section#header nav div.menu-header div.menu-op {
         float: right;
-        margin-right: 30px; }
+        margin-right: 30px;
+        position: relative; }
         #page section#header nav div.menu-header div.menu-op a {
           color: #858585;
           font-weight: bold; }
         #page section#header nav div.menu-header div.menu-op a:hover {
           color: #ffc709; }
+      #page section#header nav div.menu-header button.btn-default {
+        background-color: transparent;
+        border: 0;
+        padding: 0;
+        color: #858585;
+        font-weight: bold; }
     #page section#header nav div.menu-header-blog {
       margin-top: 15px; }
       #page section#header nav div.menu-header-blog div.menu-op {
