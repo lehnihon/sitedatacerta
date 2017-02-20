@@ -49,12 +49,12 @@
 						</ul>
 					</div>
 					<div class="col-md-4 col-md-offset-2 box clearfix header-login">
-						<a href="http://179.228.162.3:8000" class="btn-login pull-right">LOGIN</a>
+						<a href="http://34.200.50.59" class="btn-login pull-right">LOGIN</a>
 						<span class="cor-amarelo pull-right">Acesse com seu login </span>
 					</div>
 					<div class="col-md-4 col-md-offset-2 box clearfix header-login-responsive">
 						<span class="cor-amarelo">Acesse com seu login </span>
-						<a href="http://179.228.162.3:8000" class="btn-login pull-left">LOGIN</a>
+						<a href="http://34.200.50.59" class="btn-login pull-left">LOGIN</a>
 					</div>
 				</div>
 			</div>

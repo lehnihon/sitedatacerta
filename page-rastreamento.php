@@ -12,11 +12,11 @@ get_header(); ?>
 		$valor = $_POST['valor'];
 
 		if($pesq_webserv == 'remessa')
-			$url = "http://179.228.162.3:8000/webserv-main.php?idexterno-webserv=$valor";
+			$url = "http://34.200.50.59/webserv-main.php?idexterno-webserv=$valor";
 		elseif($pesq_webserv == 'cpf')
-			$url = "http://179.228.162.3:8000/webserv-main.php?cpf_webserv=$valor";
+			$url = "http://34.200.50.59/webserv-main.php?cpf_webserv=$valor";
 		else
-			$url = "http://179.228.162.3:8000/webserv-main.php?ra_webserv=$valor";
+			$url = "http://34.200.50.59/webserv-main.php?ra_webserv=$valor";
 		$ch = curl_init();
 		curl_setopt ($ch, CURLOPT_URL, $url);
 		curl_setopt ($ch, CURLOPT_CONNECTTIMEOUT, 15);
