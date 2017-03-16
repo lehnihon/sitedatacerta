@@ -66,7 +66,7 @@ get_header(); ?>
 				<td><?php echo $contentsArr->status;?></td>
 				<td><?php echo (($contentsArr->codcliente == 6670)?$contentsArr->numconta:$contentsArr->numnotafiscal) ?></td>
 				<td><a href="#" class="ver-info"><img width="25" height="25" src="<?php bloginfo('template_url'); ?>/images/lupa_tabela.png"></a></td>
-				<td><a target="_blank" href="<?php echo "http://179.228.162.3:8000/exibe_pdf_demillus.php?opt=I&idexterno=".$contentsArr->externo; ?>"><img width="25" height="25" src="<?php bloginfo('template_url'); ?>/images/pdf.png"></a></td>
+				<td><a target="_blank" href="<?php echo "http://34.200.50.59/exibe_pdf_demillus.php?opt=I&idexterno=".$contentsArr->externo; ?>"><img width="25" height="25" src="<?php bloginfo('template_url'); ?>/images/pdf.png"></a></td>
 			</tr>
 			<tr class="info-hide" style="display:none">
 				<td colspan="7" style="padding: 50px 10px;">
@@ -147,10 +147,6 @@ get_header(); ?>
 									<th>SETOR</th>
 									<td><?php echo $contentsArr->setor;?></td>
 								</tr>
-								<tr>
-									<th>ENTREGADO POR</th>
-									<td><?php echo $contentsArr->entregado;?></td>
-								</tr>
 
 								<tr>
 									<th>OBS</th>
@@ -185,10 +181,10 @@ get_header(); ?>
 							<div class="movimentacao">
 							  <!-- Mapa -->
 
-							  <iframe src="http://179.228.162.3:8000/movimentacao/mapa.php?lt=<?=$lt?>&ln=<?=$ln?>" id="mapaL" style="float: left; width: 60%; height:500px;"></iframe>
+							  <iframe src="http://34.200.50.59/movimentacao/mapa.php?lt=<?=$lt?>&ln=<?=$ln?>" id="mapaL" style="float: left; width: 60%; height:500px;"></iframe>
 
 							  <!-- Foto -->
-							  <iframe src="http://179.228.162.3:8000/movimentacao/foto.php?id=<?=$idmovimento?>" id="fotoL" style="float: right; width: 40%; height:500px; margin-top:8px"></iframe>
+							  <iframe src="http://34.200.50.59/movimentacao/foto.php?id=<?=$idmovimento?>" id="fotoL" style="float: right; width: 40%; height:500px; margin-top:8px"></iframe>
 
 							</div>		
 						</div>
