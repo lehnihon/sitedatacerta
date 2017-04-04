@@ -16,7 +16,7 @@
 
 <link rel="profile" href="http://gmpg.org/xfn/11">
 <link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>">
-
+<link rel="shortcut icon" type="image/png" href="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/Data Certa Logistica Icone.png"; ?>" />
 <?php wp_head(); ?>
 <script>(function(d, s, id) {
   var js, fjs = d.getElementsByTagName(s)[0];

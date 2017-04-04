@@ -440,9 +440,8 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
   #page section#solucoes-contato {
     padding: 60px 0;
     background-color: #eff1f1; }
-  #page section#blog article.linha-blog {
-    border-bottom: 2px solid #e3e3e3;
-    padding-bottom: 15px; }
+  #page section#blog h2 {
+    min-height: 44px; }
   #page section#blog article.article-single {
     margin-bottom: 50px; }
   #page section#blog .confira {
@@ -454,6 +453,10 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
     color: #00509c; }
   #page section#blog a:hover {
     color: #6696c3; }
+  #page section#blog article.linha-blog {
+    border-bottom: 2px solid #e3e3e3;
+    padding-bottom: 15px;
+    margin-bottom: 15px; }
   #page section#contato-pag {
     padding-bottom: 50px; }
     #page section#contato-pag div.info-right {

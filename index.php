@@ -15,8 +15,10 @@ get_header(); ?>
 
 <section id="banner">
 	<div class="container-fluid">
-		<div class="row">		
-			<?php putRevSlider( "banner-index" ) ?>		
+		<div class="row">
+			<?php
+			echo do_shortcode("[metaslider id=540]"); 
+			?>
 		</div>
 	</div>
 </section>
