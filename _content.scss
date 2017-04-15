@@ -405,9 +405,8 @@ section#tracking-main{
 BLOG
 */
 section#blog{
-	article.linha-blog{
-		border-bottom:2px solid #e3e3e3;
-		padding-bottom:15px;
+	h2{
+		min-height:44px;
 	}
 
 	article.article-single{
@@ -429,6 +428,12 @@ section#blog{
 
 	a:hover{
 		color:#6696c3;
+	}
+
+	article.linha-blog{
+		border-bottom:2px solid #e3e3e3;
+		padding-bottom:15px;
+		margin-bottom:15px;
 	}
 }
 
