@@ -26,10 +26,10 @@ get_header(); ?>
 <section id="tracking-buscar">
 	<div class="container">
 		<div class="row">
-			<div class="col-md-4 news-left">
+			<div class="col-md-4 news-left fadeInLeft wow">
 				<div class="tracking-rastreie cor-amarelo">RASTREIE SEU PEDIDO AQUI</div>
 			</div>
-			<div class="col-md-8 news-right">
+			<div class="col-md-8 news-right fadeInRight wow" data-wow-delay="0.5s">
 				<form action="<?php echo home_url( '/' ).'rastreamento'; ?>" method="POST" class="tracking-form clearfix">
 					<select name="pesquisawebserv">
 						<option value="remessa">Número de remessa</option>
@@ -46,12 +46,12 @@ get_header(); ?>
 
 <section id="home-sobre">
 	<div class="container">
-		<div class="row">
+		<div class="row fadeInUp wow">
 			<h1 class="titulo-linha">Sobre a Data Certa Logística</h1>
 			<div class="separador"></div>
 		</div>
-		<div class="row">
-			<div class="col-md-8 col-md-offset-2 anima-a">
+		<div class="row fadeInUp wow">
+			<div class="col-md-8 col-md-offset-2">
 				<p>
 					<strong>A Data Certa surgiu com o objetivo de oferecer soluções de logística que tornem mais simples a vida da sua empresa, seja de pequeno ou grande porte.</strong>
 				</p><br>
@@ -63,28 +63,28 @@ get_header(); ?>
 				</p>					
 			</div>
 		</div><br><br><br>
-		<div class="row">
+		<div class="row fadeInUp wow">
 			<h2>Informações interessantes sobre nós</h2>
 		</div><br>		
-		<div class="row">
-			<div class="col-md-4 anima-b">
+		<div class="row fadeInUp wow contador">
+			<div class="col-md-4">
 				<img class="e-cinza" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/sobre-empilhadeira.png"; ?>" />
 				<h2 class="sobre-num counter">500.000</h2>
 				<div class="sobre-desc">Volumes entregues de encomendas por ano.</div>
 			</div>
-			<div class="col-md-4 anima-c">
+			<div class="col-md-4">
 				<img class="e-cinza" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/sobre-caminhao.png"; ?>" />
 				<h2 class="sobre-num"><span class="counter">4.000</span>km</h2>
 				<div class="sobre-desc">Percorridos para realização das entregas por dia.</div>
 
 			</div>
-			<div class="col-md-4 anima-d">
+			<div class="col-md-4">
 				<img class="e-cinza" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/sobre-graficos.png"; ?>" />
 				<h2 class="sobre-num"><span class="counter">99</span>,<span class="counter">7</span>%</h2>
 				<div class="sobre-desc"><strong>SLA</strong> Prazo de entrega.</div>
 			</div>
 		</div><br><br><br>
-		<div class="row">
+		<div class="row fadeInUp wow">
 			<a class="btn-sobre" href="<?php echo home_url( '/' )."sobre"; ?>">
 				SAIBA MAIS
 			</a>					
@@ -94,63 +94,37 @@ get_header(); ?>
 
 <section id="home-solucoes">
 	<div class="container">
-		<div class="row">
+		<div class="row fadeInUp wow">
 			<h1 class="titulo-linha">Soluções de logística perfeitas para sua empresa</h1>
 			<div class="separador"></div>
 			<p><strong>Conheça os serviços completos de logística que a Data Certa oferece para sua empresa.</strong></p>
 		</div><br/>
-		<div class="quadro-branco">
-			<div class="row">
-				<div class="col-md-4 anima-e">
-					<a href="<?php echo home_url( '/' )."servicos"; ?>"><img class="e-cinza" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/solucoes-1.jpg"; ?>" /></a>
-					<div class="solucoes-desc">
-						<header>Cargo</header>
-						<p>Atendimento dedicado ponto a ponto comdistribuição em mais de 300 localidades nos estados de São Paulo e Rio de Janeiro.</p>
-						<a href="<?php echo home_url( '/' )."servicos"; ?>">Saiba mais</a>
-					</div>
-				</div>
-				<div class="col-md-4 anima-e">
-					<a href="<?php echo home_url( '/' )."servicos"; ?>"><img class="e-cinza" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/solucoes-2.jpg"; ?>" /></a>
-					<div class="solucoes-desc">
-						<header>Courier</header>
-						<p>Entrega domiciliar expressa ouemergencial nos estados de São Paulo e Rio de Janeiro.</p>
-						<a href="<?php echo home_url( '/' )."servicos"; ?>">Saiba mais</a>
-					</div>
-				</div>
-				<div class="col-md-4 anima-e">
-					<a href="<?php echo home_url( '/' )."servicos"; ?>"><img class="e-cinza" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/solucoes-3.jpg"; ?>" /></a>
-					<div class="solucoes-desc">
-						<header>Armazenagem</header>
-						<p>Custódia de cargas em ambiente seguro, monitorado, coberto, dotado de CFTV, controde de acesso.</p>
-						<a href="<?php echo home_url( '/' )."servicos"; ?>">Saiba mais</a>
-					</div>
-				</div>
+		<div class="row fadeIn wow">
+			<div class="col-md-3">
+				<a href="<?php echo home_url( '/' )."servicos"; ?>"><img class="img-responsive" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/solucoes1.jpg"; ?>" /></a>
 			</div>
-			<div class="row">
-				<div class="col-md-4 anima-f">
-					<a href="<?php echo home_url( '/' )."servicos"; ?>"><img class="e-cinza" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/solucoes-4.jpg"; ?>" /></a>
-					<div class="solucoes-desc">
-						<header>Fulfillment</header>
-						<p>Alta perfomance em montagem e embalagem, operações dedicadas com manuseio em ambientes monitorados.</p>
-						<a href="<?php echo home_url( '/' )."servicos"; ?>">Saiba mais</a>
-					</div>
-				</div>
-				<div class="col-md-4 anima-f">
-					<a href="<?php echo home_url( '/' )."servicos"; ?>"><img class="e-cinza" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/solucoes-5.jpg"; ?>" /></a>
-					<div class="solucoes-desc">
-						<header>Reversa</header>
-						<p>Prints color e p&b em papel ou pvc de peças com aplicação de dados do cliente como nome, endereço etc.</p>
-						<a href="<?php echo home_url( '/' )."servicos"; ?>">Saiba mais</a>
-					</div>
-				</div>
-				<div class="col-md-4 anima-f">
-					<a href="<?php echo home_url( '/' )."servicos"; ?>"><img class="e-cinza" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/solucoes-6.jpg"; ?>" /></a>
-					<div class="solucoes-desc">
-						<header>Logística para Lojas Virtuais</header>
-						<p>Solução completa de logística para loja virtual, você não perde mais tempo embalando e levando os produtos para os Correios</p>
-						<a href="<?php echo home_url( '/' )."servicos"; ?>">Saiba mais</a>
-					</div>
-				</div>
+			<div class="col-md-3">
+				<a href="<?php echo home_url( '/' )."servicos"; ?>"><img class="img-responsive" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/solucoes2.jpg"; ?>" /></a>
+			</div>
+			<div class="col-md-3">
+				<a href="<?php echo home_url( '/' )."servicos"; ?>"><img class="img-responsive" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/solucoes3.jpg"; ?>" /></a>
+			</div>
+			<div class="col-md-3">
+				<a href="<?php echo home_url( '/' )."servicos"; ?>"><img class="img-responsive" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/solucoes4.jpg"; ?>" /></a>
+			</div>
+		</div>
+		<div class="row fadeIn wow">
+			<div class="col-md-3">
+				<a href="<?php echo home_url( '/' )."servicos"; ?>"><img class="img-responsive" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/solucoes5.jpg"; ?>" /></a>
+			</div>
+			<div class="col-md-3">
+				<a href="<?php echo home_url( '/' )."servicos"; ?>"><img class="img-responsive" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/solucoes6.jpg"; ?>" /></a>
+			</div>
+			<div class="col-md-3">
+				<a href="<?php echo home_url( '/' )."servicos"; ?>"><img class="img-responsive" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/solucoes7.jpg"; ?>" /></a>
+			</div>
+			<div class="col-md-3">
+				<a href="<?php echo home_url( '/' )."servicos"; ?>"><img class="img-responsive" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/solucoes8.jpg"; ?>" /></a>
 			</div>
 		</div>
 	</div>
@@ -158,12 +132,12 @@ get_header(); ?>
 
 <section id="home-mobidata">
 	<div class="container">
-		<div class="row">
+		<div class="row fadeInUp wow">
 			<h1 class="titulo-linha">Aplicativo Mobidata</h1>
 			<div class="separador"></div>
 		</div>
-		<div class="row">
-			<div class="col-md-8 col-md-offset-2 anima-g">
+		<div class="row fadeInUp wow">
+			<div class="col-md-8 col-md-offset-2">
 				<p>
 					<strong>Mobidata é um aplicativo de monitoramento de encomendas em tempo real. <br>
 						Com rastreamento geolocalizador, é possível saber onde está a encomenda.</strong>					
@@ -171,22 +145,24 @@ get_header(); ?>
 			</div>
 		</div>
 		<div class="row">
-			<div class="col-md-7 text-left anima-h">
-				<h2>Mobidata</h2>
-				O aplicativo mostra os pontos exatos de latitude e longitude. Assim, não existe risco de perda ou de entregas em locais errados. <br>
-				As encomendas rastreadas com o nosso sistema têm a garantia de uma entrega segura e rápida.					
-				<div class="separadorb"></div>
-				<ul class="mobi-vantagens">
+			<div class="col-md-7 text-left">
+				<h2 class="fadeInUp wow">Mobidata</h2>
+				<p class="fadeInUp wow">
+					O aplicativo mostra os pontos exatos de latitude e longitude. Assim, não existe risco de perda ou de entregas em locais errados. <br>
+					As encomendas rastreadas com o nosso sistema têm a garantia de uma entrega segura e rápida.	
+				</p>					
+				<div class="separadorb fadeInUp wow"></div>
+				<ul class="mobi-vantagens fadeInUp wow">
 					<li class="clearfix"><img src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/checkmark.png"; ?>" /><div class="check-desc">Baixa em tempo real</div></li>
 					<li class="clearfix"><img src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/checkmark.png"; ?>" /><div class="check-desc">Digitalização em tempo real</div></li>
 					<li class="clearfix"><img src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/checkmark.png"; ?>" /><div class="check-desc">Prova incontestável da visita através de foto do domicílio</div></li>
 					<li class="clearfix"><img src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/checkmark.png"; ?>" /><div class="check-desc">Rastreamento do entregador</div></li>
 				</ul>
-				<h2>Baixe o aplicativo Mobidata</h2><br>
-				<a href="https://play.google.com/store/apps/details?id=br.com.fastcourier" target="_blank"><img class="e-cinza" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/btn-playstore.png"; ?>" /></a><br>
-				<a href="#" data-toggle="modal" data-target="#myModala"><img class="e-cinza" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/btn-saiba-mais.png"; ?>" /></a>
+				<h2 class="fadeInUp wow">Baixe o aplicativo Mobidata</h2><br>
+				<a class="fadeInUp wow" href="https://play.google.com/store/apps/details?id=br.com.fastcourier" target="_blank"><img class="e-cinza" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/btn-playstore.png"; ?>" /></a><br>
+				<a class="fadeInUp wow" href="#" data-toggle="modal" data-target="#myModala"><img class="e-cinza" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/btn-saiba-mais.png"; ?>" /></a>
 			</div>
-			<div class="col-md-5 anima-i">
+			<div class="col-md-5 fadeInRight wow" data-wow-delay="1s">
 				<img src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/mobi-cel.png"; ?>" />
 			</div>
 		</div>

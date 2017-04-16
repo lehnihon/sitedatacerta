@@ -124,51 +124,15 @@ section#home-sobre{
 }
 
 section#home-solucoes{
-	padding:60px 0;
-	background-image: url("images/fundo-solucoes.jpg");
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: auto;
-    color:white;
+	padding:30px 0;
 
-	h1.titulo-linha{
-		margin:0;
-		padding-bottom:25px;
-		color:white;
+	.col-md-3{
+		padding:0;
 	}
-	div.separador{
-		border-bottom: 1px solid white;
-		width:350px;
-		margin:0 auto;
-		margin-bottom: 25px;
-	}
-
-	div.quadro-branco{
-		background-color:white;
-		padding:25px;
-		border-radius:10px;
-		color:#858585;
-		div.row{
-			margin-bottom:50px;
-
-			div.solucoes-desc{
-				header{
-					font-size:16px;
-					font-weight:bold;
-					margin:10px 0;
-				}
-				a{
-					display:block;
-				}
-			}			
-		}
-
-	}
-
 }
 
 section#home-mobidata{
-	padding:60px 0;
+	padding:30px 0;
 	background-image: url("images/fundo-verde.jpg");
     background-repeat: no-repeat;
     background-position: right bottom;
@@ -186,39 +150,37 @@ section#home-mobidata{
 		margin-bottom: 25px;
 	}
 
-	div.anima-h{
-		img{
-			display: block;
-		}
+	img{
+		display: block;
+	}
 
-		div.separadorb{
-			border-bottom: 2px solid #eff2f1;
-			width:350px;
-			margin-bottom: 25px;
-			margin-top:25px;		
-		}
+	div.separadorb{
+		border-bottom: 2px solid #eff2f1;
+		width:350px;
+		margin-bottom: 25px;
+		margin-top:25px;		
+	}
 
-		ul.mobi-vantagens{
-			list-style-type: none;
-			padding-left:10px;
-			margin-bottom: 50px;
-			
-			li{
-				margin:10px 0;
+	ul.mobi-vantagens{
+		list-style-type: none;
+		padding-left:10px;
+		margin-bottom: 50px;
+		
+		li{
+			margin:10px 0;
 
-				img{
-					float: left;
-					display: block;
-					margin-right: 5px;
-				}
-
-				div.check-desc{
-					
-					line-height: 14px;
-				}			
+			img{
+				float: left;
+				display: block;
+				margin-right: 5px;
 			}
 
-		}		
+			div.check-desc{
+				
+				line-height: 14px;
+			}			
+		}
+		
 	}
 }
 
@@ -458,25 +420,7 @@ section#contato-pag{
 		margin-bottom:0 !important;
 	}
 	section#home-solucoes{
-		background-size: auto !important;
 
-		h1.titulo-linha{
-			color:#858585 !important;
-		}
-
-		div.separador{
-			border-bottom: 2px solid #eff2f1 !important;
-		}
-
-		p{
-			color:#858585 !important;
-		}
-
-		div.quadro-branco{
-			a{
-				margin-bottom:25px !important;
-			}
-		}
 	}
 
 	section#home-mobidata{
