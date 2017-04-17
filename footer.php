@@ -24,7 +24,7 @@
 				</div>
 				<div class="col-md-3 col-md-offset-3 text-left">
 					<strong>Receba nossas novidades</strong><br><br>
-					<?php if( function_exists( 'ninja_forms_display_form' ) ){ ninja_forms_display_form( 8 ); } ?>
+					<?php echo do_shortcode('[contact-form-7 id="556" title="Receba Novidade"]'); ?>
 					<ul class="redes_sociais_header">
 			              <li class="youtube"><a target="_blank" href="https://www.youtube.com/channel/UCb42k7qXDCeQSI7LvPDc8ZA"></a></li>
 			              <li class="instagram"><a target="_blank" href="https://www.instagram.com/datacerta"></a></li>
@@ -49,7 +49,7 @@
 					&copy; Copyright <?php echo date('Y') ?> - Data Certa
 				</div>
 				<div class="col-md-3 col-md-offset-3 copy-text text-left">
-					<a target="_blank" href="http://seimidigital.com.br/">
+					<a target="_blank" href="http://www.facebook.com/seimidigital">
 						<img class="e-claro" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/logo-small.png"; ?>" />
 					</a>
 				</div>				

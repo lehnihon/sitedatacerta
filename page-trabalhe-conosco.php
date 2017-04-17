@@ -12,7 +12,7 @@ get_header(); ?>
 			</div>
 		</div><br>
 		<div class="row">
-			<?php if( function_exists( 'ninja_forms_display_form' ) ){ ninja_forms_display_form( 10 ); } ?>
+			<?php echo do_shortcode('[contact-form-7 id="557" title="Contato"]'); ?>
 
 		</div><br><br>
 		<div class="row">

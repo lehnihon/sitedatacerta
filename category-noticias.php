@@ -8,7 +8,6 @@ get_header('blog'); ?>
 				<?php 
 				echo do_shortcode("[metaslider id=541]"); 
 				?>
-				<br><br>
 				<?php 
 				$paged = ( get_query_var( 'paged' ) ) ? absint( get_query_var( 'paged' ) ) : 1;
 

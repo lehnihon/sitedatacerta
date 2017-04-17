@@ -43,7 +43,7 @@ get_header(); ?>
 				<p>
 					Uma vez realizada a entrega, o sistema permite o reporte da informação no aplicativo sob status "Entregue e Digitalizado". Neste momento o Mobidata atualiza o status e disponibiliza a imagem do PDO devidamente preenchido.
 				</p><br>
-				<img class="e-cinza" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/btn-playstore.png"; ?>" /><br>
+				<a href="https://play.google.com/store/apps/details?id=br.com.mobidata" target="_blank"><img class="e-cinza" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/btn-playstore.png"; ?>" /></a><br>
 			</div>
 			<div class="col-md-5">
 				<img src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/mobi-cel.png"; ?>" />

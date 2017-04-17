@@ -46,15 +46,25 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
 	@import 'content';
 	@import 'footer';
 
+	.input-receba{
+		border:0;
+		padding:10px;
+		width:350px;
+		border-radius: 3px;
+		color:#606060;
+	}
+
 	.input-contato{
 		border:0;
-		padding:5px;
-		background-color: #f4f4f4;
+		padding:20px 10px;
+		background-color: #f6f8fb;
+		width:100%;
+		margin-bottom:10px;
 	}
 
 	.btn-contato{
 		background-color:#4e67cf;
-		padding:5px 25px;
+		padding:10px 35px;
 		color:white;
 		border:0;
 	}
@@ -71,14 +81,6 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
 	}
 	.btn-receba:hover{
 		background-color:#a6b3e7;
-	}
-	.input-receba-wrap{
-		margin-bottom: 5px;
-		color:#606060;
-	}
-	.input-receba{
-		border:0;
-		padding:5px
 	}
 
 	a.btn-contato{
