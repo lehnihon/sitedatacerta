@@ -32,14 +32,16 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
 
 	h1{
 		color:#00509c;
-		font-size: 26px;
+		font-size: 24px;
 		font-weight: bold;
+		margin-top:0;
 	}
 
 	h2{
 		color:#00509c;
 		font-size: 20px;
-		font-weight: bold;		
+		font-weight: bold;
+		margin-top:0;
 	}
 
 	@import 'header';

@@ -4,6 +4,7 @@ section#header{
 		background-color:#003869;
 		color:white;
 
+
         span{
             padding-top:2px;
             display:block;
@@ -130,6 +131,15 @@ section#header{
                 a:hover{
                     color:#ffc709;
                 }
+                a.orcamento{
+                    border-radius: 5px;
+                    background-color:#005197;
+                    color:#FFF;
+                    padding:10px 25px;
+                }
+                a.orcamento:hover{
+                    background-color:#7fa8cb;
+                }
             }
 
             button.btn-default{
@@ -155,6 +165,7 @@ section#header{
                 a:hover{
                     color:#ffc709;
                 }
+
             }
 
             div.wrap-search{

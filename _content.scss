@@ -75,6 +75,85 @@ section#tracking-buscar{
 
 }
 
+div#quer-saber-mais{
+	padding-bottom:60px;
+
+	.tel-botao{
+		span{
+			font-size:26px;
+			color:#005197;
+		}
+		img{
+			vertical-align:text-bottom;
+		}
+
+		.botao-conheca-amarelo{
+			background-color:#ffc709;
+			color:#005197;
+			border-radius:5px;
+			padding:15px 30px;
+			font-weight:bold;
+			display:inline-block;
+			margin-left:20px;
+		}
+		.botao-conheca-amarelo:hover{
+			background-color:#ffdd6b;
+		}
+
+		.botao-conheca{
+			background-color:#005197;
+			color:#FFF;
+			border-radius:5px;
+			padding:15px 30px;
+			font-weight:bold;
+			display:inline-block;
+			margin-left:20px;
+		}
+		.botao-conheca:hover{
+			background-color:#7fa8cb;
+		}
+	}
+}
+
+div#breadcrumbs{
+	text-align:left;
+	padding-top:10px;
+	padding-bottom:25px;
+}
+
+section#orcamento{
+	text-align:left;
+	padding-bottom:60px;
+
+	h2{
+		font-weight:normal;
+		font-size:16px;
+	}
+
+	.tel-botao{
+		span{
+			font-size:26px;
+			color:#005197;
+		}
+		img{
+			vertical-align:text-bottom;
+		}
+
+		.botao-conheca{
+			background-color:#ffc709;
+			color:#005197;
+			border-radius:5px;
+			padding:15px 30px;
+			font-weight:bold;
+			display:inline-block;
+			margin-left:20px;
+		}
+		.botao-conheca:hover{
+			background-color:#ffdd6b;
+		}
+	}
+}
+
 section#home-sobre{
 	padding-bottom:60px;
 	background-image: url("images/fundo-cinza.jpg");
@@ -314,40 +393,43 @@ section#title-solucoes{
 }
 
 section#solucoes{
-	padding:60px 0;
-	background-image: url("images/fundo-solucoes.jpg");
-    background-repeat: no-repeat;
-    background-position: center;
-    color:white;
-    margin-bottom: 60px;
-    margin-top: 25px;
+	padding-bottom:60px;
 
-	div.quadro-branco{
-		background-color:white;
-		padding:25px;
-		border-radius:10px;
-		color:#858585;
-		div.row{
-			margin-bottom:50px;
-
-			div.solucoes-desc{
-				header{
-					font-size:16px;
-					font-weight:bold;
-					margin:10px 0;
-				}
-				a{
-					display:block;
-				}
-			}			
-		}
-
+	.col-md-3{
+		padding:0;
 	}
-
 }
 
 section#solucoes-detalhes{
 	padding-bottom:60px;
+
+	.col-md-9{
+		padding-left:30px;
+		text-align:left;
+	}
+
+	ul.solucoes-menu{
+		list-style-type:none;
+		padding:0;
+
+		li{
+			margin-bottom:2px;
+			a{
+				display:block;
+				background-color:#005197;
+				color:#FFF;
+				text-align:left;
+				padding:10px 20px;
+			}
+			a:hover{
+				background-color:#003869;
+			}
+			a:active{
+				background-color:#003869;
+			}
+		}
+
+	}
 }
 
 section#solucoes-contato{
@@ -419,10 +501,9 @@ section#contato-pag{
 	div.row{
 		margin-bottom:0 !important;
 	}
-	section#home-solucoes{
-
+	section#solucoes-detalhes{
+		padding-left:15px;
 	}
-
 	section#home-mobidata{
 		background-size: auto !important;
 

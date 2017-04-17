@@ -47,12 +47,14 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
     color: #b6b6b6; }
   #page h1 {
     color: #00509c;
-    font-size: 26px;
-    font-weight: bold; }
+    font-size: 24px;
+    font-weight: bold;
+    margin-top: 0; }
   #page h2 {
     color: #00509c;
     font-size: 20px;
-    font-weight: bold; }
+    font-weight: bold;
+    margin-top: 0; }
   #page section#header header {
     margin-top: 10px;
     background-color: #003869;
@@ -145,6 +147,13 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
           font-weight: bold; }
         #page section#header nav div.menu-header div.menu-op a:hover {
           color: #ffc709; }
+        #page section#header nav div.menu-header div.menu-op a.orcamento {
+          border-radius: 5px;
+          background-color: #005197;
+          color: #FFF;
+          padding: 10px 25px; }
+        #page section#header nav div.menu-header div.menu-op a.orcamento:hover {
+          background-color: #7fa8cb; }
       #page section#header nav div.menu-header button.btn-default {
         background-color: transparent;
         border: 0;
@@ -249,6 +258,58 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
         float: left; }
       #page section#tracking-buscar div.container div.news-right .tracking-form .submit:hover {
         background: #57aaff; }
+  #page div#quer-saber-mais {
+    padding-bottom: 60px; }
+    #page div#quer-saber-mais .tel-botao span {
+      font-size: 26px;
+      color: #005197; }
+    #page div#quer-saber-mais .tel-botao img {
+      vertical-align: text-bottom; }
+    #page div#quer-saber-mais .tel-botao .botao-conheca-amarelo {
+      background-color: #ffc709;
+      color: #005197;
+      border-radius: 5px;
+      padding: 15px 30px;
+      font-weight: bold;
+      display: inline-block;
+      margin-left: 20px; }
+    #page div#quer-saber-mais .tel-botao .botao-conheca-amarelo:hover {
+      background-color: #ffdd6b; }
+    #page div#quer-saber-mais .tel-botao .botao-conheca {
+      background-color: #005197;
+      color: #FFF;
+      border-radius: 5px;
+      padding: 15px 30px;
+      font-weight: bold;
+      display: inline-block;
+      margin-left: 20px; }
+    #page div#quer-saber-mais .tel-botao .botao-conheca:hover {
+      background-color: #7fa8cb; }
+  #page div#breadcrumbs {
+    text-align: left;
+    padding-top: 10px;
+    padding-bottom: 25px; }
+  #page section#orcamento {
+    text-align: left;
+    padding-bottom: 60px; }
+    #page section#orcamento h2 {
+      font-weight: normal;
+      font-size: 16px; }
+    #page section#orcamento .tel-botao span {
+      font-size: 26px;
+      color: #005197; }
+    #page section#orcamento .tel-botao img {
+      vertical-align: text-bottom; }
+    #page section#orcamento .tel-botao .botao-conheca {
+      background-color: #ffc709;
+      color: #005197;
+      border-radius: 5px;
+      padding: 15px 30px;
+      font-weight: bold;
+      display: inline-block;
+      margin-left: 20px; }
+    #page section#orcamento .tel-botao .botao-conheca:hover {
+      background-color: #ffdd6b; }
   #page section#home-sobre {
     padding-bottom: 60px;
     background-image: url("images/fundo-cinza.jpg");
@@ -390,28 +451,29 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
     margin: 0 auto;
     margin-bottom: 25px; }
   #page section#solucoes {
-    padding: 60px 0;
-    background-image: url("images/fundo-solucoes.jpg");
-    background-repeat: no-repeat;
-    background-position: center;
-    color: white;
-    margin-bottom: 60px;
-    margin-top: 25px; }
-    #page section#solucoes div.quadro-branco {
-      background-color: white;
-      padding: 25px;
-      border-radius: 10px;
-      color: #858585; }
-      #page section#solucoes div.quadro-branco div.row {
-        margin-bottom: 50px; }
-        #page section#solucoes div.quadro-branco div.row div.solucoes-desc header {
-          font-size: 16px;
-          font-weight: bold;
-          margin: 10px 0; }
-        #page section#solucoes div.quadro-branco div.row div.solucoes-desc a {
-          display: block; }
+    padding-bottom: 60px; }
+    #page section#solucoes .col-md-3 {
+      padding: 0; }
   #page section#solucoes-detalhes {
     padding-bottom: 60px; }
+    #page section#solucoes-detalhes .col-md-9 {
+      padding-left: 30px;
+      text-align: left; }
+    #page section#solucoes-detalhes ul.solucoes-menu {
+      list-style-type: none;
+      padding: 0; }
+      #page section#solucoes-detalhes ul.solucoes-menu li {
+        margin-bottom: 2px; }
+        #page section#solucoes-detalhes ul.solucoes-menu li a {
+          display: block;
+          background-color: #005197;
+          color: #FFF;
+          text-align: left;
+          padding: 10px 20px; }
+        #page section#solucoes-detalhes ul.solucoes-menu li a:hover {
+          background-color: #003869; }
+        #page section#solucoes-detalhes ul.solucoes-menu li a:active {
+          background-color: #003869; }
   #page section#solucoes-contato {
     padding: 60px 0;
     background-color: #eff1f1; }
@@ -444,6 +506,8 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
       background-size: auto !important; }
     #page div.row {
       margin-bottom: 0 !important; }
+    #page section#solucoes-detalhes {
+      padding-left: 15px; }
     #page section#home-mobidata {
       background-size: auto !important; }
       #page section#home-mobidata div.anima-i {

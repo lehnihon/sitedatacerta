@@ -98,7 +98,7 @@ get_header(); ?>
 			<h1 class="titulo-linha">Soluções de logística perfeitas para sua empresa</h1>
 			<div class="separador"></div>
 			<p><strong>Conheça os serviços completos de logística que a Data Certa oferece para sua empresa.</strong></p>
-		</div><br/>
+		</div><br/><br/>
 		<div class="row fadeIn wow">
 			<div class="col-md-3">
 				<a href="<?php echo home_url( '/' )."servicos"; ?>"><img class="img-responsive" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/solucoes1.jpg"; ?>" /></a>
