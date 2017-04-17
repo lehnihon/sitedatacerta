@@ -282,36 +282,11 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
     #page section#home-sobre a.btn-sobre:hover {
       background-color: #60b2ff; }
   #page section#home-solucoes {
-    padding: 60px 0;
-    background-image: url("images/fundo-solucoes.jpg");
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: auto;
-    color: white; }
-    #page section#home-solucoes h1.titulo-linha {
-      margin: 0;
-      padding-bottom: 25px;
-      color: white; }
-    #page section#home-solucoes div.separador {
-      border-bottom: 1px solid white;
-      width: 350px;
-      margin: 0 auto;
-      margin-bottom: 25px; }
-    #page section#home-solucoes div.quadro-branco {
-      background-color: white;
-      padding: 25px;
-      border-radius: 10px;
-      color: #858585; }
-      #page section#home-solucoes div.quadro-branco div.row {
-        margin-bottom: 50px; }
-        #page section#home-solucoes div.quadro-branco div.row div.solucoes-desc header {
-          font-size: 16px;
-          font-weight: bold;
-          margin: 10px 0; }
-        #page section#home-solucoes div.quadro-branco div.row div.solucoes-desc a {
-          display: block; }
+    padding: 30px 0; }
+    #page section#home-solucoes .col-md-3 {
+      padding: 0; }
   #page section#home-mobidata {
-    padding: 60px 0;
+    padding: 30px 0;
     background-image: url("images/fundo-verde.jpg");
     background-repeat: no-repeat;
     background-position: right bottom;
@@ -324,24 +299,24 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
       width: 350px;
       margin: 0 auto;
       margin-bottom: 25px; }
-    #page section#home-mobidata div.anima-h img {
+    #page section#home-mobidata img {
       display: block; }
-    #page section#home-mobidata div.anima-h div.separadorb {
+    #page section#home-mobidata div.separadorb {
       border-bottom: 2px solid #eff2f1;
       width: 350px;
       margin-bottom: 25px;
       margin-top: 25px; }
-    #page section#home-mobidata div.anima-h ul.mobi-vantagens {
+    #page section#home-mobidata ul.mobi-vantagens {
       list-style-type: none;
       padding-left: 10px;
       margin-bottom: 50px; }
-      #page section#home-mobidata div.anima-h ul.mobi-vantagens li {
+      #page section#home-mobidata ul.mobi-vantagens li {
         margin: 10px 0; }
-        #page section#home-mobidata div.anima-h ul.mobi-vantagens li img {
+        #page section#home-mobidata ul.mobi-vantagens li img {
           float: left;
           display: block;
           margin-right: 5px; }
-        #page section#home-mobidata div.anima-h ul.mobi-vantagens li div.check-desc {
+        #page section#home-mobidata ul.mobi-vantagens li div.check-desc {
           line-height: 14px; }
   #page section#sobre div.container {
     padding-bottom: 50px;
@@ -469,16 +444,6 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
       background-size: auto !important; }
     #page div.row {
       margin-bottom: 0 !important; }
-    #page section#home-solucoes {
-      background-size: auto !important; }
-      #page section#home-solucoes h1.titulo-linha {
-        color: #858585 !important; }
-      #page section#home-solucoes div.separador {
-        border-bottom: 2px solid #eff2f1 !important; }
-      #page section#home-solucoes p {
-        color: #858585 !important; }
-      #page section#home-solucoes div.quadro-branco a {
-        margin-bottom: 25px !important; }
     #page section#home-mobidata {
       background-size: auto !important; }
       #page section#home-mobidata div.anima-i {
@@ -617,5 +582,8 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
   background-color: #ececec; }
 .paginacao .current {
   background-color: #ffc700; }
+
+.wow {
+  visibility: hidden; }
 
 /*# sourceMappingURL=style.css.map */
