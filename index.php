@@ -45,28 +45,23 @@ get_header(); ?>
 </section>
 
 <section id="home-sobre">
-	<div class="container">
-		<div class="row fadeInUp wow">
+	<div class="container fadeInUp wow">
+		<div class="row">
 			<h1 class="titulo-linha">Sobre a Data Certa Logística</h1>
 			<div class="separador"></div>
 		</div>
-		<div class="row fadeInUp wow">
+		<div class="row">
 			<div class="col-md-8 col-md-offset-2">
 				<p>
-					<strong>A Data Certa surgiu com o objetivo de oferecer soluções de logística que tornem mais simples a vida da sua empresa, seja de pequeno ou grande porte.</strong>
-				</p><br>
-				<p class="sobre-p">
-					Com nossas soluções em manuseio, transporte, courier, logística reversa, impressão com dados variáveis e gestão postal, seus prazos são levados a sério.
+					<strong>A Data Certa surgiu com o objetivo de oferecer soluções de logística que tornem mais simples a vida da sua empresa, seja de pequeno, médio ou grande porte.</strong>
 				</p>
-				<p class="sobre-p">
-					Com tecnologia, excelência no atendimento e o melhor custo-benefício, a Data Certa cuida do gerenciamento completo de toda a cadeia produtiva do seu produto no início ao destino final.
-				</p>					
+							
 			</div>
 		</div><br><br><br>
-		<div class="row fadeInUp wow">
+		<div class="row">
 			<h2>Informações interessantes sobre nós</h2>
 		</div><br>		
-		<div class="row fadeInUp wow contador">
+		<div class="row contador">
 			<div class="col-md-4">
 				<img class="e-cinza" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/sobre-empilhadeira.png"; ?>" />
 				<h2 class="sobre-num counter">500.000</h2>
@@ -84,7 +79,7 @@ get_header(); ?>
 				<div class="sobre-desc"><strong>SLA</strong> Prazo de entrega.</div>
 			</div>
 		</div><br><br><br>
-		<div class="row fadeInUp wow">
+		<div class="row">
 			<a class="btn-sobre" href="<?php echo home_url( '/' )."sobre"; ?>">
 				SAIBA MAIS
 			</a>					
@@ -101,34 +96,75 @@ get_header(); ?>
 		</div><br/><br/>
 		<div class="row fadeIn wow">
 			<div class="col-md-3">
-				<a href="<?php echo home_url( '/' )."servicos"; ?>"><img class="img-responsive" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/solucoes1.jpg"; ?>" /></a>
+				<a class="foto" href="<?php echo home_url( '/' )."transporte-de-cargas"; ?>">
+					<img class="img-responsive home-image" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/solucoes1.jpg"; ?>" />
+					<div class="middle">
+						<div class="text"><img alt="lupa" class="img-responsive" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/lupab.png"; ?>" /></div>
+					</div>
+				</a>
 			</div>
 			<div class="col-md-3">
-				<a href="<?php echo home_url( '/' )."servicos"; ?>"><img class="img-responsive" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/solucoes2.jpg"; ?>" /></a>
+				<a class="foto" href="<?php echo home_url( '/' )."entrega-expressa"; ?>">
+					<img class="img-responsive home-image" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/solucoes2.jpg"; ?>" />
+					<div class="middle">
+						<div class="text"><img alt="lupa" class="img-responsive" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/lupab.png"; ?>" /></div>
+					</div>
+				</a>
 			</div>
 			<div class="col-md-3">
-				<a href="<?php echo home_url( '/' )."servicos"; ?>"><img class="img-responsive" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/solucoes3.jpg"; ?>" /></a>
+				<a class="foto" href="<?php echo home_url( '/' )."logistica-armazenagem"; ?>">
+					<img class="img-responsive home-image" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/solucoes3.jpg"; ?>" />
+					<div class="middle">
+						<div class="text"><img alt="lupa" class="img-responsive" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/lupab.png"; ?>" /></div>
+					</div>
+				</a>
 			</div>
 			<div class="col-md-3">
-				<a href="<?php echo home_url( '/' )."servicos"; ?>"><img class="img-responsive" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/solucoes4.jpg"; ?>" /></a>
+				<a class="foto" href="<?php echo home_url( '/' )."logistica-reversa"; ?>">
+					<img class="img-responsive home-image" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/solucoes4.jpg"; ?>" />
+					<div class="middle">
+						<div class="text"><img alt="lupa" class="img-responsive" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/lupab.png"; ?>" /></div>
+					</div>
+				</a>
 			</div>
 		</div>
 		<div class="row fadeIn wow">
 			<div class="col-md-3">
-				<a href="<?php echo home_url( '/' )."servicos"; ?>"><img class="img-responsive" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/solucoes5.jpg"; ?>" /></a>
+				<a class="foto" href="<?php echo home_url( '/' )."manuseio-de-kits"; ?>">
+					<img class="img-responsive home-image" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/solucoes5.jpg"; ?>" />
+					<div class="middle">
+						<div class="text"><img alt="lupa" class="img-responsive" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/lupab.png"; ?>" /></div>
+					</div>
+				</a>
 			</div>
 			<div class="col-md-3">
-				<a href="<?php echo home_url( '/' )."servicos"; ?>"><img class="img-responsive" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/solucoes6.jpg"; ?>" /></a>
+				<a class="foto" href="<?php echo home_url( '/' ).""; ?>">
+					<img class="img-responsive home-image" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/solucoes6.jpg"; ?>" />
+					<div class="middle">
+						<div class="text"><img alt="lupa" class="img-responsive" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/lupab.png"; ?>" /></div>
+					</div>
+				</a>
 			</div>
 			<div class="col-md-3">
-				<a href="<?php echo home_url( '/' )."servicos"; ?>"><img class="img-responsive" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/solucoes7.jpg"; ?>" /></a>
+				<a class="foto" href="<?php echo home_url( '/' )."digitalizacao-de-documentos"; ?>">
+					<img class="img-responsive home-image" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/solucoes7.jpg"; ?>" />
+					<div class="middle">
+						<div class="text"><img alt="lupa" class="img-responsive" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/lupab.png"; ?>" /></div>
+					</div>
+				</a>
 			</div>
 			<div class="col-md-3">
-				<a href="<?php echo home_url( '/' )."servicos"; ?>"><img class="img-responsive" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/solucoes8.jpg"; ?>" /></a>
+				<a class="foto" href="<?php echo home_url( '/' )."logistica-pequenas-e-medias-empresas"; ?>">
+					<img class="img-responsive home-image" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/solucoes8.jpg"; ?>" />
+					<div class="middle">
+						<div class="text"><img alt="lupa" class="img-responsive" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/lupab.png"; ?>" /></div>
+					</div>
+				</a>
 			</div>
 		</div>
 	</div>
 </section>
+
 
 <section id="home-mobidata">
 	<div class="container">
@@ -162,7 +198,7 @@ get_header(); ?>
 				<a class="fadeInUp wow" href="https://play.google.com/store/apps/details?id=br.com.fastcourier" target="_blank"><img class="e-cinza" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/btn-playstore.png"; ?>" /></a><br>
 				<a class="fadeInUp wow" href="#" data-toggle="modal" data-target="#myModala"><img class="e-cinza" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/btn-saiba-mais.png"; ?>" /></a>
 			</div>
-			<div class="col-md-5 fadeInRight wow" data-wow-delay="1s">
+			<div class="col-md-5 fadeInRight wow" data-wow-delay="0.5s">
 				<img src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/mobi-cel.png"; ?>" />
 			</div>
 		</div>

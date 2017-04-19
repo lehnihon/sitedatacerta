@@ -208,10 +208,57 @@ section#home-solucoes{
 	.col-md-3{
 		padding:0;
 	}
+
+	.foto{
+		position:relative;
+		display:block;
+
+		.home-image{
+			-webkit-transition: .3s ease-in-out;
+			transition: .3s ease-in-out;
+			-webkit-filter: grayscale(0%);
+			filter: grayscale(0%);
+			backface-visibility: hidden;
+		}
+
+		.middle {
+			transition: .5s ease;
+			opacity: 0;
+			position: absolute;
+			top: 50%;
+			left: 50%;
+			transform: translate(-50%, -50%);
+			-ms-transform: translate(-50%, -50%);
+			width:20px;
+			height:20px;
+		}
+
+		.text{
+			color:white;
+			display:block;
+			font-size:20px;
+			font-weight:bold;
+
+			img{
+				opacity: 0.8;
+			}
+		}
+
+	}
+
+	.foto:hover .middle{
+		opacity: 1;
+	}
+	.foto:hover .home-image{
+		-webkit-filter: grayscale(100%);
+		filter: grayscale(100%);
+	}
+
 }
 
 section#home-mobidata{
-	padding:30px 0;
+	padding-top:30px;
+	padding-bottom:60px;
 	background-image: url("images/fundo-verde.jpg");
     background-repeat: no-repeat;
     background-position: right bottom;
@@ -392,20 +439,16 @@ section#title-solucoes{
 	}	
 }
 
-section#solucoes{
-	padding-bottom:60px;
-
-	.col-md-3{
-		padding:0;
-	}
-}
-
 section#solucoes-detalhes{
 	padding-bottom:60px;
 
 	.col-md-9{
 		padding-left:30px;
 		text-align:left;
+
+		p{
+			margin-bottom:15px;
+		}
 	}
 
 	ul.solucoes-menu{
@@ -424,7 +467,7 @@ section#solucoes-detalhes{
 			a:hover{
 				background-color:#003869;
 			}
-			a:active{
+			a.ativo{
 				background-color:#003869;
 			}
 		}

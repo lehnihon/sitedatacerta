@@ -1,25 +1,15 @@
 <?php
 get_header(); ?>
-<div id="breadcrumbs">
-	<div class="container">
-		<div class="row">
-			<div class="col-md-12">
-				<?php
-				if ( function_exists('yoast_breadcrumb') ) {
-				yoast_breadcrumb('','');
-				}
-				?>
-			</div>
-		</div>
-	</div>
-</div>
+
+<?php get_template_part( 'template-parts/breadcrumbs' ); ?>
+
 <section id="orcamento">
 	<div class="container">
 		<div class="row">
 			<div class="col-md-6">
 				<h1 class="small">Quero um orçamento agora</h1>
-				<h5><strong>Preencha todos os campos, em breve um especialista entrará em contato</strong></h5>
-				<?php echo do_shortcode('[contact-form-7 id="557" title="Contato"]'); ?>
+				<h5><strong>Preencha todos os campos, em breve um especialista entrará em contato</strong></h5><br>
+				<?php echo do_shortcode('[contact-form-7 id="812" title="Orçamento"]'); ?>
 			</div>
 			<div class="col-md-6">
 				<h2>Quer saber mais sobre a Data Certa Logística?</h2>

@@ -25,22 +25,26 @@
 				<div class="col-md-3 col-md-offset-3 text-left">
 					<strong>Receba nossas novidades</strong><br><br>
 					<?php echo do_shortcode('[contact-form-7 id="556" title="Receba Novidade"]'); ?>
+				</div>
+			</div><br>
+			<div class="row">
+				<div class="col-md-9">
+					<ul class="menu-footer clearfix">
+						<li><a href="<?php echo esc_url( home_url( '/' )."sobre" ); ?>">A Empresa</a></li>
+						<li><a href="<?php echo esc_url( home_url( '/' )."mobidata" ); ?>">Mobidata</a></li>
+						<li><a href="<?php echo esc_url( home_url( '/' ) )."servicos"; ?>">Serviços</a></li>
+						<li><a target="_blank" href="<?php echo esc_url( home_url( '/' ) )."blog"; ?>">Blog</a></li>
+						<li><a href="<?php echo esc_url( home_url( '/' )."contato" ); ?>">Seja nosso fornecedor</a></li>
+						<li><a href="<?php echo esc_url( home_url( '/' )."contato" ); ?>">Trabalhe Conosco</a></li>
+						<li><a href="<?php echo esc_url( home_url( '/' )."contato" ); ?>">Atendimento</a></li>
+					</ul>
+				</div>
+				<div class="col-md-3">
 					<ul class="redes_sociais_header">
 			              <li class="youtube"><a target="_blank" href="https://www.youtube.com/channel/UCb42k7qXDCeQSI7LvPDc8ZA"></a></li>
 			              <li class="instagram"><a target="_blank" href="https://www.instagram.com/datacerta"></a></li>
 			              <li class="twitter"><a target="_blank" href="https://twitter.com/datacertalog"></a></li>
 			              <li class="facebook"><a target="_blank" href="https://www.facebook.com/datacertalogistica"></a></li>
-					</ul>					
-				</div>
-			</div><br>
-			<div class="row">
-				<div class="col-md-7">
-					<ul class="menu-footer clearfix">
-						<li><a href="<?php echo esc_url( home_url( '/' )."sobre" ); ?>">QUEM SOMOS</a></li>
-						<li><a href="<?php echo esc_url( home_url( '/' )."mobidata" ); ?>">MOBIDATA</a></li>
-						<li><a href="<?php echo esc_url( home_url( '/' ) )."servicos"; ?>">SERVIÇOS</a></li>
-						<li><a target="_blank" href="<?php echo esc_url( home_url( '/' ) )."blog"; ?>">BLOG</a></li>
-						<li><a href="<?php echo esc_url( home_url( '/' )."contato" ); ?>">CONTATO</a></li>
 					</ul>
 				</div>
 			</div><br>
@@ -48,7 +52,7 @@
 				<div class="col-md-6 text-left copy-text">
 					&copy; Copyright <?php echo date('Y') ?> - Data Certa
 				</div>
-				<div class="col-md-3 col-md-offset-3 copy-text text-left">
+				<div class="col-md-3 col-md-offset-3 copy-text text-right">
 					<a target="_blank" href="http://www.facebook.com/seimidigital">
 						<img class="e-claro" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/logo-small.png"; ?>" />
 					</a>

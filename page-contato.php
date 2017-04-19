@@ -1,31 +1,23 @@
 <?php
 get_header(); ?>
 
-<section id="contato-pag">
+<?php get_template_part( 'template-parts/breadcrumbs' ); ?>
+
+<section id="orcamento">
 	<div class="container">
 		<div class="row">
-			<div class="col-md-12">
-				<h1 class="small">Contato</h1>
-				<h4><strong>Entre em contato conosco, teremos o maior prazer em atendê-lo</strong></h4>
-			</div>
-		</div><br>
-		<div class="row">
-			<div class="col-md-5 info-left text-left">
+			<div class="col-md-6">
+				<h1 class="small">Entre em contato conosco</h1>
+				<h5><strong>Sobre qual desses assuntos você quer conversar com a gente?</strong></h5><br>
 				<?php echo do_shortcode('[contact-form-7 id="557" title="Contato"]'); ?>
 			</div>
-			<div class="col-md-6 col-md-offset-1 text-left">
-				<div class="videoWrapper">
-					<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3656.0926522963587!2d-46.59455858446169!3d-23.601009868944054!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce5c7817ead0b3%3A0x1e7d9c392b6fabe7!2sR.+Nova+Hamburgo%2C+99+-+Ipiranga%2C+S%C3%A3o+Paulo+-+SP%2C+04217-040!5e0!3m2!1spt-BR!2sbr!4v1454703459415" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
-				</div>
-				<div class="info-right">
-					<strong>Endereço</strong>
-					<br>Rua Nova Hamburgo, 99
-					<br>Ipiranga - São Paulo - SP
-					<br>CEP 04217-040
-					<br><br><strong>Telefone</strong>
-					<br>11 2061-3138
-					<br><br><strong>Email</strong>
-					<br>joao@datacerta.net.br
+			<div class="col-md-6">
+				<h2>Quer saber mais sobre a Data Certa Logística?</h2>
+				<h5><strong>Converse com um especialista em logística e veja como podemos te ajudar!</strong></h5><br>
+				<div class="tel-botao">
+					<img src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/tel.jpg"; ?>" alt="telefone"><span>11 2061-3138</span>
+					<a class="botao-conheca" href="<?php echo home_url( '/' )."orcamento"; ?>">
+					Quero um Orçamento</a>
 				</div>
 			</div>
 		</div>

@@ -21,7 +21,7 @@ get_header(); ?>
 				<?php get_template_part( 'template-parts/solucoes-menu' ); ?>
 			</div>
 			<div class="col-md-9">
-				<img class="img-responsive" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/Logistica reversa data certa logistica.jpg"; ?>" alt="logistica-reversa"><br><br>
+				<img class="img-responsive" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/Digitalizacao de documentos data certa logistica.jpg"; ?>" alt="logistica-reversa"><br><br>
 				<h1>Digitalização de documentos</h1><br>
 				<p>Todos os dias uma grande quantidade de documentos são produzidos pela sua empresa. Esses documentos são impressos,
 				enviados, armazenados e constantemente procurados, e isso ocupa uma grande parte do tempo e recursos da sua empresa.</p>

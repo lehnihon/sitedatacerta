@@ -11,20 +11,10 @@
  */
 
 get_header(); ?>
-<div id="breadcrumbs">
-	<div class="container">
-		<div class="row">
-			<div class="col-md-12">
-				<?php
-				if ( function_exists('yoast_breadcrumb') ) {
-				yoast_breadcrumb('','');
-				}
-				?>
-			</div>
-		</div>
-	</div>
-</div>
-<section id="solucoes">
+
+<?php get_template_part( 'template-parts/breadcrumbs' ); ?>
+
+<section id="home-solucoes">
 	<div class="container">
 		<div class="row fadeInUp wow">
 			<h1 class="titulo-linha">Soluções de logística perfeitas para sua empresa</h1>
@@ -33,30 +23,70 @@ get_header(); ?>
 		</div><br/><br/>
 		<div class="row fadeIn wow">
 			<div class="col-md-3">
-				<a href="<?php echo home_url( '/' )."servicos"; ?>"><img class="img-responsive" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/solucoes1.jpg"; ?>" /></a>
+				<a class="foto" href="<?php echo home_url( '/' )."transporte-de-cargas"; ?>">
+					<img class="img-responsive home-image" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/solucoes1.jpg"; ?>" />
+					<div class="middle">
+						<div class="text"><img alt="lupa" class="img-responsive" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/lupab.png"; ?>" /></div>
+					</div>
+				</a>
 			</div>
 			<div class="col-md-3">
-				<a href="<?php echo home_url( '/' )."servicos"; ?>"><img class="img-responsive" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/solucoes2.jpg"; ?>" /></a>
+				<a class="foto" href="<?php echo home_url( '/' )."entrega-expressa"; ?>">
+					<img class="img-responsive home-image" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/solucoes2.jpg"; ?>" />
+					<div class="middle">
+						<div class="text"><img alt="lupa" class="img-responsive" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/lupab.png"; ?>" /></div>
+					</div>
+				</a>
 			</div>
 			<div class="col-md-3">
-				<a href="<?php echo home_url( '/' )."servicos"; ?>"><img class="img-responsive" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/solucoes3.jpg"; ?>" /></a>
+				<a class="foto" href="<?php echo home_url( '/' )."logistica-armazenagem"; ?>">
+					<img class="img-responsive home-image" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/solucoes3.jpg"; ?>" />
+					<div class="middle">
+						<div class="text"><img alt="lupa" class="img-responsive" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/lupab.png"; ?>" /></div>
+					</div>
+				</a>
 			</div>
 			<div class="col-md-3">
-				<a href="<?php echo home_url( '/' )."servicos"; ?>"><img class="img-responsive" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/solucoes4.jpg"; ?>" /></a>
+				<a class="foto" href="<?php echo home_url( '/' )."logistica-reversa"; ?>">
+					<img class="img-responsive home-image" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/solucoes4.jpg"; ?>" />
+					<div class="middle">
+						<div class="text"><img alt="lupa" class="img-responsive" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/lupab.png"; ?>" /></div>
+					</div>
+				</a>
 			</div>
 		</div>
 		<div class="row fadeIn wow">
 			<div class="col-md-3">
-				<a href="<?php echo home_url( '/' )."servicos"; ?>"><img class="img-responsive" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/solucoes5.jpg"; ?>" /></a>
+				<a class="foto" href="<?php echo home_url( '/' )."manuseio-de-kits"; ?>">
+					<img class="img-responsive home-image" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/solucoes5.jpg"; ?>" />
+					<div class="middle">
+						<div class="text"><img alt="lupa" class="img-responsive" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/lupab.png"; ?>" /></div>
+					</div>
+				</a>
 			</div>
 			<div class="col-md-3">
-				<a href="<?php echo home_url( '/' )."servicos"; ?>"><img class="img-responsive" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/solucoes6.jpg"; ?>" /></a>
+				<a class="foto" href="<?php echo home_url( '/' ).""; ?>">
+					<img class="img-responsive home-image" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/solucoes6.jpg"; ?>" />
+					<div class="middle">
+						<div class="text"><img alt="lupa" class="img-responsive" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/lupab.png"; ?>" /></div>
+					</div>
+				</a>
 			</div>
 			<div class="col-md-3">
-				<a href="<?php echo home_url( '/' )."servicos"; ?>"><img class="img-responsive" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/solucoes7.jpg"; ?>" /></a>
+				<a class="foto" href="<?php echo home_url( '/' )."digitalizacao-de-documentos"; ?>">
+					<img class="img-responsive home-image" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/solucoes7.jpg"; ?>" />
+					<div class="middle">
+						<div class="text"><img alt="lupa" class="img-responsive" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/lupab.png"; ?>" /></div>
+					</div>
+				</a>
 			</div>
 			<div class="col-md-3">
-				<a href="<?php echo home_url( '/' )."servicos"; ?>"><img class="img-responsive" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/solucoes8.jpg"; ?>" /></a>
+				<a class="foto" href="<?php echo home_url( '/' )."logistica-pequenas-e-medias-empresas"; ?>">
+					<img class="img-responsive home-image" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/solucoes8.jpg"; ?>" />
+					<div class="middle">
+						<div class="text"><img alt="lupa" class="img-responsive" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/lupab.png"; ?>" /></div>
+					</div>
+				</a>
 			</div>
 		</div>
 	</div>

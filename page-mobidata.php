@@ -12,6 +12,8 @@
 
 get_header(); ?>
 
+<?php get_template_part( 'template-parts/breadcrumbs' ); ?>
+
 <section id="mobidata">
 	<div class="container">
 		<div class="row">
