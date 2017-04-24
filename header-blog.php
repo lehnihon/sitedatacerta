@@ -49,7 +49,7 @@
           </div>
           <div class="col-md-3 box clearfix">
             <span class="cor-amarelo">Fale com o comercial </span>
-            <span class="texto-branco">11 <strong>11 94003-6301</strong></span>
+            <span class="texto-branco">11 <strong>94003-6301</strong></span>
           </div>
           <div class="col-md-3 col-md-offset-3 box clearfix">
             <span class="cor-amarelo">Redes sociais </span> 
