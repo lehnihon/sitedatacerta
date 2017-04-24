@@ -44,8 +44,8 @@ get_header(); ?>
 	</div>
 </section>
 
-<section id="home-sobre">
-	<div class="container fadeInUp wow">
+<section id="home-sobre" class="fadeInUp wow">
+	<div class="container">
 		<div class="row">
 			<h1 class="titulo-linha">Sobre a Data Certa Logística</h1>
 			<div class="separador"></div>

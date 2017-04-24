@@ -44,10 +44,14 @@
       <div class="container">
         <div class="row">
           <div class="col-md-3 box clearfix">
-            <span class="cor-amarelo">Fale com a gente </span>  
+            <span class="cor-amarelo">Fale com a operação </span>
             <span class="texto-branco">11 <strong>2061-3138</strong></span>
           </div>
-          <div class="col-md-3 col-md-offset-6 box clearfix">
+          <div class="col-md-3 box clearfix">
+            <span class="cor-amarelo">Fale com o comercial </span>
+            <span class="texto-branco">11 <strong>11 94003-6301</strong></span>
+          </div>
+          <div class="col-md-3 col-md-offset-3 box clearfix">
             <span class="cor-amarelo">Redes sociais </span> 
             <ul class="redes_sociais_header">
                     <li class="youtube"><a target="_blank" href="https://www.youtube.com/channel/UCb42k7qXDCeQSI7LvPDc8ZA"></a></li>

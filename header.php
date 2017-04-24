@@ -36,8 +36,12 @@ new WOW().init();
 			<div class="container">
 				<div class="row">
 					<div class="col-md-3 box clearfix">
-						<span class="cor-amarelo">Fale com a gente </span>	
+						<span class="cor-amarelo">Fale com a operação </span>
 						<span class="texto-branco">11 <strong>2061-3138</strong></span>
+					</div>
+					<div class="col-md-3 box clearfix">
+						<span class="cor-amarelo">Fale com o comercial </span>
+						<span class="texto-branco">11 <strong>11 94003-6301</strong></span>
 					</div>
 					<div class="col-md-3 box clearfix">
 						<span class="cor-amarelo">Redes sociais </span>	
@@ -48,11 +52,11 @@ new WOW().init();
 			              <li class="facebook"><a target="_blank" href="https://www.facebook.com/datacertalogistica"></a></li>
 						</ul>
 					</div>
-					<div class="col-md-4 col-md-offset-2 box clearfix header-login">
+					<div class="col-md-3 box clearfix header-login">
 						<a href="http://34.200.50.59" class="btn-login pull-right">LOGIN</a>
 						<span class="cor-amarelo pull-right">Acesse com seu login </span>
 					</div>
-					<div class="col-md-4 col-md-offset-2 box clearfix header-login-responsive">
+					<div class="col-md-3 box clearfix header-login-responsive">
 						<span class="cor-amarelo">Acesse com seu login </span>
 						<a href="http://34.200.50.59" class="btn-login pull-left">LOGIN</a>
 					</div>

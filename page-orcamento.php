@@ -13,9 +13,9 @@ get_header(); ?>
 			</div>
 			<div class="col-md-6">
 				<h2>Quer saber mais sobre a Data Certa Logística?</h2>
-				<h5><strong>Converse com um especialista em logística e veja como podemos te ajudar!</strong></h5><br>
+				<h5><strong>Converse com nosso diretor comercial e veja como podemos te ajudar!</strong></h5><br>
 				<div class="tel-botao">
-					<img src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/tel.jpg"; ?>" alt="telefone"><span>11 2061-3138</span>
+					<img src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/tel.jpg"; ?>" alt="telefone"><span>11 94003-6301</span>
 					<a class="botao-conheca" href="<?php echo home_url( '/' )."sobre"; ?>">
 					Conheça a Data Certa</a>
 				</div>
