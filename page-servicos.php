@@ -65,7 +65,7 @@ get_header(); ?>
 				</a>
 			</div>
 			<div class="col-md-3">
-				<a class="foto" href="<?php echo home_url( '/' ).""; ?>">
+				<a class="foto" href="<?php echo home_url( '/' )."impressao-de-dados"; ?>">
 					<img class="img-responsive home-image" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/solucoes6.jpg"; ?>" />
 					<div class="middle">
 						<div class="text"><img alt="lupa" class="img-responsive" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/lupab.png"; ?>" /></div>
