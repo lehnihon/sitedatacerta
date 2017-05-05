@@ -208,7 +208,7 @@ get_header(); ?>
 	<div class="modal-dialog" role="document">
 		<div class="modal-content">
 			<div class="modal-body text-left">
-				<iframe width="560" height="315" src="https://www.youtube.com/embed/m8ibxHaGcPw?rel=0" frameborder="0" allowfullscreen></iframe>
+				<iframe width="560" height="315" src="https://www.youtube.com/embed/WU3pjU0QdjA?rel=0" frameborder="0" allowfullscreen></iframe>
 			</div>
 		</div>
 	</div>

@@ -53,7 +53,7 @@
 					&copy; Copyright <?php echo date('Y') ?> - Data Certa
 				</div>
 				<div class="col-md-3 col-md-offset-3 copy-text text-right">
-					<a target="_blank" href="http://www.facebook.com/seimidigital">
+					<a target="_blank" href="http://seimidigital.com.br/">
 						<img class="e-claro" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/logo-small.png"; ?>" />
 					</a>
 				</div>				
