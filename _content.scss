@@ -76,12 +76,17 @@ section#tracking-buscar{
 }
 
 div#quer-saber-mais{
-	padding-bottom:60px;
+	padding-top:60px;
+	text-align:left;
+	h2{
+		font-size:20px;
+	}
 
 	.tel-botao{
 		span{
 			font-size:26px;
 			color:#005197;
+			margin-right:20px;
 		}
 		img{
 			vertical-align:text-bottom;
@@ -126,8 +131,7 @@ section#orcamento{
 	padding-bottom:60px;
 
 	h2{
-		font-weight:normal;
-		font-size:16px;
+		font-size:18px;
 	}
 
 	.tel-botao{
@@ -203,10 +207,21 @@ section#home-sobre{
 }
 
 section#home-solucoes{
-	padding:30px 0;
 
-	.col-md-3{
-		padding:0;
+	.tel-botao{
+		span{
+			font-size:26px;
+			color:#005197;
+			margin-right:20px;
+		}
+		img{
+			vertical-align:text-bottom;
+		}
+	}
+
+	h3{
+		font-size:18px;
+		margin-top:20px;
 	}
 
 	.foto{
@@ -259,10 +274,6 @@ section#home-solucoes{
 section#home-mobidata{
 	padding-top:30px;
 	padding-bottom:60px;
-	background-image: url("images/fundo-verde.jpg");
-    background-repeat: no-repeat;
-    background-position: right bottom;
-    background-size: 100%; 
 
 	h1.titulo-linha{
 		margin:0;
@@ -308,6 +319,28 @@ section#home-mobidata{
 		}
 		
 	}
+}
+
+section#home-atuacoes{
+	margin-top:40px;
+	padding:60px 0;
+	background-color:#03a9f4;
+	color:white;
+
+	h2{
+		color:white;
+		margin-bottom:20px;
+	}
+
+	h3{
+		color:white;
+		font-weight:normal;
+	}
+
+	img{
+		margin-bottom:20px;
+	}
+
 }
 
 /* 
@@ -442,6 +475,10 @@ section#title-solucoes{
 section#solucoes-detalhes{
 	padding-bottom:60px;
 
+	h3{
+		color:#858585;
+	}
+
 	.col-md-9{
 		padding-left:30px;
 		text-align:left;
@@ -548,7 +585,6 @@ section#contato-pag{
 		padding-left:15px;
 	}
 	section#home-mobidata{
-		background-size: auto !important;
 
 		div.anima-i{
 			display: none;

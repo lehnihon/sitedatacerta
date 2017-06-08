@@ -50,8 +50,7 @@ section#header{
 
         ul.redes_sociais_header .youtube{
             background-image: url("images/redes-top.png");
-
-            background-position: left,center;
+            background-position: 5px,center;
             background-repeat:no-repeat;
             width:22px;
             height:20px;
@@ -60,7 +59,7 @@ section#header{
 
         ul.redes_sociais_header .instagram{
             background-image: url("images/redes-top.png");
-            background-position: -34px,center;
+            background-position: -28px,center;
             background-repeat:no-repeat;
             width:22px;
             height:20px;
@@ -69,7 +68,7 @@ section#header{
 
         ul.redes_sociais_header .twitter{
             background-image: url("images/redes-top.png");
-            background-position: -66px,center;
+            background-position: -60px,center;
             background-repeat:no-repeat;
             width:22px;
             height:20px;
@@ -78,7 +77,16 @@ section#header{
 
         ul.redes_sociais_header .facebook{
             background-image: url("images/redes-top.png");
-            background-position: -98px,center;
+            background-position: -88px,center;
+            background-repeat:no-repeat;
+            width:22px;
+            height:20px;
+            display:inline-block;       
+        }
+
+        ul.redes_sociais_header .linkedin{
+            background-image: url("images/redes-top.png");
+            background-position: -116px,center;
             background-repeat:no-repeat;
             width:22px;
             height:20px;

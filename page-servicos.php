@@ -17,26 +17,34 @@ get_header(); ?>
 <section id="home-solucoes">
 	<div class="container">
 		<div class="row fadeInUp wow">
-			<h1 class="titulo-linha">Soluções de logística perfeitas para sua empresa</h1>
+			<h1 class="titulo-linha">O que a Data Certa pode fazer pela sua empresa</h1>
 			<div class="separador"></div>
-			<p><strong>Conheça os serviços completos de logística que a Data Certa oferece para sua empresa.</strong></p>
+			<p><strong>Conheça nossas soluções em logística e veja como podemos contribuir para o sucesso do seu negócio</strong></p>
 		</div><br/><br/>
 		<div class="row fadeIn wow">
 			<div class="col-md-3">
-				<a class="foto" href="<?php echo home_url( '/' )."transporte-de-cargas"; ?>">
+				<a class="foto" href="<?php echo home_url( '/' )."logistica-reversa"; ?>">
 					<img class="img-responsive home-image" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/solucoes1.jpg"; ?>" />
 					<div class="middle">
 						<div class="text"><img alt="lupa" class="img-responsive" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/lupab.png"; ?>" /></div>
 					</div>
 				</a>
+				<h3>
+					Logística Reversa
+				</h3>
+				<a href="<?php echo home_url( '/' )."logistica-reversa"; ?>">saiba mais ></a>
 			</div>
 			<div class="col-md-3">
-				<a class="foto" href="<?php echo home_url( '/' )."entrega-expressa"; ?>">
+				<a class="foto" href="<?php echo home_url( '/' )."transporte-de-cargas"; ?>">
 					<img class="img-responsive home-image" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/solucoes2.jpg"; ?>" />
 					<div class="middle">
 						<div class="text"><img alt="lupa" class="img-responsive" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/lupab.png"; ?>" /></div>
 					</div>
 				</a>
+				<h3>
+					Transporte de Cargas
+				</h3>
+				<a href="<?php echo home_url( '/' )."transporte-de-cargas"; ?>">saiba mais ></a>
 			</div>
 			<div class="col-md-3">
 				<a class="foto" href="<?php echo home_url( '/' )."logistica-armazenagem"; ?>">
@@ -45,32 +53,48 @@ get_header(); ?>
 						<div class="text"><img alt="lupa" class="img-responsive" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/lupab.png"; ?>" /></div>
 					</div>
 				</a>
+				<h3>
+					Armazenagem
+				</h3>
+				<a href="<?php echo home_url( '/' )."logistica-armazenagem"; ?>">saiba mais ></a>
 			</div>
 			<div class="col-md-3">
-				<a class="foto" href="<?php echo home_url( '/' )."logistica-reversa"; ?>">
+				<a class="foto" href="<?php echo home_url( '/' )."entrega-expressa"; ?>">
 					<img class="img-responsive home-image" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/solucoes4.jpg"; ?>" />
 					<div class="middle">
 						<div class="text"><img alt="lupa" class="img-responsive" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/lupab.png"; ?>" /></div>
 					</div>
 				</a>
+				<h3>
+					Entrega Expressa
+				</h3>
+				<a href="<?php echo home_url( '/' )."entrega-expressa"; ?>">saiba mais ></a>
 			</div>
-		</div>
+		</div><br>
 		<div class="row fadeIn wow">
 			<div class="col-md-3">
-				<a class="foto" href="<?php echo home_url( '/' )."manuseio-de-kits"; ?>">
+				<a class="foto" href="<?php echo home_url( '/' )."impressao-de-dados"; ?>">
 					<img class="img-responsive home-image" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/solucoes5.jpg"; ?>" />
 					<div class="middle">
 						<div class="text"><img alt="lupa" class="img-responsive" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/lupab.png"; ?>" /></div>
 					</div>
 				</a>
+				<h3>
+					Impressão de Dados
+				</h3>
+				<a href="<?php echo home_url( '/' )."impressao-de-dados"; ?>">saiba mais ></a>
 			</div>
 			<div class="col-md-3">
-				<a class="foto" href="<?php echo home_url( '/' )."impressao-de-dados"; ?>">
+				<a class="foto" href="<?php echo home_url( '/' )."manuseio-de-kits"; ?>">
 					<img class="img-responsive home-image" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/solucoes6.jpg"; ?>" />
 					<div class="middle">
 						<div class="text"><img alt="lupa" class="img-responsive" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/lupab.png"; ?>" /></div>
 					</div>
 				</a>
+				<h3>
+					Fullfilment
+				</h3>
+				<a href="<?php echo home_url( '/' )."manuseio-de-kits"; ?>">saiba mais ></a>
 			</div>
 			<div class="col-md-3">
 				<a class="foto" href="<?php echo home_url( '/' )."digitalizacao-de-documentos"; ?>">
@@ -79,6 +103,10 @@ get_header(); ?>
 						<div class="text"><img alt="lupa" class="img-responsive" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/lupab.png"; ?>" /></div>
 					</div>
 				</a>
+				<h3>
+					Digitalização de Documentos
+				</h3>
+				<a href="<?php echo home_url( '/' )."digitalizacao-de-documentos"; ?>">saiba mais ></a>
 			</div>
 			<div class="col-md-3">
 				<a class="foto" href="<?php echo home_url( '/' )."logistica-pequenas-e-medias-empresas"; ?>">
@@ -87,19 +115,26 @@ get_header(); ?>
 						<div class="text"><img alt="lupa" class="img-responsive" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/lupab.png"; ?>" /></div>
 					</div>
 				</a>
+				<h3>
+					Logística para Empresas
+				</h3>
+				<a href="<?php echo home_url( '/' )."logistica-pequenas-e-medias-empresas"; ?>">saiba mais ></a>
+			</div>
+		</div><br><br><br>
+		<div class="row">
+			<div class="col-md-12">
+					<h2>Quer saber mais sobre nossas soluções?</h2>
+					<h5>Converse com um especialista em logística e veja como podemos te ajudar!</h5><br>
+					<div class="tel-botao">
+						<img src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/tel.jpg"; ?>" alt="telefone"><span>11 2061-3138</span>
+						<a href="<?php echo home_url( '/' )."orcamento"; ?>" class="btn btn-azulclaro">Calcular Frete</a>
+						<a href="<?php echo home_url( '/' )."quero-ser-cliente"; ?>" class="btn btn-azulescuro">Quero ser Cliente</a>
+					</div>
 			</div>
 		</div>
 	</div>
-</section>
+</section><br><br><br><br>
 
-<div id="quer-saber-mais">
-	<h2>Quer saber mais sobre a Data Certa Logística?</h2>
-	<h5><strong>Converse com um especialista em logística e veja como podemos te ajudar!</strong></h5><br>
-	<div class="tel-botao">
-		<img src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/tel.jpg"; ?>" alt="telefone"><span>11 2061-3138</span>
-		<a class="botao-conheca" href="<?php echo home_url( '/' )."orcamento"; ?>">
-		Quero um Orçamento</a>
-	</div>
-</div>
+
 
 <?php get_footer(); ?>

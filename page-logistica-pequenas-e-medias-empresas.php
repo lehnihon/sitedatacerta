@@ -61,18 +61,11 @@ get_header(); ?>
 
 				<p>Para isso, contamos com uma estrutura física de armazenamento em local estratégico, profissionais qualificados e de uma
 				frota de veículos compatível para o atendimento da demanda de seu nicho de mercado.</p>
+				<?php get_template_part( 'template-parts/quer-saber-mais' ); ?>
 		</div>
 	</div>
 </section>
 
-<div id="quer-saber-mais">
-	<h2>Quer saber mais sobre a Data Certa Logística?</h2>
-	<h5><strong>Converse com um especialista em logística e veja como podemos te ajudar!</strong></h5><br>
-	<div class="tel-botao">
-		<img src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/tel.jpg"; ?>" alt="telefone"><span>11 2061-3138</span>
-		<a class="botao-conheca-amarelo" href="<?php echo home_url( '/' )."orcamento"; ?>">
-		Quero um Orçamento</a>
-	</div>
-</div>
+
 
 <?php get_footer(); ?>

@@ -56,18 +56,10 @@ get_header(); ?>
 				Com a Data Certa, você economiza tempo, reduz gastos com impressão e armazenamento. E ainda ajuda a preservar o meio
 				ambiente. Com a redução do uso de papel, você evita que mais árvores sejam cortadas.
 				</p>
+
+				<?php get_template_part( 'template-parts/quer-saber-mais' ); ?>
 		</div>
 	</div>
 </section>
-
-<div id="quer-saber-mais">
-	<h2>Quer saber mais sobre a Data Certa Logística?</h2>
-	<h5><strong>Converse com um especialista em logística e veja como podemos te ajudar!</strong></h5><br>
-	<div class="tel-botao">
-		<img src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/tel.jpg"; ?>" alt="telefone"><span>11 2061-3138</span>
-		<a class="botao-conheca-amarelo" href="<?php echo home_url( '/' )."orcamento"; ?>">
-		Quero um Orçamento</a>
-	</div>
-</div>
 
 <?php get_footer(); ?>

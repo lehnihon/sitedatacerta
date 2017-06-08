@@ -50,6 +50,7 @@ new WOW().init();
 			              <li class="instagram"><a target="_blank" href="https://www.instagram.com/datacerta"></a></li>
 			              <li class="twitter"><a target="_blank" href="https://twitter.com/datacertalog"></a></li>
 			              <li class="facebook"><a target="_blank" href="https://www.facebook.com/datacertalogistica"></a></li>
+			              <li class="linkedin"><a target="_blank" href="https://www.facebook.com/datacertalogistica"></a></li>
 						</ul>
 					</div>
 					<div class="col-md-3 box clearfix header-login">
@@ -75,35 +76,36 @@ new WOW().init();
 								<span class="glyphicon glyphicon-align-justify" aria-hidden="true"></span>
 							</button>
 							<ul class="dropdown-menu">
-							<li><a href="<?php echo home_url( '/' )."sobre"; ?>">A Empresa</a></li
+							<li><a href="<?php echo home_url( '/' )."orcamento"; ?>">Calcular Frete</a></li
 							><li><a href="<?php echo home_url( '/' )."mobidata"; ?>">Aplicativo Mobidata</a></li
 							><li><a href="<?php echo home_url( '/' )."servicos"; ?>">Serviços</a></li
 							><li><a target="_blank" href="<?php echo home_url( '/' )."blog-logistica"; ?>">Blog</a></li
 							><li><a href="<?php echo home_url( '/' )."seja-nosso-fornecedor"; ?>">Seja nosso Fornecedor</a></li
 							><li><a href="<?php echo home_url( '/' )."trabalhe-conosco"; ?>">Trabalhe Conosco</a></li
-							><li><a href="<?php echo home_url( '/' )."contato"; ?>">Contato</a></li
-							><li><a href="<?php echo home_url( '/' )."orcamento"; ?>">Orçamento</a></li>
+							><li><a href="<?php echo home_url( '/' )."contato"; ?>">Cobrança</a></li
+							><li><a href="<?php echo home_url( '/' )."rastrear"; ?>">Rastreie Seu Pedido</a></li
+							><li><a href="<?php echo home_url( '/' )."quero-ser-cliente"; ?>">Quero ser Cliente</a></li>
 							</ul>								
 						</div>						
 						<div class="menu-header clearfix">
-							<div class="menu-op"><a class="orcamento" href="<?php echo home_url( '/' )."orcamento"; ?>">Orçamento</a></div>
+							<div class="menu-op"><a class="orcamento" href="<?php echo home_url( '/' )."quero-ser-cliente"; ?>">Quero ser Cliente</a></div>
 							<div class="menu-op">
 								<button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
 									Fale Conosco
 									<span class="caret"></span>
 								</button>
 								<ul class="dropdown-menu">
-									<li><a href="<?php echo home_url( '/' )."contato"; ?>">Contato</a></li>
+									<li><a href="<?php echo home_url( '/' )."contato"; ?>">Cobrança</a></li>
 									<li><a href="<?php echo home_url( '/' )."seja-nosso-fornecedor"; ?>">Seja Nosso Fornecedor</a></li>
 									<li><a href="<?php echo home_url( '/' )."trabalhe-conosco"; ?>">Trabalhe Conosco</a></li>
+									<li><a href="<?php echo home_url( '/' )."rastrear"; ?>">Rastreie Seu Pedido</a></li>
 								</ul>
-							
+
 							</div>
 							<div class="menu-op"><a target="_blank"  href="<?php echo home_url( '/' )."blog-logistica"; ?>">Blog</a></div>							
 							<div class="menu-op"><a href="<?php echo home_url( '/' )."servicos"; ?>">Serviços</a></div>
 							<div class="menu-op"><a href="<?php echo home_url( '/' )."mobidata"; ?>">Aplicativo Mobidata</a></div>
-							<div class="menu-op"><a href="<?php echo home_url( '/' )."sobre"; ?>">A Empresa</a></div>
-							<div class="menu-op"><a href="<?php echo home_url( '/' ); ?>">Início</a></div>
+							<div class="menu-op"><a href="<?php echo home_url( '/' )."orcamento"; ?>">Calcular Frete</a></div>
 						</div>
 					</div>					
 				</div>

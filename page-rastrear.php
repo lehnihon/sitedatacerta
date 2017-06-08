@@ -7,12 +7,20 @@ get_header(); ?>
 	<div class="container">
 		<div class="row">
 			<div class="col-md-6">
-				<h1 class="small">Cobrança</h1>
+				<h1 class="small">Rastreie seu pedido</h1>
 				<h5>Por favor, preencha todos os campos</h5><br>
-				<?php echo do_shortcode('[contact-form-7 id="557" title="Contato"]'); ?>
+				<form action="<?php echo home_url( '/' ).'rastreamento'; ?>" method="POST" class="tracking-form clearfix">
+					<select name="pesquisawebserv" class="input-contato">
+						<option value="remessa">Número de remessa</option>
+						<option value="cpf">CPF</option>
+						<option value="ra">RA</option>
+					</select>
+					<input type="text" class="input-contato" name="valor" placeholder="Número">
+					<input class="btn btn-azulescuro" value="Rastrear pedido" type="submit">
+				</form>
 			</div>
 			<div class="col-md-6">
-				<h2>Quer saber mais sobre a Data Certa Logística?</h2>
+				<h2>Não está conseguindo rastrear seu pedido?</h2>
 				<h5><strong>Converse com um especialista em logística e veja como podemos te ajudar!</strong></h5><br>
 				<div class="tel-botao">
 					<img src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/tel.jpg"; ?>" alt="telefone"><span>11 2061-3138</span>

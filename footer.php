@@ -34,9 +34,9 @@
 						<li><a href="<?php echo esc_url( home_url( '/' )."mobidata" ); ?>">Mobidata</a></li>
 						<li><a href="<?php echo esc_url( home_url( '/' ) )."servicos"; ?>">Serviços</a></li>
 						<li><a target="_blank" href="<?php echo esc_url( home_url( '/' ) )."blog"; ?>">Blog</a></li>
-						<li><a href="<?php echo esc_url( home_url( '/' )."contato" ); ?>">Seja nosso fornecedor</a></li>
-						<li><a href="<?php echo esc_url( home_url( '/' )."contato" ); ?>">Trabalhe Conosco</a></li>
-						<li><a href="<?php echo esc_url( home_url( '/' )."contato" ); ?>">Atendimento</a></li>
+						<li><a href="<?php echo esc_url( home_url( '/' )."quero-ser-cliente" ); ?>">Quero ser Cliente</a></li>
+						<li><a href="#">FAQ</a></li>
+						<li><a href="<?php echo esc_url( home_url( '/' )."orcamento" ); ?>">Calcular Frete</a></li>
 					</ul>
 				</div>
 				<div class="col-md-3">
@@ -45,6 +45,7 @@
 			              <li class="instagram"><a target="_blank" href="https://www.instagram.com/datacerta"></a></li>
 			              <li class="twitter"><a target="_blank" href="https://twitter.com/datacertalog"></a></li>
 			              <li class="facebook"><a target="_blank" href="https://www.facebook.com/datacertalogistica"></a></li>
+			              <li class="linkedin"><a target="_blank" href="https://www.facebook.com/datacertalogistica"></a></li>
 					</ul>
 				</div>
 			</div><br>

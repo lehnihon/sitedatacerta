@@ -42,9 +42,6 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
   /* 
   BLOG
   */ }
-  #page a:hover {
-    text-decoration: none;
-    color: #b6b6b6; }
   #page h1 {
     color: #00509c;
     font-size: 24px;
@@ -52,7 +49,12 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
     margin-top: 0; }
   #page h2 {
     color: #00509c;
-    font-size: 20px;
+    font-size: 24px;
+    font-weight: bold;
+    margin-top: 0; }
+  #page h3 {
+    color: #00509c;
+    font-size: 18px;
     font-weight: bold;
     margin-top: 0; }
   #page section#header header {
@@ -90,28 +92,35 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
       height: 20px; }
     #page section#header header ul.redes_sociais_header .youtube {
       background-image: url("images/redes-top.png");
-      background-position: left,center;
+      background-position: 5px,center;
       background-repeat: no-repeat;
       width: 22px;
       height: 20px;
       display: inline-block; }
     #page section#header header ul.redes_sociais_header .instagram {
       background-image: url("images/redes-top.png");
-      background-position: -34px,center;
+      background-position: -28px,center;
       background-repeat: no-repeat;
       width: 22px;
       height: 20px;
       display: inline-block; }
     #page section#header header ul.redes_sociais_header .twitter {
       background-image: url("images/redes-top.png");
-      background-position: -66px,center;
+      background-position: -60px,center;
       background-repeat: no-repeat;
       width: 22px;
       height: 20px;
       display: inline-block; }
     #page section#header header ul.redes_sociais_header .facebook {
       background-image: url("images/redes-top.png");
-      background-position: -98px,center;
+      background-position: -88px,center;
+      background-repeat: no-repeat;
+      width: 22px;
+      height: 20px;
+      display: inline-block; }
+    #page section#header header ul.redes_sociais_header .linkedin {
+      background-image: url("images/redes-top.png");
+      background-position: -116px,center;
       background-repeat: no-repeat;
       width: 22px;
       height: 20px;
@@ -259,10 +268,14 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
       #page section#tracking-buscar div.container div.news-right .tracking-form .submit:hover {
         background: #57aaff; }
   #page div#quer-saber-mais {
-    padding-bottom: 60px; }
+    padding-top: 60px;
+    text-align: left; }
+    #page div#quer-saber-mais h2 {
+      font-size: 20px; }
     #page div#quer-saber-mais .tel-botao span {
       font-size: 26px;
-      color: #005197; }
+      color: #005197;
+      margin-right: 20px; }
     #page div#quer-saber-mais .tel-botao img {
       vertical-align: text-bottom; }
     #page div#quer-saber-mais .tel-botao .botao-conheca-amarelo {
@@ -293,8 +306,7 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
     text-align: left;
     padding-bottom: 60px; }
     #page section#orcamento h2 {
-      font-weight: normal;
-      font-size: 16px; }
+      font-size: 18px; }
     #page section#orcamento .tel-botao span {
       font-size: 26px;
       color: #005197; }
@@ -342,48 +354,49 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
       margin: 0 auto; }
     #page section#home-sobre a.btn-sobre:hover {
       background-color: #60b2ff; }
-  #page section#home-solucoes {
-    padding: 30px 0; }
-    #page section#home-solucoes .col-md-3 {
-      padding: 0; }
-    #page section#home-solucoes .foto {
-      position: relative;
-      display: block; }
-      #page section#home-solucoes .foto .home-image {
-        -webkit-transition: .3s ease-in-out;
-        transition: .3s ease-in-out;
-        -webkit-filter: grayscale(0%);
-        filter: grayscale(0%);
-        backface-visibility: hidden; }
-      #page section#home-solucoes .foto .middle {
-        transition: .5s ease;
-        opacity: 0;
-        position: absolute;
-        top: 50%;
-        left: 50%;
-        transform: translate(-50%, -50%);
-        -ms-transform: translate(-50%, -50%);
-        width: 20px;
-        height: 20px; }
-      #page section#home-solucoes .foto .text {
-        color: white;
-        display: block;
-        font-size: 20px;
-        font-weight: bold; }
-        #page section#home-solucoes .foto .text img {
-          opacity: 0.8; }
-    #page section#home-solucoes .foto:hover .middle {
-      opacity: 1; }
-    #page section#home-solucoes .foto:hover .home-image {
-      -webkit-filter: grayscale(100%);
-      filter: grayscale(100%); }
+  #page section#home-solucoes .tel-botao span {
+    font-size: 26px;
+    color: #005197;
+    margin-right: 20px; }
+  #page section#home-solucoes .tel-botao img {
+    vertical-align: text-bottom; }
+  #page section#home-solucoes h3 {
+    font-size: 18px;
+    margin-top: 20px; }
+  #page section#home-solucoes .foto {
+    position: relative;
+    display: block; }
+    #page section#home-solucoes .foto .home-image {
+      -webkit-transition: .3s ease-in-out;
+      transition: .3s ease-in-out;
+      -webkit-filter: grayscale(0%);
+      filter: grayscale(0%);
+      backface-visibility: hidden; }
+    #page section#home-solucoes .foto .middle {
+      transition: .5s ease;
+      opacity: 0;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      -ms-transform: translate(-50%, -50%);
+      width: 20px;
+      height: 20px; }
+    #page section#home-solucoes .foto .text {
+      color: white;
+      display: block;
+      font-size: 20px;
+      font-weight: bold; }
+      #page section#home-solucoes .foto .text img {
+        opacity: 0.8; }
+  #page section#home-solucoes .foto:hover .middle {
+    opacity: 1; }
+  #page section#home-solucoes .foto:hover .home-image {
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%); }
   #page section#home-mobidata {
     padding-top: 30px;
-    padding-bottom: 60px;
-    background-image: url("images/fundo-verde.jpg");
-    background-repeat: no-repeat;
-    background-position: right bottom;
-    background-size: 100%; }
+    padding-bottom: 60px; }
     #page section#home-mobidata h1.titulo-linha {
       margin: 0;
       padding-bottom: 25px; }
@@ -411,6 +424,19 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
           margin-right: 5px; }
         #page section#home-mobidata ul.mobi-vantagens li div.check-desc {
           line-height: 14px; }
+  #page section#home-atuacoes {
+    margin-top: 40px;
+    padding: 60px 0;
+    background-color: #03a9f4;
+    color: white; }
+    #page section#home-atuacoes h2 {
+      color: white;
+      margin-bottom: 20px; }
+    #page section#home-atuacoes h3 {
+      color: white;
+      font-weight: normal; }
+    #page section#home-atuacoes img {
+      margin-bottom: 20px; }
   #page section#sobre div.container {
     padding-bottom: 50px;
     background-image: url("images/fundo-quemsomos.jpg");
@@ -484,6 +510,8 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
     margin-bottom: 25px; }
   #page section#solucoes-detalhes {
     padding-bottom: 60px; }
+    #page section#solucoes-detalhes h3 {
+      color: #858585; }
     #page section#solucoes-detalhes .col-md-9 {
       padding-left: 30px;
       text-align: left; }
@@ -538,10 +566,8 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
       margin-bottom: 0 !important; }
     #page section#solucoes-detalhes {
       padding-left: 15px; }
-    #page section#home-mobidata {
-      background-size: auto !important; }
-      #page section#home-mobidata div.anima-i {
-        display: none; }
+    #page section#home-mobidata div.anima-i {
+      display: none; }
     #page section#sobre div.container {
       background-image: none; } }
   #page section#footer {
@@ -582,28 +608,35 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
       height: 20px; }
     #page section#footer ul.redes_sociais_header .youtube {
       background-image: url("images/redes-top.png");
-      background-position: left,center;
+      background-position: 5px,center;
       background-repeat: no-repeat;
       width: 22px;
       height: 20px;
       display: inline-block; }
     #page section#footer ul.redes_sociais_header .instagram {
       background-image: url("images/redes-top.png");
-      background-position: -34px,center;
+      background-position: -28px,center;
       background-repeat: no-repeat;
       width: 22px;
       height: 20px;
       display: inline-block; }
     #page section#footer ul.redes_sociais_header .twitter {
       background-image: url("images/redes-top.png");
-      background-position: -66px,center;
+      background-position: -60px,center;
       background-repeat: no-repeat;
       width: 22px;
       height: 20px;
       display: inline-block; }
     #page section#footer ul.redes_sociais_header .facebook {
       background-image: url("images/redes-top.png");
-      background-position: -98px,center;
+      background-position: -88px,center;
+      background-repeat: no-repeat;
+      width: 22px;
+      height: 20px;
+      display: inline-block; }
+    #page section#footer ul.redes_sociais_header .linkedin {
+      background-image: url("images/redes-top.png");
+      background-position: -116px,center;
       background-repeat: no-repeat;
       width: 22px;
       height: 20px;
@@ -618,7 +651,7 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
     border-radius: 5px;
     color: #606060; }
   #page .input-contato {
-    padding: 20px 10px;
+    padding: 15px 10px;
     border: 1px solid #cecece;
     border-radius: 5px;
     width: 100%;
@@ -631,6 +664,34 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
     border: 0; }
   #page .btn-contato:hover {
     background-color: #6696c0; }
+  #page .btn {
+    padding: 15px 50px;
+    border-radius: 5px;
+    color: white;
+    border: 0;
+    font-size: 16px; }
+  #page .btn-azulclaro {
+    background-color: #3cc2ff;
+    border: 2px solid #3cc2ff;
+    -webkit-transition: background-color 0.5s ease-in-out;
+    -moz-transition: background-color 0.5s ease-in-out;
+    -o-transition: background-color 0.5s ease-in-out;
+    -ms-transition: background-color 0.5s ease-in-out;
+    transition: background-color 0.5s ease-in-out; }
+  #page .btn-azulclaro:hover {
+    border: 2px solid #3cc2ff;
+    background-color: #76d4ff; }
+  #page .btn-azulescuro {
+    background-color: #005197;
+    border: 2px solid #005197;
+    -webkit-transition: background-color 0.5s ease-in-out;
+    -moz-transition: background-color 0.5s ease-in-out;
+    -o-transition: background-color 0.5s ease-in-out;
+    -ms-transition: background-color 0.5s ease-in-out;
+    transition: background-color 0.5s ease-in-out; }
+  #page .btn-azulescuro:hover {
+    border: 2px solid #005197;
+    background-color: #4c85b6; }
   #page .btn-receba {
     background-color: #4e67cf;
     color: white;
