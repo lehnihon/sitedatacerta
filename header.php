@@ -84,11 +84,12 @@ new WOW().init();
 							><li><a href="<?php echo home_url( '/' )."trabalhe-conosco"; ?>">Trabalhe Conosco</a></li
 							><li><a href="<?php echo home_url( '/' )."contato"; ?>">Cobrança</a></li
 							><li><a href="<?php echo home_url( '/' )."rastrear"; ?>">Rastreie Seu Pedido</a></li
-							><li><a href="<?php echo home_url( '/' )."quero-ser-cliente"; ?>">Quero ser Cliente</a></li>
+							><li><a href="<?php echo home_url( '/' )."localizacao"; ?>">Localização</a></li
+							><li><a href="<?php echo home_url( '/' )."quero-ser-cliente"; ?>">Faça um Orçamento</a></li>
 							</ul>								
 						</div>						
 						<div class="menu-header clearfix">
-							<div class="menu-op"><a class="orcamento" href="<?php echo home_url( '/' )."quero-ser-cliente"; ?>">Quero ser Cliente</a></div>
+							<div class="menu-op"><a class="orcamento" href="<?php echo home_url( '/' )."quero-ser-cliente"; ?>">Faça um Orçamento</a></div>
 							<div class="menu-op">
 								<button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
 									Fale Conosco
@@ -99,6 +100,7 @@ new WOW().init();
 									<li><a href="<?php echo home_url( '/' )."seja-nosso-fornecedor"; ?>">Seja Nosso Fornecedor</a></li>
 									<li><a href="<?php echo home_url( '/' )."trabalhe-conosco"; ?>">Trabalhe Conosco</a></li>
 									<li><a href="<?php echo home_url( '/' )."rastrear"; ?>">Rastreie Seu Pedido</a></li>
+									<li><a href="<?php echo home_url( '/' )."localizacao"; ?>">Localização</a></li>
 								</ul>
 
 							</div>

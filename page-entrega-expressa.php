@@ -35,19 +35,11 @@ get_header(); ?>
 				Você pode monitorar em tempo real suas entregas através aplicativo Mobidata, nosso próprio aplicativo de rastreamento e monitoramento de envios.</p>
 				<p>É o serviço mais rápido de entregas expressas do mercado!</p>
 				<p>Entre em contato conosco, estamos prontos para atender sua empresa!</p>
+
+				<?php get_template_part( 'template-parts/quer-saber-mais' ); ?>
 				
 		</div>
 	</div>
 </section>
-
-<div id="quer-saber-mais">
-	<h2>Quer saber mais sobre a Data Certa Logística?</h2>
-	<h5><strong>Converse com um especialista em logística e veja como podemos te ajudar!</strong></h5><br>
-	<div class="tel-botao">
-		<img src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/tel.jpg"; ?>" alt="telefone"><span>11 2061-3138</span>
-		<a class="botao-conheca-amarelo" href="<?php echo home_url( '/' )."orcamento"; ?>">
-		Quero um Orçamento</a>
-	</div>
-</div>
 
 <?php get_footer(); ?>

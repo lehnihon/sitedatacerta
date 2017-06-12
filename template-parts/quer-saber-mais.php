@@ -43,6 +43,6 @@
 	<div class="tel-botao">
 		<img src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/tel.jpg"; ?>" alt="telefone"><span>11 2061-3138</span>
 		<a href="<?php echo home_url( '/' )."orcamento"; ?>" class="btn btn-azulclaro">Calcular Frete</a>
-		<a href="<?php echo home_url( '/' )."quero-ser-cliente"; ?>" class="btn btn-azulescuro">Quero ser Cliente</a>
+		<a href="<?php echo home_url( '/' )."quero-ser-cliente"; ?>" class="btn btn-azulescuro">Faça um Orçamento</a>
 	</div>
 </div>

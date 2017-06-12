@@ -79,15 +79,12 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
 		background-color:#6696c0;
 	}
 
-	.btn{
+	.btn-azulclaro{
 		padding:15px 50px;
 		border-radius: 5px;
 		color:white;
 		border:0;
 		font-size:16px;
-	}
-
-	.btn-azulclaro{
 		background-color:#3cc2ff;
 		border:2px solid #3cc2ff;
 	    -webkit-transition: background-color 0.5s ease-in-out;
@@ -103,6 +100,11 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
 	}
 
 	.btn-azulescuro{
+		padding:15px 50px;
+		border-radius: 5px;
+		color:white;
+		border:0;
+		font-size:16px;
 		background-color:#005197;
 		border:2px solid #005197;
 	    -webkit-transition: background-color 0.5s ease-in-out;

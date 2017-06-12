@@ -322,6 +322,15 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
       margin-left: 20px; }
     #page section#orcamento .tel-botao .botao-conheca:hover {
       background-color: #ffdd6b; }
+    #page section#orcamento .email {
+      font-size: 20px;
+      color: #005197; }
+      #page section#orcamento .email span {
+        font-size: 20px;
+        color: #005197;
+        margin-left: 5px; }
+      #page section#orcamento .email img {
+        vertical-align: text-bottom; }
   #page section#home-sobre {
     padding-bottom: 60px;
     background-image: url("images/fundo-cinza.jpg");
@@ -664,13 +673,12 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
     border: 0; }
   #page .btn-contato:hover {
     background-color: #6696c0; }
-  #page .btn {
+  #page .btn-azulclaro {
     padding: 15px 50px;
     border-radius: 5px;
     color: white;
     border: 0;
-    font-size: 16px; }
-  #page .btn-azulclaro {
+    font-size: 16px;
     background-color: #3cc2ff;
     border: 2px solid #3cc2ff;
     -webkit-transition: background-color 0.5s ease-in-out;
@@ -682,6 +690,11 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
     border: 2px solid #3cc2ff;
     background-color: #76d4ff; }
   #page .btn-azulescuro {
+    padding: 15px 50px;
+    border-radius: 5px;
+    color: white;
+    border: 0;
+    font-size: 16px;
     background-color: #005197;
     border: 2px solid #005197;
     -webkit-transition: background-color 0.5s ease-in-out;

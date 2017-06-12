@@ -201,7 +201,7 @@ get_header(); ?>
 		<div class="row fadeInUp wow">
 			<div class="col-md-12">
 				<a href="<?php echo home_url( '/' )."orcamento"; ?>" class="btn btn-azulclaro">Calcular Frete</a>
-				<a href="<?php echo home_url( '/' )."quero-ser-cliente"; ?>" class="btn btn-azulescuro">Quero ser Cliente</a>
+				<a href="<?php echo home_url( '/' )."quero-ser-cliente"; ?>" class="btn btn-azulescuro">Faça um Orçamento</a>
 			</div>
 		</div>
 	</div>

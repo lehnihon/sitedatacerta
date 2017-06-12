@@ -82,6 +82,8 @@ div#quer-saber-mais{
 		font-size:20px;
 	}
 
+
+
 	.tel-botao{
 		span{
 			font-size:26px;
@@ -154,6 +156,19 @@ section#orcamento{
 		}
 		.botao-conheca:hover{
 			background-color:#ffdd6b;
+		}
+	}
+
+	.email{
+		font-size:20px;
+		color:#005197;
+		span{
+			font-size:20px;
+			color:#005197;
+			margin-left:5px;
+		}
+		img{
+			vertical-align:text-bottom;
 		}
 	}
 }
