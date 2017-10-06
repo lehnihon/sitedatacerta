@@ -267,8 +267,6 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
         float: left; }
       #page section#tracking-buscar div.container div.news-right .tracking-form .submit:hover {
         background: #57aaff; }
-  #page div#simulacao {
-    background-color: #c7c7c7; }
   #page div#quer-saber-mais {
     padding-top: 60px;
     text-align: left; }
@@ -759,5 +757,41 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
 
 .wow {
   visibility: hidden; }
+
+section#simulacao {
+  background-color: #c7c7c7;
+  margin-top: -32px;
+  padding: 60px 0;
+  height: 100vh; }
+  section#simulacao .container {
+    background-image: url("images/caixas.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    padding-bottom: 50px; }
+    section#simulacao .container h1 {
+      font-size: 24px;
+      margin: 0;
+      margin-bottom: 35px; }
+    section#simulacao .container h2 {
+      margin: 0;
+      margin-bottom: 25px;
+      text-align: center; }
+    section#simulacao .container .input-simulacao {
+      padding: 15px 10px;
+      border: 1px solid #cecece;
+      width: 100%;
+      margin-bottom: 10px; }
+    section#simulacao .container .btn-simulacao {
+      background-color: #cc8919;
+      padding: 15px 70px;
+      color: white;
+      border: 0;
+      width: 100%; }
+    section#simulacao .container span {
+      font-weight: normal; }
+    section#simulacao .container .box {
+      padding: 25px;
+      background-color: white;
+      background: rgba(255, 255, 255, 0.7); }
 
 /*# sourceMappingURL=style.css.map */

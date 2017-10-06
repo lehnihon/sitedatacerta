@@ -35,14 +35,14 @@ new WOW().init();
 		<header>
 			<div class="container">
 				<div class="row">
-					<div class="col-md-3 box clearfix">
-						<span class="cor-amarelo">Fale com a operação </span>
-						<span class="texto-branco">11 <strong>2061-3138</strong></span>
-					</div>
-					<div class="col-md-3 box clearfix">
-						<span class="cor-amarelo">Fale com o comercial </span>
-						<span class="texto-branco">11 <strong>94003-6301</strong></span>
-					</div>
+					<div class="col-md-2 box clearfix">
+			            <span class="cor-amarelo">Operação: </span>
+			            <span class="texto-branco"></span>
+			          </div>
+			          <div class="col-md-4 box clearfix">
+			            <span class="cor-amarelo">Comercial: </span>
+			            <span class="texto-branco">11 <strong>96321-7360</strong></span>
+			          </div>
 					<div class="col-md-3 box clearfix">
 						<span class="cor-amarelo">Redes sociais </span>	
 						<ul class="redes_sociais_header clearfix">
