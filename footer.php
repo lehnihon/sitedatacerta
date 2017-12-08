@@ -36,7 +36,7 @@
 						<li><a target="_blank" href="<?php echo esc_url( home_url( '/' ) )."blog"; ?>">Blog</a></li>
 						<li><a href="<?php echo esc_url( home_url( '/' )."quero-ser-cliente" ); ?>">Quero ser Cliente</a></li>
 						<li><a href="#">FAQ</a></li>
-						<li><a href="<?php echo esc_url( home_url( '/' )."orcamento" ); ?>">Calcular Frete</a></li>
+						<li><a href="<?php echo esc_url( home_url( '/' ) )."quero-ser-cliente"; ?>">Calcular Frete</a></li>
 					</ul>
 				</div>
 				<div class="col-md-3">

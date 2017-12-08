@@ -25,11 +25,11 @@
 		<h3>Eletroportáteis</h3>
 	</div>
 	<div class="col-md-3">
-		<img src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/atuacao6.jpg"; ?>" /><br><br>
+		<img src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/atuacao7.jpg"; ?>" /><br><br>
 		<h3>Bijuterias</h3>
 	</div>
 	<div class="col-md-3">
-		<img src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/atuacao7.jpg"; ?>" /><br><br>
+		<img src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/atuacao6.jpg"; ?>" /><br><br>
 		<h3>Brinquedos</h3>
 	</div>
 	<div class="col-md-3">
